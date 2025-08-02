@@ -3,7 +3,7 @@
 import { Button } from "@/components/ui/button";
 import { CiShoppingCart } from "react-icons/ci";
 import { CiUser } from "react-icons/ci";
-import DesktopMegaMenu from "./DesktopMegamenu";
+import DesktopMegaMenu from "./DesktopMegaMenu";
 import Image from "next/image";
 import LanguageSwitcher from "@/components/common/LanguageSwitcher";
 import Link from "next/link";
