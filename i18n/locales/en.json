@@ -1,9 +1,25 @@
 {
   "hello": "HELLO",
 
+  "why_vinesh": "Why Vinesh?",
+
   "vinesh_shop": "Vinesh Shop",
   "header_search_placeholder": "Search Anything Here...",
   "header_search_title": "Search Products",
   "lorem_word": "Lorem Ipsum",
-  "lorem_paragraph": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+  "lorem_sentence": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+  "lorem_paragraph": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+
+  "special_sales": "Special Sales",
+  "view_all": "View All",
+
+  "categories": "Categories",
+  "brands": "Brands",
+  "blog": "Blog",
+
+  "view_full_article": "VIEW FULL ARTICLE",
+  "read": "read",
+
+  "most_sold_products": "Most Sold This Month",
+  "most_visited_products": "Most Visited This Month"
 }
