@@ -34,7 +34,7 @@ export default async function RootLayout({ children, params }) {
         <NextIntlClientProvider locale={locale} messages={messages}>
           <Header />
 
-          <main className="min-h-screen">
+          <main className="min-h-[80vh]">
           {children}
           </main>
 

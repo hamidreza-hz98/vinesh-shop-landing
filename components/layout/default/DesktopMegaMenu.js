@@ -12,9 +12,9 @@ const DesktopMegaMenu = () => {
 
   return (
       <ul className="flex gap-6">
-        {categories.map((category) => (
+        {categories.map((category, index) => (
           <li
-            key={category.slug}
+            key={index}
             className="relative group"
             onMouseEnter={() => setActiveCategory(category.slug)}
             onMouseLeave={() => setActiveCategory(null)}

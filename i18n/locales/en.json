@@ -21,5 +21,9 @@
   "read": "read",
 
   "most_sold_products": "Most Sold This Month",
-  "most_visited_products": "Most Visited This Month"
+  "most_visited_products": "Most Visited This Month",
+
+  "only_today": "Only Today!",
+  "offers_for_today": "Offers that are ONLY today! So hurry up! Choose what you need from Vinesh Shop!",
+  "finishing_soon": "Finishing Soon!"
 }

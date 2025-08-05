@@ -152,6 +152,864 @@ export const categories = [
                 ]
               }
             ]
+          },
+          {
+            name: {
+              en: "Smartphones",
+              pt: "Smartphones",
+              ar: "الهواتف الذكية",
+              fa: "گوشی هوشمند",
+            },
+            excerpt: {
+              en: "Latest smartphones with advanced features",
+              pt: "Os mais recentes smartphones com recursos avançados",
+              ar: "أحدث الهواتف الذكية ذات الميزات المتقدمة",
+              fa: "جدیدترین گوشی‌های هوشمند با قابلیت‌های پیشرفته",
+            },
+            image: "/images/placeholder.svg",
+            icon: "/images/placeholder.svg",
+            slug: "smartphones",
+            description: {
+              en: "Explore cutting-edge smartphones from top brands",
+              pt: "Explore os smartphones de ponta das principais marcas",
+              ar: "اكتشف الهواتف الذكية المتطورة من أفضل العلامات التجارية",
+              fa: "برترین گوشی‌های هوشمند از برندهای مطرح را بررسی کنید",
+            },
+            banners: [
+              "/images/placeholder.svg",
+              "/images/placeholder.svg",
+              "/images/placeholder.svg",
+              "/images/placeholder.svg",
+              "/images/placeholder.svg",
+            ],
+            tags: [
+              { en: "5G", pt: "5G", ar: "5G", fa: "5G" },
+              { en: "Camera", pt: "Câmera", ar: "كاميرا", fa: "دوربین" },
+              { en: "Battery", pt: "Bateria", ar: "بطارية", fa: "باتری" },
+              { en: "Display", pt: "Tela", ar: "شاشة", fa: "نمایشگر" },
+              { en: "Performance", pt: "Desempenho", ar: "الأداء", fa: "عملکرد" },
+              { en: "Storage", pt: "Armazenamento", ar: "تخزين", fa: "فضای ذخیره‌سازی" },
+            ],
+            subCategories: [
+              {
+                name: {
+                  en: "Gaming Smartphones",
+                  pt: "Smartphones para Jogos",
+                  ar: "هواتف ألعاب",
+                  fa: "گوشی‌های گیمینگ",
+                },
+                excerpt: {
+                  en: "Phones optimized for mobile gaming",
+                  pt: "Telefones otimizados para jogos móveis",
+                  ar: "هواتف محسّنة للألعاب المحمولة",
+                  fa: "گوشی‌هایی با بهینه‌سازی مخصوص بازی",
+                },
+                image: "/images/placeholder.svg",
+                icon: "/images/placeholder.svg",
+                slug: "gaming-smartphones",
+                description: {
+                  en: "Experience top-tier gaming performance on your phone",
+                  pt: "Desfrute de desempenho de jogos de alto nível no seu telefone",
+                  ar: "استمتع بأداء ألعاب من الدرجة الأولى على هاتفك",
+                  fa: "تجربه بهترین عملکرد گیم روی گوشی هوشمند",
+                },
+                banners: [
+                  "/images/placeholder.svg",
+                  "/images/placeholder.svg",
+                  "/images/placeholder.svg",
+                  "/images/placeholder.svg",
+                  "/images/placeholder.svg",
+                ],
+                tags: [
+                  { en: "Gaming", pt: "Jogos", ar: "ألعاب", fa: "بازی" },
+                  { en: "High Refresh Rate", pt: "Alta taxa de atualização", ar: "معدل تحديث مرتفع", fa: "نرخ تازه‌سازی بالا" },
+                  { en: "Cooling", pt: "Resfriamento", ar: "تبريد", fa: "سیستم خنک‌کننده" },
+                  { en: "RGB", pt: "RGB", ar: "RGB", fa: "نورپردازی RGB" },
+                  { en: "Triggers", pt: "Botões", ar: "أزرار", fa: "تریگرهای بازی" },
+                  { en: "Performance", pt: "Desempenho", ar: "أداء", fa: "عملکرد بالا" },
+                ]
+              }
+            ]
+          },
+          {
+            name: {
+              en: "Smartphones",
+              pt: "Smartphones",
+              ar: "الهواتف الذكية",
+              fa: "گوشی هوشمند",
+            },
+            excerpt: {
+              en: "Latest smartphones with advanced features",
+              pt: "Os mais recentes smartphones com recursos avançados",
+              ar: "أحدث الهواتف الذكية ذات الميزات المتقدمة",
+              fa: "جدیدترین گوشی‌های هوشمند با قابلیت‌های پیشرفته",
+            },
+            image: "/images/placeholder.svg",
+            icon: "/images/placeholder.svg",
+            slug: "smartphones",
+            description: {
+              en: "Explore cutting-edge smartphones from top brands",
+              pt: "Explore os smartphones de ponta das principais marcas",
+              ar: "اكتشف الهواتف الذكية المتطورة من أفضل العلامات التجارية",
+              fa: "برترین گوشی‌های هوشمند از برندهای مطرح را بررسی کنید",
+            },
+            banners: [
+              "/images/placeholder.svg",
+              "/images/placeholder.svg",
+              "/images/placeholder.svg",
+              "/images/placeholder.svg",
+              "/images/placeholder.svg",
+            ],
+            tags: [
+              { en: "5G", pt: "5G", ar: "5G", fa: "5G" },
+              { en: "Camera", pt: "Câmera", ar: "كاميرا", fa: "دوربین" },
+              { en: "Battery", pt: "Bateria", ar: "بطارية", fa: "باتری" },
+              { en: "Display", pt: "Tela", ar: "شاشة", fa: "نمایشگر" },
+              { en: "Performance", pt: "Desempenho", ar: "الأداء", fa: "عملکرد" },
+              { en: "Storage", pt: "Armazenamento", ar: "تخزين", fa: "فضای ذخیره‌سازی" },
+            ],
+            subCategories: [
+              {
+                name: {
+                  en: "Gaming Smartphones",
+                  pt: "Smartphones para Jogos",
+                  ar: "هواتف ألعاب",
+                  fa: "گوشی‌های گیمینگ",
+                },
+                excerpt: {
+                  en: "Phones optimized for mobile gaming",
+                  pt: "Telefones otimizados para jogos móveis",
+                  ar: "هواتف محسّنة للألعاب المحمولة",
+                  fa: "گوشی‌هایی با بهینه‌سازی مخصوص بازی",
+                },
+                image: "/images/placeholder.svg",
+                icon: "/images/placeholder.svg",
+                slug: "gaming-smartphones",
+                description: {
+                  en: "Experience top-tier gaming performance on your phone",
+                  pt: "Desfrute de desempenho de jogos de alto nível no seu telefone",
+                  ar: "استمتع بأداء ألعاب من الدرجة الأولى على هاتفك",
+                  fa: "تجربه بهترین عملکرد گیم روی گوشی هوشمند",
+                },
+                banners: [
+                  "/images/placeholder.svg",
+                  "/images/placeholder.svg",
+                  "/images/placeholder.svg",
+                  "/images/placeholder.svg",
+                  "/images/placeholder.svg",
+                ],
+                tags: [
+                  { en: "Gaming", pt: "Jogos", ar: "ألعاب", fa: "بازی" },
+                  { en: "High Refresh Rate", pt: "Alta taxa de atualização", ar: "معدل تحديث مرتفع", fa: "نرخ تازه‌سازی بالا" },
+                  { en: "Cooling", pt: "Resfriamento", ar: "تبريد", fa: "سیستم خنک‌کننده" },
+                  { en: "RGB", pt: "RGB", ar: "RGB", fa: "نورپردازی RGB" },
+                  { en: "Triggers", pt: "Botões", ar: "أزرار", fa: "تریگرهای بازی" },
+                  { en: "Performance", pt: "Desempenho", ar: "أداء", fa: "عملکرد بالا" },
+                ]
+              }
+            ]
+          },
+          {
+            name: {
+              en: "Smartphones",
+              pt: "Smartphones",
+              ar: "الهواتف الذكية",
+              fa: "گوشی هوشمند",
+            },
+            excerpt: {
+              en: "Latest smartphones with advanced features",
+              pt: "Os mais recentes smartphones com recursos avançados",
+              ar: "أحدث الهواتف الذكية ذات الميزات المتقدمة",
+              fa: "جدیدترین گوشی‌های هوشمند با قابلیت‌های پیشرفته",
+            },
+            image: "/images/placeholder.svg",
+            icon: "/images/placeholder.svg",
+            slug: "smartphones",
+            description: {
+              en: "Explore cutting-edge smartphones from top brands",
+              pt: "Explore os smartphones de ponta das principais marcas",
+              ar: "اكتشف الهواتف الذكية المتطورة من أفضل العلامات التجارية",
+              fa: "برترین گوشی‌های هوشمند از برندهای مطرح را بررسی کنید",
+            },
+            banners: [
+              "/images/placeholder.svg",
+              "/images/placeholder.svg",
+              "/images/placeholder.svg",
+              "/images/placeholder.svg",
+              "/images/placeholder.svg",
+            ],
+            tags: [
+              { en: "5G", pt: "5G", ar: "5G", fa: "5G" },
+              { en: "Camera", pt: "Câmera", ar: "كاميرا", fa: "دوربین" },
+              { en: "Battery", pt: "Bateria", ar: "بطارية", fa: "باتری" },
+              { en: "Display", pt: "Tela", ar: "شاشة", fa: "نمایشگر" },
+              { en: "Performance", pt: "Desempenho", ar: "الأداء", fa: "عملکرد" },
+              { en: "Storage", pt: "Armazenamento", ar: "تخزين", fa: "فضای ذخیره‌سازی" },
+            ],
+            subCategories: [
+              {
+                name: {
+                  en: "Gaming Smartphones",
+                  pt: "Smartphones para Jogos",
+                  ar: "هواتف ألعاب",
+                  fa: "گوشی‌های گیمینگ",
+                },
+                excerpt: {
+                  en: "Phones optimized for mobile gaming",
+                  pt: "Telefones otimizados para jogos móveis",
+                  ar: "هواتف محسّنة للألعاب المحمولة",
+                  fa: "گوشی‌هایی با بهینه‌سازی مخصوص بازی",
+                },
+                image: "/images/placeholder.svg",
+                icon: "/images/placeholder.svg",
+                slug: "gaming-smartphones",
+                description: {
+                  en: "Experience top-tier gaming performance on your phone",
+                  pt: "Desfrute de desempenho de jogos de alto nível no seu telefone",
+                  ar: "استمتع بأداء ألعاب من الدرجة الأولى على هاتفك",
+                  fa: "تجربه بهترین عملکرد گیم روی گوشی هوشمند",
+                },
+                banners: [
+                  "/images/placeholder.svg",
+                  "/images/placeholder.svg",
+                  "/images/placeholder.svg",
+                  "/images/placeholder.svg",
+                  "/images/placeholder.svg",
+                ],
+                tags: [
+                  { en: "Gaming", pt: "Jogos", ar: "ألعاب", fa: "بازی" },
+                  { en: "High Refresh Rate", pt: "Alta taxa de atualização", ar: "معدل تحديث مرتفع", fa: "نرخ تازه‌سازی بالا" },
+                  { en: "Cooling", pt: "Resfriamento", ar: "تبريد", fa: "سیستم خنک‌کننده" },
+                  { en: "RGB", pt: "RGB", ar: "RGB", fa: "نورپردازی RGB" },
+                  { en: "Triggers", pt: "Botões", ar: "أزرار", fa: "تریگرهای بازی" },
+                  { en: "Performance", pt: "Desempenho", ar: "أداء", fa: "عملکرد بالا" },
+                ]
+              }
+            ]
+          },
+          {
+            name: {
+              en: "Smartphones",
+              pt: "Smartphones",
+              ar: "الهواتف الذكية",
+              fa: "گوشی هوشمند",
+            },
+            excerpt: {
+              en: "Latest smartphones with advanced features",
+              pt: "Os mais recentes smartphones com recursos avançados",
+              ar: "أحدث الهواتف الذكية ذات الميزات المتقدمة",
+              fa: "جدیدترین گوشی‌های هوشمند با قابلیت‌های پیشرفته",
+            },
+            image: "/images/placeholder.svg",
+            icon: "/images/placeholder.svg",
+            slug: "smartphones",
+            description: {
+              en: "Explore cutting-edge smartphones from top brands",
+              pt: "Explore os smartphones de ponta das principais marcas",
+              ar: "اكتشف الهواتف الذكية المتطورة من أفضل العلامات التجارية",
+              fa: "برترین گوشی‌های هوشمند از برندهای مطرح را بررسی کنید",
+            },
+            banners: [
+              "/images/placeholder.svg",
+              "/images/placeholder.svg",
+              "/images/placeholder.svg",
+              "/images/placeholder.svg",
+              "/images/placeholder.svg",
+            ],
+            tags: [
+              { en: "5G", pt: "5G", ar: "5G", fa: "5G" },
+              { en: "Camera", pt: "Câmera", ar: "كاميرا", fa: "دوربین" },
+              { en: "Battery", pt: "Bateria", ar: "بطارية", fa: "باتری" },
+              { en: "Display", pt: "Tela", ar: "شاشة", fa: "نمایشگر" },
+              { en: "Performance", pt: "Desempenho", ar: "الأداء", fa: "عملکرد" },
+              { en: "Storage", pt: "Armazenamento", ar: "تخزين", fa: "فضای ذخیره‌سازی" },
+            ],
+            subCategories: [
+              {
+                name: {
+                  en: "Gaming Smartphones",
+                  pt: "Smartphones para Jogos",
+                  ar: "هواتف ألعاب",
+                  fa: "گوشی‌های گیمینگ",
+                },
+                excerpt: {
+                  en: "Phones optimized for mobile gaming",
+                  pt: "Telefones otimizados para jogos móveis",
+                  ar: "هواتف محسّنة للألعاب المحمولة",
+                  fa: "گوشی‌هایی با بهینه‌سازی مخصوص بازی",
+                },
+                image: "/images/placeholder.svg",
+                icon: "/images/placeholder.svg",
+                slug: "gaming-smartphones",
+                description: {
+                  en: "Experience top-tier gaming performance on your phone",
+                  pt: "Desfrute de desempenho de jogos de alto nível no seu telefone",
+                  ar: "استمتع بأداء ألعاب من الدرجة الأولى على هاتفك",
+                  fa: "تجربه بهترین عملکرد گیم روی گوشی هوشمند",
+                },
+                banners: [
+                  "/images/placeholder.svg",
+                  "/images/placeholder.svg",
+                  "/images/placeholder.svg",
+                  "/images/placeholder.svg",
+                  "/images/placeholder.svg",
+                ],
+                tags: [
+                  { en: "Gaming", pt: "Jogos", ar: "ألعاب", fa: "بازی" },
+                  { en: "High Refresh Rate", pt: "Alta taxa de atualização", ar: "معدل تحديث مرتفع", fa: "نرخ تازه‌سازی بالا" },
+                  { en: "Cooling", pt: "Resfriamento", ar: "تبريد", fa: "سیستم خنک‌کننده" },
+                  { en: "RGB", pt: "RGB", ar: "RGB", fa: "نورپردازی RGB" },
+                  { en: "Triggers", pt: "Botões", ar: "أزرار", fa: "تریگرهای بازی" },
+                  { en: "Performance", pt: "Desempenho", ar: "أداء", fa: "عملکرد بالا" },
+                ]
+              }
+            ]
+          },
+          {
+            name: {
+              en: "Smartphones",
+              pt: "Smartphones",
+              ar: "الهواتف الذكية",
+              fa: "گوشی هوشمند",
+            },
+            excerpt: {
+              en: "Latest smartphones with advanced features",
+              pt: "Os mais recentes smartphones com recursos avançados",
+              ar: "أحدث الهواتف الذكية ذات الميزات المتقدمة",
+              fa: "جدیدترین گوشی‌های هوشمند با قابلیت‌های پیشرفته",
+            },
+            image: "/images/placeholder.svg",
+            icon: "/images/placeholder.svg",
+            slug: "smartphones",
+            description: {
+              en: "Explore cutting-edge smartphones from top brands",
+              pt: "Explore os smartphones de ponta das principais marcas",
+              ar: "اكتشف الهواتف الذكية المتطورة من أفضل العلامات التجارية",
+              fa: "برترین گوشی‌های هوشمند از برندهای مطرح را بررسی کنید",
+            },
+            banners: [
+              "/images/placeholder.svg",
+              "/images/placeholder.svg",
+              "/images/placeholder.svg",
+              "/images/placeholder.svg",
+              "/images/placeholder.svg",
+            ],
+            tags: [
+              { en: "5G", pt: "5G", ar: "5G", fa: "5G" },
+              { en: "Camera", pt: "Câmera", ar: "كاميرا", fa: "دوربین" },
+              { en: "Battery", pt: "Bateria", ar: "بطارية", fa: "باتری" },
+              { en: "Display", pt: "Tela", ar: "شاشة", fa: "نمایشگر" },
+              { en: "Performance", pt: "Desempenho", ar: "الأداء", fa: "عملکرد" },
+              { en: "Storage", pt: "Armazenamento", ar: "تخزين", fa: "فضای ذخیره‌سازی" },
+            ],
+            subCategories: [
+              {
+                name: {
+                  en: "Gaming Smartphones",
+                  pt: "Smartphones para Jogos",
+                  ar: "هواتف ألعاب",
+                  fa: "گوشی‌های گیمینگ",
+                },
+                excerpt: {
+                  en: "Phones optimized for mobile gaming",
+                  pt: "Telefones otimizados para jogos móveis",
+                  ar: "هواتف محسّنة للألعاب المحمولة",
+                  fa: "گوشی‌هایی با بهینه‌سازی مخصوص بازی",
+                },
+                image: "/images/placeholder.svg",
+                icon: "/images/placeholder.svg",
+                slug: "gaming-smartphones",
+                description: {
+                  en: "Experience top-tier gaming performance on your phone",
+                  pt: "Desfrute de desempenho de jogos de alto nível no seu telefone",
+                  ar: "استمتع بأداء ألعاب من الدرجة الأولى على هاتفك",
+                  fa: "تجربه بهترین عملکرد گیم روی گوشی هوشمند",
+                },
+                banners: [
+                  "/images/placeholder.svg",
+                  "/images/placeholder.svg",
+                  "/images/placeholder.svg",
+                  "/images/placeholder.svg",
+                  "/images/placeholder.svg",
+                ],
+                tags: [
+                  { en: "Gaming", pt: "Jogos", ar: "ألعاب", fa: "بازی" },
+                  { en: "High Refresh Rate", pt: "Alta taxa de atualização", ar: "معدل تحديث مرتفع", fa: "نرخ تازه‌سازی بالا" },
+                  { en: "Cooling", pt: "Resfriamento", ar: "تبريد", fa: "سیستم خنک‌کننده" },
+                  { en: "RGB", pt: "RGB", ar: "RGB", fa: "نورپردازی RGB" },
+                  { en: "Triggers", pt: "Botões", ar: "أزرار", fa: "تریگرهای بازی" },
+                  { en: "Performance", pt: "Desempenho", ar: "أداء", fa: "عملکرد بالا" },
+                ]
+              }
+            ]
+          },
+        ]
+      }
+    ]
+  },
+  {
+    name: {
+      en: "Clothes",
+      pt: "Roupas",
+      ar: "ملابس",
+      fa: "لباس",
+    },
+    excerpt: {
+      en: "Fashion and apparel for all seasons",
+      pt: "Moda e vestuário para todas as estações",
+      ar: "الأزياء والملابس لجميع الفصول",
+      fa: "مد و پوشاک برای همه فصول",
+    },
+    image: "/images/placeholder.svg",
+    icon: "/images/placeholder.svg",
+    slug: "clothes",
+    description: {
+      en: "Find trendy clothes for men, women, and kids",
+      pt: "Encontre roupas da moda para homens, mulheres e crianças",
+      ar: "ابحث عن الملابس العصرية للرجال والنساء والأطفال",
+      fa: "لباس‌های روز برای مردان، زنان و کودکان",
+    },
+    banners: [
+      "/images/placeholder.svg",
+      "/images/placeholder.svg",
+      "/images/placeholder.svg",
+      "/images/placeholder.svg",
+      "/images/placeholder.svg",
+    ],
+    tags: [
+      { en: "Fashion", pt: "Moda", ar: "أزياء", fa: "مد" },
+      { en: "Men", pt: "Homens", ar: "رجال", fa: "مردانه" },
+      { en: "Women", pt: "Mulheres", ar: "نساء", fa: "زنانه" },
+      { en: "Kids", pt: "Crianças", ar: "أطفال", fa: "کودکان" },
+      { en: "Casual", pt: "Casual", ar: "غير رسمي", fa: "کژوال" },
+      { en: "Formal", pt: "Formal", ar: "رسمي", fa: "رسمی" },
+    ],
+    subCategories: [
+      {
+        name: {
+          en: "Men's Clothing",
+          pt: "Roupas Masculinas",
+          ar: "ملابس رجالية",
+          fa: "لباس مردانه",
+        },
+        excerpt: {
+          en: "Shirts, pants, jackets and more for men",
+          pt: "Camisas, calças, jaquetas e mais para homens",
+          ar: "قمصان، بناطيل، ستر وأكثر للرجال",
+          fa: "پیراهن، شلوار، ژاکت و بیشتر برای مردان",
+        },
+        image: "/images/placeholder.svg",
+        icon: "/images/placeholder.svg",
+        slug: "mens-clothing",
+        description: {
+          en: "Wide range of men’s fashion essentials",
+          pt: "Grande variedade de itens essenciais masculinos",
+          ar: "مجموعة واسعة من أساسيات الموضة للرجال",
+          fa: "مجموعه‌ای وسیع از پوشاک ضروری مردانه",
+        },
+        banners: [
+          "/images/placeholder.svg",
+          "/images/placeholder.svg",
+        ],
+        tags: [
+          { en: "Shirts", pt: "Camisas", ar: "قمصان", fa: "پیراهن" },
+          { en: "Pants", pt: "Calças", ar: "بناطيل", fa: "شلوار" },
+          { en: "Jackets", pt: "Jaquetas", ar: "سترات", fa: "ژاکت" },
+          { en: "Casual", pt: "Casual", ar: "غير رسمي", fa: "کژوال" },
+          { en: "Formal", pt: "Formal", ar: "رسمي", fa: "رسمی" },
+        ],
+        subCategories: [],
+      },
+      {
+        name: {
+          en: "Women's Clothing",
+          pt: "Roupas Femininas",
+          ar: "ملابس نسائية",
+          fa: "لباس زنانه",
+        },
+        excerpt: {
+          en: "Dresses, tops, skirts, and more for women",
+          pt: "Vestidos, blusas, saias e mais para mulheres",
+          ar: "فساتين، بلوزات، تنانير وأكثر للنساء",
+          fa: "پیراهن، تاپ، دامن و بیشتر برای زنان",
+        },
+        image: "/images/placeholder.svg",
+        icon: "/images/placeholder.svg",
+        slug: "womens-clothing",
+        description: {
+          en: "Trendy and classic styles for women",
+          pt: "Estilos modernos e clássicos para mulheres",
+          ar: "أنماط عصرية وكلاسيكية للنساء",
+          fa: "مدل‌های مدرن و کلاسیک برای زنان",
+        },
+        banners: [
+          "/images/placeholder.svg",
+          "/images/placeholder.svg",
+        ],
+        tags: [
+          { en: "Dresses", pt: "Vestidos", ar: "فساتين", fa: "پیراهن" },
+          { en: "Tops", pt: "Blusas", ar: "بلوزات", fa: "تاپ" },
+          { en: "Skirts", pt: "Saias", ar: "تنانير", fa: "دامن" },
+          { en: "Casual", pt: "Casual", ar: "غير رسمي", fa: "کژوال" },
+          { en: "Formal", pt: "Formal", ar: "رسمي", fa: "رسمی" },
+        ],
+        subCategories: [],
+      },
+    ],
+  },
+  {
+    name: {
+      en: "Home & Garden",
+      pt: "Casa e Jardim",
+      ar: "المنزل والحديقة",
+      fa: "خانه و باغ",
+    },
+    excerpt: {
+      en: "Furniture, decor, and gardening supplies",
+      pt: "Móveis, decoração e suprimentos para jardinagem",
+      ar: "الأثاث والديكور ولوازم البستنة",
+      fa: "مبلمان، دکوراسیون و لوازم باغبانی",
+    },
+    image: "/images/placeholder.svg",
+    icon: "/images/placeholder.svg",
+    slug: "home-garden",
+    description: {
+      en: "Beautify your living space inside and outside",
+      pt: "Embeleze seu espaço de convivência por dentro e por fora",
+      ar: "جمال مساحة المعيشة الخاصة بك من الداخل والخارج",
+      fa: "فضای زندگی خود را در داخل و خارج زیبا کنید",
+    },
+    banners: [
+      "/images/placeholder.svg",
+      "/images/placeholder.svg",
+      "/images/placeholder.svg",
+      "/images/placeholder.svg",
+    ],
+    tags: [
+      { en: "Furniture", pt: "Móveis", ar: "الأثاث", fa: "مبلمان" },
+      { en: "Decor", pt: "Decoração", ar: "الديكور", fa: "دکوراسیون" },
+      { en: "Gardening", pt: "Jardinagem", ar: "البستنة", fa: "باغبانی" },
+      { en: "Outdoor", pt: "Ao ar livre", ar: "في الهواء الطلق", fa: "فضای باز" },
+      { en: "Home Improvement", pt: "Melhorias para Casa", ar: "تحسين المنزل", fa: "بهبود خانه" },
+    ],
+    subCategories: [
+      {
+        name: {
+          en: "Furniture",
+          pt: "Móveis",
+          ar: "الأثاث",
+          fa: "مبلمان",
+        },
+        excerpt: {
+          en: "Chairs, tables, sofas and more",
+          pt: "Cadeiras, mesas, sofás e mais",
+          ar: "الكراسي والطاولات والأرائك والمزيد",
+          fa: "صندلی، میز، مبل و بیشتر",
+        },
+        image: "/images/placeholder.svg",
+        icon: "/images/placeholder.svg",
+        slug: "furniture",
+        description: {
+          en: "Comfortable and stylish furniture for your home",
+          pt: "Móveis confortáveis e estilosos para sua casa",
+          ar: "أثاث مريح وأنيق لمنزلك",
+          fa: "مبلمان راحتی و شیک برای خانه شما",
+        },
+        banners: ["/images/placeholder.svg"],
+        tags: [
+          { en: "Chairs", pt: "Cadeiras", ar: "كراسي", fa: "صندلی" },
+          { en: "Tables", pt: "Mesas", ar: "طاولات", fa: "میز" },
+          { en: "Sofas", pt: "Sofás", ar: "أرائك", fa: "مبل" },
+          { en: "Living Room", pt: "Sala de Estar", ar: "غرفة المعيشة", fa: "اتاق نشیمن" },
+          { en: "Bedroom", pt: "Quarto", ar: "غرفة النوم", fa: "اتاق خواب" },
+        ],
+        subCategories: [],
+      },
+      {
+        name: {
+          en: "Garden",
+          pt: "Jardim",
+          ar: "الحديقة",
+          fa: "باغ",
+        },
+        excerpt: {
+          en: "Plants, tools, and outdoor accessories",
+          pt: "Plantas, ferramentas e acessórios para o exterior",
+          ar: "النباتات والأدوات والإكسسوارات الخارجية",
+          fa: "گیاهان، ابزار و لوازم فضای باز",
+        },
+        image: "/images/placeholder.svg",
+        icon: "/images/placeholder.svg",
+        slug: "garden",
+        description: {
+          en: "Everything you need for your garden",
+          pt: "Tudo o que você precisa para seu jardim",
+          ar: "كل ما تحتاجه لحديقتك",
+          fa: "هر آنچه برای باغ خود نیاز دارید",
+        },
+        banners: ["/images/placeholder.svg"],
+        tags: [
+          { en: "Plants", pt: "Plantas", ar: "النباتات", fa: "گیاهان" },
+          { en: "Tools", pt: "Ferramentas", ar: "الأدوات", fa: "ابزار" },
+          { en: "Outdoor", pt: "Ao ar livre", ar: "في الهواء الطلق", fa: "فضای باز" },
+          { en: "Seeds", pt: "Sementes", ar: "بذور", fa: "بذر" },
+        ],
+        subCategories: [],
+      },
+    ],
+  },
+  {
+    name: {
+      en: "Sports & Outdoors",
+      pt: "Esportes e Ao Ar Livre",
+      ar: "الرياضة والهواء الطلق",
+      fa: "ورزش و فضای باز",
+    },
+    excerpt: {
+      en: "Equipment and apparel for sports and outdoor activities",
+      pt: "Equipamentos e roupas para esportes e atividades ao ar livre",
+      ar: "معدات وملابس للرياضة والأنشطة الخارجية",
+      fa: "تجهیزات و لباس برای ورزش و فعالیت‌های فضای باز",
+    },
+    image: "/images/placeholder.svg",
+    icon: "/images/placeholder.svg",
+    slug: "sports-outdoors",
+    description: {
+      en: "Get ready for adventure and fitness",
+      pt: "Prepare-se para aventura e fitness",
+      ar: "استعد للمغامرة واللياقة البدنية",
+      fa: "برای ماجراجویی و تناسب اندام آماده شوید",
+    },
+    banners: [
+      "/images/placeholder.svg",
+      "/images/placeholder.svg",
+      "/images/placeholder.svg",
+    ],
+    tags: [
+      { en: "Fitness", pt: "Fitness", ar: "لياقة", fa: "تناسب اندام" },
+      { en: "Outdoor", pt: "Ao ar livre", ar: "في الهواء الطلق", fa: "فضای باز" },
+      { en: "Sportswear", pt: "Roupas Esportivas", ar: "ملابس رياضية", fa: "لباس ورزشی" },
+      { en: "Camping", pt: "Camping", ar: "التخييم", fa: "کمپینگ" },
+      { en: "Equipment", pt: "Equipamento", ar: "معدات", fa: "تجهیزات" },
+    ],
+    subCategories: [
+      {
+        name: {
+          en: "Fitness Equipment",
+          pt: "Equipamentos de Fitness",
+          ar: "معدات اللياقة البدنية",
+          fa: "تجهیزات تناسب اندام",
+        },
+        excerpt: {
+          en: "Treadmills, weights, and more",
+          pt: "Esteiras, pesos e mais",
+          ar: "أجهزة الجري، الأوزان والمزيد",
+          fa: "تردمیل، وزنه‌ها و بیشتر",
+        },
+        image: "/images/placeholder.svg",
+        icon: "/images/placeholder.svg",
+        slug: "fitness-equipment",
+        description: {
+          en: "Everything to keep you fit at home or gym",
+          pt: "Tudo para manter você em forma em casa ou na academia",
+          ar: "كل ما تحتاجه للحفاظ على لياقتك في المنزل أو الصالة الرياضية",
+          fa: "هر آنچه برای تناسب اندام در خانه یا باشگاه نیاز دارید",
+        },
+        banners: ["/images/placeholder.svg"],
+        tags: [
+          { en: "Treadmills", pt: "Esteiras", ar: "أجهزة الجري", fa: "تردمیل" },
+          { en: "Weights", pt: "Pesos", ar: "أوزان", fa: "وزنه" },
+          { en: "Yoga", pt: "Yoga", ar: "يوغا", fa: "یوگا" },
+          { en: "Cardio", pt: "Cardio", ar: "تمارين القلب", fa: "کاردیو" },
+        ],
+        subCategories: [],
+      },
+      {
+        name: {
+          en: "Outdoor Gear",
+          pt: "Equipamento ao Ar Livre",
+          ar: "معدات الهواء الطلق",
+          fa: "تجهیزات فضای باز",
+        },
+        excerpt: {
+          en: "Camping, hiking, and outdoor accessories",
+          pt: "Camping, trilhas e acessórios para atividades ao ar livre",
+          ar: "التخييم، المشي لمسافات طويلة والإكسسوارات الخارجية",
+          fa: "کمپینگ، کوهنوردی و لوازم فضای باز",
+        },
+        image: "/images/placeholder.svg",
+        icon: "/images/placeholder.svg",
+        slug: "outdoor-gear",
+        description: {
+          en: "Gear up for your next outdoor adventure",
+          pt: "Prepare-se para sua próxima aventura ao ar livre",
+          ar: "استعد لمغامرتك القادمة في الهواء الطلق",
+          fa: "برای ماجراجویی بعدی فضای باز آماده شوید",
+        },
+        banners: ["/images/placeholder.svg"],
+        tags: [
+          { en: "Camping", pt: "Camping", ar: "التخييم", fa: "کمپینگ" },
+          { en: "Hiking", pt: "Caminhadas", ar: "المشي لمسافات طويلة", fa: "کوهنوردی" },
+          { en: "Backpacks", pt: "Mochilas", ar: "حقائب الظهر", fa: "کوله پشتی" },
+          { en: "Tents", pt: "Barracas", ar: "خيام", fa: "چادر" },
+        ],
+        subCategories: [],
+      },
+    ],
+  },
+  {
+    name: {
+      en: "Electronics",
+      pt: "Eletrônicos",
+      ar: "الإلكترونيات",
+      fa: "الکترونیک",
+    },
+    excerpt: {
+      en: "Devices and gadgets for everyday use",
+      pt: "Dispositivos e gadgets para o uso diário",
+      ar: "أجهزة وأدوات للاستخدام اليومي",
+      fa: "ابزارها و گجت‌های مناسب برای استفاده روزمره",
+    },
+    image: "/images/placeholder.svg",
+    icon: "/images/placeholder.svg",
+    slug: "electronics",
+    description: {
+      en: "Explore our wide range of electronics",
+      pt: "Explore nossa ampla gama de eletrônicos",
+      ar: "استكشف مجموعتنا الواسعة من الإلكترونيات",
+      fa: "مجموعه گسترده‌ای از محصولات الکترونیکی را بررسی کنید",
+    },
+    banners: [
+      "/images/placeholder.svg",
+      "/images/placeholder.svg",
+      "/images/placeholder.svg",
+      "/images/placeholder.svg",
+      "/images/placeholder.svg",
+    ],
+    tags: [
+      { en: "Tech", pt: "Tecnologia", ar: "تقنية", fa: "فناوری" },
+      { en: "Devices", pt: "Dispositivos", ar: "أجهزة", fa: "دستگاه" },
+      { en: "Gadgets", pt: "Gadgets", ar: "أدوات", fa: "گجت‌ها" },
+      { en: "Innovation", pt: "Inovação", ar: "ابتكار", fa: "نوآوری" },
+      { en: "Digital", pt: "Digital", ar: "رقمي", fa: "دیجیتال" },
+      { en: "Smart", pt: "Inteligente", ar: "ذكي", fa: "هوشمند" },
+    ],
+    subCategories: [
+      {
+        name: {
+          en: "Mobile Phones",
+          pt: "Telemóveis",
+          ar: "الهواتف المحمولة",
+          fa: "تلفن همراه",
+        },
+        excerpt: {
+          en: "All kinds of mobile devices",
+          pt: "Todos os tipos de dispositivos móveis",
+          ar: "جميع أنواع الأجهزة المحمولة",
+          fa: "انواع گوشی‌های موبایل",
+        },
+        image: "/images/placeholder.svg",
+        icon: "/images/placeholder.svg",
+        slug: "mobile-phones",
+        description: {
+          en: "Choose from smartphones, feature phones, and more",
+          pt: "Escolha entre smartphones, celulares simples e mais",
+          ar: "اختر من بين الهواتف الذكية والعادية والمزيد",
+          fa: "انتخابی از بین گوشی‌های هوشمند، ساده و غیره",
+        },
+        banners: [
+          "/images/placeholder.svg",
+          "/images/placeholder.svg",
+          "/images/placeholder.svg",
+          "/images/placeholder.svg",
+          "/images/placeholder.svg",
+        ],
+        tags: [
+          { en: "Phones", pt: "Telefones", ar: "هواتف", fa: "تلفن" },
+          { en: "Smartphones", pt: "Smartphones", ar: "هواتف ذكية", fa: "گوشی هوشمند" },
+          { en: "Android", pt: "Android", ar: "أندرويد", fa: "اندروید" },
+          { en: "iOS", pt: "iOS", ar: "آي أو إس", fa: "آی‌اواس" },
+          { en: "Budget", pt: "Orçamento", ar: "ميزانية", fa: "مقرون‌به‌صرفه" },
+          { en: "Flagship", pt: "Topo de linha", ar: "الرائد", fa: "پرچمدار" },
+        ],
+        subCategories: [
+          {
+            name: {
+              en: "Smartphones",
+              pt: "Smartphones",
+              ar: "الهواتف الذكية",
+              fa: "گوشی هوشمند",
+            },
+            excerpt: {
+              en: "Latest smartphones with advanced features",
+              pt: "Os mais recentes smartphones com recursos avançados",
+              ar: "أحدث الهواتف الذكية ذات الميزات المتقدمة",
+              fa: "جدیدترین گوشی‌های هوشمند با قابلیت‌های پیشرفته",
+            },
+            image: "/images/placeholder.svg",
+            icon: "/images/placeholder.svg",
+            slug: "smartphones",
+            description: {
+              en: "Explore cutting-edge smartphones from top brands",
+              pt: "Explore os smartphones de ponta das principais marcas",
+              ar: "اكتشف الهواتف الذكية المتطورة من أفضل العلامات التجارية",
+              fa: "برترین گوشی‌های هوشمند از برندهای مطرح را بررسی کنید",
+            },
+            banners: [
+              "/images/placeholder.svg",
+              "/images/placeholder.svg",
+              "/images/placeholder.svg",
+              "/images/placeholder.svg",
+              "/images/placeholder.svg",
+            ],
+            tags: [
+              { en: "5G", pt: "5G", ar: "5G", fa: "5G" },
+              { en: "Camera", pt: "Câmera", ar: "كاميرا", fa: "دوربین" },
+              { en: "Battery", pt: "Bateria", ar: "بطارية", fa: "باتری" },
+              { en: "Display", pt: "Tela", ar: "شاشة", fa: "نمایشگر" },
+              { en: "Performance", pt: "Desempenho", ar: "الأداء", fa: "عملکرد" },
+              { en: "Storage", pt: "Armazenamento", ar: "تخزين", fa: "فضای ذخیره‌سازی" },
+            ],
+            subCategories: [
+              {
+                name: {
+                  en: "Gaming Smartphones",
+                  pt: "Smartphones para Jogos",
+                  ar: "هواتف ألعاب",
+                  fa: "گوشی‌های گیمینگ",
+                },
+                excerpt: {
+                  en: "Phones optimized for mobile gaming",
+                  pt: "Telefones otimizados para jogos móveis",
+                  ar: "هواتف محسّنة للألعاب المحمولة",
+                  fa: "گوشی‌هایی با بهینه‌سازی مخصوص بازی",
+                },
+                image: "/images/placeholder.svg",
+                icon: "/images/placeholder.svg",
+                slug: "gaming-smartphones",
+                description: {
+                  en: "Experience top-tier gaming performance on your phone",
+                  pt: "Desfrute de desempenho de jogos de alto nível no seu telefone",
+                  ar: "استمتع بأداء ألعاب من الدرجة الأولى على هاتفك",
+                  fa: "تجربه بهترین عملکرد گیم روی گوشی هوشمند",
+                },
+                banners: [
+                  "/images/placeholder.svg",
+                  "/images/placeholder.svg",
+                  "/images/placeholder.svg",
+                  "/images/placeholder.svg",
+                  "/images/placeholder.svg",
+                ],
+                tags: [
+                  { en: "Gaming", pt: "Jogos", ar: "ألعاب", fa: "بازی" },
+                  { en: "High Refresh Rate", pt: "Alta taxa de atualização", ar: "معدل تحديث مرتفع", fa: "نرخ تازه‌سازی بالا" },
+                  { en: "Cooling", pt: "Resfriamento", ar: "تبريد", fa: "سیستم خنک‌کننده" },
+                  { en: "RGB", pt: "RGB", ar: "RGB", fa: "نورپردازی RGB" },
+                  { en: "Triggers", pt: "Botões", ar: "أزرار", fa: "تریگرهای بازی" },
+                  { en: "Performance", pt: "Desempenho", ar: "أداء", fa: "عملکرد بالا" },
+                ]
+              }
+            ]
           }
         ]
       }

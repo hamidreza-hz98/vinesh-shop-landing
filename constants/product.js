@@ -37,17 +37,53 @@ export const products = [
       }
     ],
 
-    colors: [
-      {
-        name: {
-          en: "Navy Blue",
-          pt: "Azul Marinho",
-          ar: "أزرق كحلي",
-          fa: "سرمه‌ای"
-        },
-        code: "#245784"
-      }
-    ],
+   colors: [
+  {
+    name: {
+      en: "Navy Blue",
+      pt: "Azul Marinho",
+      ar: "أزرق كحلي",
+      fa: "سرمه‌ای"
+    },
+    code: "#245784"
+  },
+  {
+    name: {
+      en: "Crimson Red",
+      pt: "Vermelho Carmesim",
+      ar: "أحمر قرمزي",
+      fa: "قرمز زرشکی"
+    },
+    code: "#DC143C"
+  },
+  {
+    name: {
+      en: "Olive Green",
+      pt: "Verde Oliva",
+      ar: "أخضر زيتوني",
+      fa: "سبز زیتونی"
+    },
+    code: "#808000"
+  },
+  {
+    name: {
+      en: "Sunset Orange",
+      pt: "Laranja Pôr do Sol",
+      ar: "برتقالي الغروب",
+      fa: "نارنجی غروب"
+    },
+    code: "#FF4500"
+  },
+  {
+    name: {
+      en: "Lavender Purple",
+      pt: "Roxo Lavanda",
+      ar: "أرجواني الخزامى",
+      fa: "بنفش اسطوخودوسی"
+    },
+    code: "#B57EDC"
+  }
+],
 
     sizes: {
       name: {
