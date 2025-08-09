@@ -103,3 +103,7 @@
 .scrollbar-hide::-webkit-scrollbar {
   display: none;
 }
+
+.w-fill{
+  width: -webkit-fill-available;
+}

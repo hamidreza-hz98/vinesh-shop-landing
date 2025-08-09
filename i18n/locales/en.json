@@ -9,9 +9,11 @@
   "lorem_word": "Lorem Ipsum",
   "lorem_sentence": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
   "lorem_paragraph": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+  "lorem_text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
 
   "special_sales": "Special Sales",
   "view_all": "View All",
+  "products": "Products",
 
   "categories": "Categories",
   "brands": "Brands",
@@ -25,5 +27,10 @@
 
   "only_today": "Only Today!",
   "offers_for_today": "Offers that are ONLY today! So hurry up! Choose what you need from Vinesh Shop!",
-  "finishing_soon": "Finishing Soon!"
+  "finishing_soon": "Finishing Soon!",
+
+  "sort": "Sort:",
+  "filter": "Filter",
+  "next_page": "Next Page",
+  "previous_page": "Previous Page"
 }

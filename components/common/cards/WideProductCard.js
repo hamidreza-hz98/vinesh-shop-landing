@@ -12,7 +12,7 @@ const WideProductCard = ({ product }) => {
   const locale = useLocale();
 
   return (
-    <Link href={`/products/${product.slug[locale]}`}>
+    <Link className="w-full h-full" href={`/products/${product.slug[locale]}`}>
     <div className="w-full h-full bg-background flex items-center justify-start rounded-2xl">
       <Image
         src={product.media[0].src}
@@ -23,7 +23,7 @@ const WideProductCard = ({ product }) => {
         className="w-auto h-full max-w-[40%] object-cover rounded-s-2xl"
         />
 
-      <div className="h-full p-4 flex flex-col items-start justify-start">
+      <div className="w-fill h-full p-4 flex flex-col items-start justify-start">
         <span className="text-xl font-bold"> {product.name[locale]} </span>
 
         <span className="text-sm text-muted-foreground mt-2 font-bold">

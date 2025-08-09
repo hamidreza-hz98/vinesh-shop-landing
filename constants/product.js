@@ -1,3 +1,278 @@
+export const specialSalesTags = [
+  {
+    en: "New Arrival",
+    pt: "Novo Lançamento",
+    ar: "وصل حديثاً",
+    fa: "جدیدترین محصول",
+  },
+  {
+    en: "Best Seller",
+    pt: "Mais Vendido",
+    ar: "الأكثر مبيعًا",
+    fa: "پرفروش",
+  },
+  {
+    en: "Limited Edition",
+    pt: "Edição Limitada",
+    ar: "إصدار محدود",
+    fa: "نسخه محدود",
+  },
+  {
+    en: "50% Off",
+    pt: "50% de Desconto",
+    ar: "خصم 50%",
+    fa: "تخفیف ۵۰٪",
+  },
+  {
+    en: "Buy 1 Get 1 Free",
+    pt: "Leve 1, Ganhe 1 Grátis",
+    ar: "اشترِ 1 واحصل على 1 مجانًا",
+    fa: "یکی بخر، یکی رایگان",
+  },
+  {
+    en: "Flash Sale",
+    pt: "Promoção Relâmpago",
+    ar: "تخفيضات فورية",
+    fa: "فروش فوری",
+  },
+  {
+    en: "Clearance",
+    pt: "Liquidação",
+    ar: "تصفية",
+    fa: "حراج",
+  },
+  {
+    en: "New Arrival",
+    pt: "Novo Lançamento",
+    ar: "وصل حديثاً",
+    fa: "جدیدترین محصول",
+  },
+  {
+    en: "Best Seller",
+    pt: "Mais Vendido",
+    ar: "الأكثر مبيعًا",
+    fa: "پرفروش",
+  },
+  {
+    en: "Limited Edition",
+    pt: "Edição Limitada",
+    ar: "إصدار محدود",
+    fa: "نسخه محدود",
+  },
+  {
+    en: "50% Off",
+    pt: "50% de Desconto",
+    ar: "خصم 50%",
+    fa: "تخفیف ۵۰٪",
+  },
+  {
+    en: "Buy 1 Get 1 Free",
+    pt: "Leve 1, Ganhe 1 Grátis",
+    ar: "اشترِ 1 واحصل على 1 مجانًا",
+    fa: "یکی بخر، یکی رایگان",
+  },
+  {
+    en: "Flash Sale",
+    pt: "Promoção Relâmpago",
+    ar: "تخفيضات فورية",
+    fa: "فروش فوری",
+  },
+  {
+    en: "Clearance",
+    pt: "Liquidação",
+    ar: "تصفية",
+    fa: "حراج",
+  },
+  {
+    en: "New Arrival",
+    pt: "Novo Lançamento",
+    ar: "وصل حديثاً",
+    fa: "جدیدترین محصول",
+  },
+  {
+    en: "Best Seller",
+    pt: "Mais Vendido",
+    ar: "الأكثر مبيعًا",
+    fa: "پرفروش",
+  },
+  {
+    en: "Limited Edition",
+    pt: "Edição Limitada",
+    ar: "إصدار محدود",
+    fa: "نسخه محدود",
+  },
+  {
+    en: "50% Off",
+    pt: "50% de Desconto",
+    ar: "خصم 50%",
+    fa: "تخفیف ۵۰٪",
+  },
+  {
+    en: "Buy 1 Get 1 Free",
+    pt: "Leve 1, Ganhe 1 Grátis",
+    ar: "اشترِ 1 واحصل على 1 مجانًا",
+    fa: "یکی بخر، یکی رایگان",
+  },
+  {
+    en: "Flash Sale",
+    pt: "Promoção Relâmpago",
+    ar: "تخفيضات فورية",
+    fa: "فروش فوری",
+  },
+  {
+    en: "Clearance",
+    pt: "Liquidação",
+    ar: "تصفية",
+    fa: "حراج",
+  },
+];
+
+
+export const sortProductItems = [
+  {
+    name: {
+      en: "Most Visited",
+      pt: "",
+      ar: "",
+      fa: ""
+    },
+
+    value: "visit"
+  },
+  {
+    name: {
+      en: "Most Purchased",
+      pt: "",
+      ar: "",
+      fa: ""
+    },
+
+    value: "puechased"
+  },
+  {
+    name: {
+      en: "Most Expensive",
+      pt: "",
+      ar: "",
+      fa: ""
+    },
+
+    value: "expensive"
+  },
+  {
+    name: {
+      en: "Cheapest",
+      pt: "",
+      ar: "",
+      fa: ""
+    },
+
+    value: "cheapest"
+  },
+  {
+    name: {
+      en: "Recommended",
+      pt: "",
+      ar: "",
+      fa: ""
+    },
+
+    value: "isSelected"
+  },
+]
+
+export const filterProductsItems = [
+  {
+    id: "category",
+    label: {
+      en: "Category",
+      pt: "",
+      ar: "",
+      fa: ""
+    },
+
+    type: "checkbox",
+    
+    options: [
+      {
+        value: "books",
+        label: {
+      en: "Books",
+      pt: "",
+      ar: "",
+      fa: ""
+    } 
+  },
+      {
+        value: "electronics",
+        label: {
+      en: "Electronics",
+      pt: "",
+      ar: "",
+      fa: ""
+    } 
+      }
+    ]
+  },
+  {
+    id: "price",
+    label: {
+      en: "Price",
+      pt: "",
+      ar: "",
+      fa: ""
+    },
+
+    type: "range",
+
+   minValue: 0,
+   maxValue: 1000
+  },
+  {
+    id: "brand",
+    label: {
+      en: "Brand",
+      pt: "",
+      ar: "",
+      fa: ""
+    },
+
+    type: "select",
+
+    options: [
+      {
+        value: "apple",
+        label: {
+      en: "Apple",
+      pt: "",
+      ar: "",
+      fa: ""
+    } 
+      },
+      {
+        value: "samsung",
+        label: {
+      en: "Samsung",
+      pt: "",
+      ar: "",
+      fa: ""
+    } 
+      },
+    ]
+  },
+  {
+    id: "in_stock",
+    label: {
+      en: "Availability",
+      pt: "",
+      ar: "",
+      fa: ""
+    },
+
+    type: "radio",
+  }
+]
+
 export const products = [
   {
     name: {

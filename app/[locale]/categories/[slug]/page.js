@@ -1,10 +1,15 @@
-import CategoryDetailsPageWrapper from '@/components/wrappers/categories/CategoryDetailsPageWrapper'
-import React from 'react'
+import CategoryDetailsPageWrapper from "@/components/wrappers/categories/CategoryDetailsPageWrapper";
+import React, { Suspense } from "react";
 
-const page = () => {
+const page = async ({ params }) => {
+  const param = await params
+  const slug = await param.slug
+  
   return (
-    <CategoryDetailsPageWrapper />
-  )
-}
+    <Suspense fallback={<div>loading...</div>}>
+      <CategoryDetailsPageWrapper slug={slug} />
+    </Suspense>
+  );
+};
 
-export default page
+export default page;
