@@ -17,7 +17,13 @@
 
   "categories": "Categories",
   "brands": "Brands",
+  "brand": "Brand",
   "blog": "Blog",
+
+  "description": "Description",
+  "specifications": "Specifications",
+  "comments": "Comments",
+  "reply": "Reply",
 
   "view_full_article": "VIEW FULL ARTICLE",
   "read": "read",

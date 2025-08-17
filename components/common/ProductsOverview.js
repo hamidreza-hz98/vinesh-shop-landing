@@ -36,12 +36,12 @@ const ProductsOverview = () => {
   return (
     <div className="grid grid-cols-1 sm:grid-cols-3 md:grid-cols-4 gap-8">
       <div className="hidden sm:block sm:col-span-1">
-  <div
-    className="sticky top-4 max-h-[calc(100vh-4rem)] rounded-2xl overflow-auto shadow-xl"
-    style={{ maxHeight: "calc(100vh - 4rem)" }}
-  >
-    <Filter items={filterProductsItems} />
-  </div>
+        <div
+          className="sticky top-4 max-h-[calc(100vh-4rem)] rounded-2xl overflow-auto shadow-xl"
+          style={{ maxHeight: "calc(100vh - 4rem)" }}
+        >
+          <Filter items={filterProductsItems} />
+        </div>
       </div>
 
       <div className="col-span-full sm:col-span-2 md:col-span-3">
@@ -99,16 +99,17 @@ const ProductsOverview = () => {
       </div>
 
       <div className="col-span-full p-8 border rounded-2xl">
-  <div className="flex flex-wrap w-full gap-2">
-    {specialSalesTags.map((tag, index) => (
-      <Badge className={`bg-${randomColor()}`} key={index}>{tag[locale]}</Badge>
-    ))}
-  </div>
-</div>
-
+        <div className="flex flex-wrap w-full gap-2">
+          {specialSalesTags.map((tag, index) => (
+            <Badge className={`bg-${randomColor()}`} key={index}>
+              {tag[locale]}
+            </Badge>
+          ))}
+        </div>
+      </div>
 
       <div className="col-span-full">
-          <CollapsibleTextBox text={t("lorem_text")} />
+        <CollapsibleTextBox text={t("lorem_text")} />
       </div>
     </div>
   );

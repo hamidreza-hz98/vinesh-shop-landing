@@ -107,3 +107,7 @@
 .w-fill{
   width: -webkit-fill-available;
 }
+
+.content{
+  padding: 16px;
+}

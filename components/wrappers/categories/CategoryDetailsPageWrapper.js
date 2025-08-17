@@ -18,13 +18,12 @@ const CategoryDetailsPageWrapper = ({ slug }) => {
     setCategory(cat);
   }, [slug]);
 
-  console.log(category);
+  if (!category) return;
 
   return (
     <Container>
       <h1 className="text-2xl font-bold text-center">
-        {" "}
-        {category.name[locale]}{" "}
+        {category?.name[locale]}
       </h1>
 
       <div className="grid grid-cols-4 gap-8 mt-8">

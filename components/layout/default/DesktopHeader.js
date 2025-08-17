@@ -16,7 +16,7 @@ const DesktopHeader = () => {
   const t = useTranslations();
 
   return (
-    <div className="hidden md:flex flex-col w-full">
+    <div className="hidden md:flex max-w-7xl mx-auto flex-col w-full">
       <div className="w-full flex items-center justify-between px-8 py-2">
         <Link
           href={routes.home}

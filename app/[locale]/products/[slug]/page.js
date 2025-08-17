@@ -1,9 +1,14 @@
 import ProductDetailsPageWrapper from '@/components/wrappers/products/ProductDetailsPageWrapper'
-import React from 'react'
+import React, { Suspense } from 'react'
 
-const page = () => {
+const page = async ({ params }) => {
+  const param = await params
+  const slug = await param.slug
+
   return (
-    <ProductDetailsPageWrapper />
+    <Suspense fallback={<div>Loading...</div>}>
+    <ProductDetailsPageWrapper slug={slug} />
+    </Suspense>
   )
 }
 
