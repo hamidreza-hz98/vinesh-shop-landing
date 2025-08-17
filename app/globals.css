@@ -111,3 +111,7 @@
 .content{
   padding: 16px;
 }
+
+.PhoneInput--focus input {
+  box-shadow: none !important;
+}

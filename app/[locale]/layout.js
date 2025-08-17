@@ -6,6 +6,7 @@ import Footer from "@/components/layout/default/Footer";
 import Header from "@/components/layout/default/Header";
 import { NextIntlClientProvider } from "next-intl";
 import { getLocaleDirection } from "@/lib/locale";
+import { Toaster } from "@/components/ui/sonner";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -39,6 +40,7 @@ export default async function RootLayout({ children, params }) {
           </main>
 
           <Footer />
+          <Toaster />
         </NextIntlClientProvider>
       </body>
     </html>

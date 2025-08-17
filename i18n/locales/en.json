@@ -38,5 +38,14 @@
   "sort": "Sort:",
   "filter": "Filter",
   "next_page": "Next Page",
-  "previous_page": "Previous Page"
+  "previous_page": "Previous Page",
+  "next": "Next",
+  "previous": "Previous",
+
+  "login_signup": "Login / Sign Up",
+  "enter_phone_number": "Please Enter Your Phone Number",
+  "enter_otp": "Please Enter the received code",
+  "code_not_sent": "Didn't receive the code?",
+  "resend": "Resend",
+  "can_resend_in": "You can resend in "
 }
