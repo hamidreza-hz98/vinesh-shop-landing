@@ -1,3 +1,148 @@
+export const sampleCartItems = {
+  products: [
+    {
+      name: {
+        en: "Modern Velvet Armchair",
+        pt: "Poltrona de Veludo Moderna",
+        ar: "كرسي بذراعين من المخمل العصري",
+        fa: "صندلی راحتی مخملی مدرن",
+      },
+
+      excerpt: {
+        en: "A cozy and stylish velvet armchair perfect for any modern interior.",
+        pt: "Uma poltrona de veludo aconchegante e elegante, perfeita para interiores modernos.",
+        ar: "كرسي بذراعين مريح وأنيق من المخمل مثالي لأي ديكور داخلي عصري.",
+        fa: "یک صندلی راحتی مخملی شیک و راحت، مناسب برای دکوراسیون‌های مدرن.",
+      },
+
+      rate: 4.5,
+
+      price: {
+        en: "$249",
+        pt: "R$ 1249",
+        ar: "د.إ 249",
+        fa: "۲۴۹ دلار",
+      },
+
+      slug: {
+        en: "modern-velvet-armchair",
+        pt: "poltrona-de-veludo-moderna",
+        ar: "كرسي-مخمل-عصري",
+        fa: "صندلی-راحتی-مخملی-مدرن",
+      },
+
+      media: [
+        {
+          type: "image",
+          src: "/images/placeholder.svg",
+        },
+        {
+          type: "image",
+          src: "/images/placeholder.svg",
+        },
+        {
+          type: "image",
+          src: "/images/placeholder.svg",
+        },
+        {
+          type: "image",
+          src: "/images/placeholder.svg",
+        },
+        {
+          type: "image",
+          src: "/images/placeholder.svg",
+        },
+        {
+          type: "image",
+          src: "/images/placeholder.svg",
+        },
+        {
+          type: "image",
+          src: "/images/placeholder.svg",
+        },
+        {
+          type: "image",
+          src: "/images/placeholder.svg",
+        },
+        {
+          type: "image",
+          src: "/images/placeholder.svg",
+        },
+        {
+          type: "image",
+          src: "/images/placeholder.svg",
+        },
+        {
+          type: "image",
+          src: "/images/placeholder.svg",
+        },
+        {
+          type: "image",
+          src: "/images/placeholder.svg",
+        },
+        {
+          type: "image",
+          src: "/images/placeholder.svg",
+        },
+        {
+          type: "image",
+          src: "/images/placeholder.svg",
+        },
+        {
+          type: "image",
+          src: "/images/placeholder.svg",
+        },
+        {
+          type: "image",
+          src: "/images/placeholder.svg",
+        },
+      ],
+
+      color: {
+        name: {
+          en: "Navy Blue",
+          pt: "Azul Marinho",
+          ar: "أزرق كحلي",
+          fa: "سرمه‌ای",
+        },
+        code: "#245784",
+      },
+
+      size: {
+        name: {
+          en: "Standard",
+          pt: "Padrão",
+          ar: "قياسي",
+          fa: "استاندارد",
+        },
+        dimensions: {
+          en: "80x75x90 cm",
+          pt: "80x75x90 cm",
+          ar: "٨٠x٧٥x٩٠ سم",
+          fa: "۸۰x۷۵x۹۰ سانتی‌متر",
+        },
+      },
+
+      warranty: {
+        en: "2 years manufacturer warranty",
+        pt: "2 anos de garantia do fabricante",
+        ar: "ضمان سنتين من الشركة المصنعة",
+        fa: "۲ سال گارانتی شرکت سازنده",
+      },
+
+      quantity: 2,
+      discount: 15,
+    },
+  ],
+
+  financial: {
+    total: "289$",
+    finalPrice: "199$",
+    coupon: "49$",
+    discount: "40$",
+  },
+};
+
 export const specialSalesTags = [
   {
     en: "New Arrival",
@@ -312,6 +457,13 @@ export const products = [
     },
 
     rate: 4.5,
+
+    warranty: {
+      en: "2 years manufacturer warranty",
+      pt: "2 anos de garantia do fabricante",
+      ar: "ضمان سنتين من الشركة المصنعة",
+      fa: "۲ سال گارانتی شرکت سازنده",
+    },
 
     price: {
       en: "$249",
