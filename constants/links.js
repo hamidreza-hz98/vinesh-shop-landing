@@ -4,6 +4,76 @@ import { GrBlog } from "react-icons/gr";
 import { IoHomeOutline } from "react-icons/io5";
 import { TbCategory2 } from "react-icons/tb";
 import routes from "./routes";
+import { LuLayoutDashboard } from "react-icons/lu";
+import { IoBagOutline } from "react-icons/io5";
+import { CiHeart } from "react-icons/ci";
+import { MdOutlineLocationOn } from "react-icons/md";
+import { CiDiscount1 } from "react-icons/ci";
+import { FaRegComment } from "react-icons/fa";
+
+
+export const profileLinks = [
+  {
+    title: {
+      en: "Dashboard",
+      pt: "Painel",
+      ar: "لوحة التحكم",
+      fa: "داشبورد"
+    },
+    href: "/profile",
+    icon: LuLayoutDashboard
+  },
+  {
+    title: {
+      en: "Orders",
+      pt: "Pedidos",
+      ar: "الطلبات",
+      fa: "سفارشات"
+    },
+    href: "/profile/orders",
+    icon: IoBagOutline
+  },
+  {
+    title: {
+      en: "Wishlist",
+      pt: "Lista de Desejos",
+      ar: "قائمة الأمنيات",
+      fa: "لیست علاقه‌مندی‌ها"
+    },
+    href: "/profile/wishlist",
+    icon: CiHeart
+  },
+  {
+    title: {
+      en: "Addresses",
+      pt: "Endereços",
+      ar: "العناوين",
+      fa: "آدرس‌ها"
+    },
+    href: "/profile/addresses",
+    icon: MdOutlineLocationOn
+  },
+  {
+    title: {
+      en: "Discounts",
+      pt: "Descontos",
+      ar: "الخصومات",
+      fa: "تخفیف‌ها"
+    },
+    href: "/profile/discounts",
+    icon: CiDiscount1
+  },
+  {
+    title: {
+      en: "Comments",
+      pt: "Comentários",
+      ar: "التعليقات",
+      fa: "نظرات"
+    },
+    href: "/profile/comments",
+    icon: FaRegComment
+  }
+];
 
 export const mobileNavItems = [
   {
