@@ -77,5 +77,13 @@
   "select_shipment_date": "Please Select Shipment Date: ",
   "payment_method": "Payment Method",
   "your_slected_products": "Your Cart: ",
-  "shipment": "Shipment: "
+  "shipment": "Shipment: ",
+
+  "go_to_orders": "Go to Orders",
+  "success_payment_title": "Thanks For your Purchase!",
+  "success_payment_message": "You can track your order in your profile!",
+  "fail_payment_title": "Payment Failed!",
+  "fail_payment_message": "There was an issue during your payment.",
+  "try_again": "Try Again",
+  "homepage": "Homepage"
 }
