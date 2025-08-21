@@ -97,5 +97,19 @@
   "no_orders": "You still have no orders!",
   "order_now": "Order Now!",
   "order_id": "Order ID: ",
-  "price": "Price: "
+  "order": "Order",
+  "price": "Price: ",
+  "status": "Status",
+  "order_date": "Order Date",
+  "delivered_at": "Delivered At",
+  "payment_date": "Payment Date",
+  "shipment_price": "Shipment Price",
+  "total": "Total",
+  "address_name": "Address Name",
+
+  "rate_this_product": "Rate this Product!",
+  "comment": "Comment",
+  "leave_a_comment": "Leave a Comment!",
+
+  "submit": "Submit"
 }

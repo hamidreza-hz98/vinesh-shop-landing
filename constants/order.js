@@ -111,7 +111,7 @@ export const orders = [
     transaction: {
       paid: "$450",
       discount: "$50",
-      coupon: "WELCOME10",
+      coupon: "WELCOME10 - 10$",
       shipmentPrice: "$20",
       date: "2025-08-01",
     },

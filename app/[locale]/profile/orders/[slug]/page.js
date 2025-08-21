@@ -1,10 +1,15 @@
-import ProfileOrderDetailsPageWrapper from '@/components/wrappers/profile/ProfileOrderDetailsPageWrapper'
-import React from 'react'
+import ProfileOrderDetailsPageWrapper from "@/components/wrappers/profile/ProfileOrderDetailsPageWrapper";
+import React, { Suspense } from "react";
 
-const page = () => {
+const page = async ({ params }) => {
+  const param = await params;
+  const slug = await param.slug;
+
   return (
-    <ProfileOrderDetailsPageWrapper />
-  )
-}
+    <Suspense fallback={<div>Loading...</div>}>
+      <ProfileOrderDetailsPageWrapper slug={slug} />
+    </Suspense>
+  );
+};
 
-export default page
+export default page;
