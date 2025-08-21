@@ -25,17 +25,23 @@ const ProfileSidebar = () => {
       </div>
 
       {open && (
-        <div className="md:hidden fixed inset-0 bg-black bg-opacity-40 z-10" onClick={() => setOpen(false)} />
+        <div
+          className="md:hidden fixed inset-0 bg-black bg-opacity-40 z-10"
+          onClick={() => setOpen(false)}
+        />
       )}
 
       <aside
         className={`
-          fixed top-0 md:top-4 left-0 p-4 md:p-0 h-full w-[20%] bg-white border-r transition-transform transform z-50
+          fixed top-0 md:top-4 left-0 p-4 md:p-0 h-full w-60 md:w-[20%] bg-white border-r transition-transform transform z-50
           ${open ? "translate-x-0" : "-translate-x-full"} 
           md:translate-x-0 md:sticky md:h-auto md:block
         `}
       >
-        <h2 className="text-lg font-bold mb-6 hidden md:block"> Hi, Hamidreza! </h2>
+        <h2 className="text-lg font-bold mb-6 hidden md:block">
+          {" "}
+          Hi, Hamidreza!{" "}
+        </h2>
         <nav className="flex flex-col gap-4">
           {profileLinks.map((item, idx) => (
             <Link

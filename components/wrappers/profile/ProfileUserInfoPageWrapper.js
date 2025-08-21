@@ -1,8 +1,11 @@
+import UserInfoForm from '@/components/forms/UserInfoForm'
 import React from 'react'
 
 const ProfileUserInfoPageWrapper = () => {
   return (
-    <div>ProfileUserInfoPageWrapper</div>
+    <div>
+      <UserInfoForm />
+    </div>
   )
 }
 

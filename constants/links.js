@@ -11,68 +11,77 @@ import { MdOutlineLocationOn } from "react-icons/md";
 import { CiDiscount1 } from "react-icons/ci";
 import { FaRegComment } from "react-icons/fa";
 
-
 export const profileLinks = [
   {
     title: {
       en: "Dashboard",
       pt: "Painel",
       ar: "لوحة التحكم",
-      fa: "داشبورد"
+      fa: "داشبورد",
     },
     href: "/profile",
-    icon: LuLayoutDashboard
+    icon: LuLayoutDashboard,
+  },
+  {
+    title: {
+      en: "User Info",
+      pt: "Informações do Usuário",
+      ar: "معلومات المستخدم",
+      fa: "اطلاعات کاربر",
+    },
+    href: "/profile/user-info",
+    icon: CiUser,
   },
   {
     title: {
       en: "Orders",
       pt: "Pedidos",
       ar: "الطلبات",
-      fa: "سفارشات"
+      fa: "سفارشات",
     },
     href: "/profile/orders",
-    icon: IoBagOutline
+    icon: IoBagOutline,
   },
   {
     title: {
       en: "Wishlist",
       pt: "Lista de Desejos",
       ar: "قائمة الأمنيات",
-      fa: "لیست علاقه‌مندی‌ها"
+      fa: "لیست علاقه‌مندی‌ها",
     },
     href: "/profile/wishlist",
-    icon: CiHeart
+    icon: CiHeart,
   },
   {
     title: {
       en: "Addresses",
       pt: "Endereços",
       ar: "العناوين",
-      fa: "آدرس‌ها"
+      fa: "آدرس‌ها",
     },
     href: "/profile/addresses",
-    icon: MdOutlineLocationOn
+    icon: MdOutlineLocationOn,
   },
   {
     title: {
       en: "Discounts",
       pt: "Descontos",
       ar: "الخصومات",
-      fa: "تخفیف‌ها"
+      fa: "تخفیف‌ها",
     },
     href: "/profile/discounts",
-    icon: CiDiscount1
+    icon: CiDiscount1,
   },
   {
     title: {
       en: "Comments",
       pt: "Comentários",
       ar: "التعليقات",
-      fa: "نظرات"
+      fa: "نظرات",
     },
     href: "/profile/comments",
-    icon: FaRegComment
-  }
+    icon: FaRegComment,
+  },
 ];
 
 export const mobileNavItems = [
@@ -82,9 +91,9 @@ export const mobileNavItems = [
       en: "Home",
       pt: "Início",
       ar: "الرئيسية",
-      fa: "خانه"
+      fa: "خانه",
     },
-    icon: IoHomeOutline
+    icon: IoHomeOutline,
   },
   {
     href: routes.categories,
@@ -92,9 +101,9 @@ export const mobileNavItems = [
       en: "Categories",
       pt: "Categorias",
       ar: "الفئات",
-      fa: "دسته‌ها"
+      fa: "دسته‌ها",
     },
-    icon: TbCategory2
+    icon: TbCategory2,
   },
   {
     href: routes.cart,
@@ -102,9 +111,9 @@ export const mobileNavItems = [
       en: "Cart",
       pt: "Carrinho",
       ar: "السلة",
-      fa: "سبد خرید"
+      fa: "سبد خرید",
     },
-    icon: CiShoppingCart
+    icon: CiShoppingCart,
   },
   {
     href: routes.profile,
@@ -112,9 +121,9 @@ export const mobileNavItems = [
       en: "Profile",
       pt: "Perfil",
       ar: "الملف الشخصي",
-      fa: "پروفایل"
+      fa: "پروفایل",
     },
-    icon: CiUser
+    icon: CiUser,
   },
   {
     href: routes.blog,
@@ -122,8 +131,8 @@ export const mobileNavItems = [
       en: "Blog",
       pt: "Blog",
       ar: "المدونة",
-      fa: "بلاگ"
+      fa: "بلاگ",
     },
-    icon: GrBlog
+    icon: GrBlog,
   },
 ];

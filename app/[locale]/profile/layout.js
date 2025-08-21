@@ -7,7 +7,7 @@ const ProfieLayout = ({ children }) => {
     <Container className="flex flex-col md:flex-row items-start justify-start min-h-[80vh]">
       <ProfileSidebar />
 
-      <div className="md:ms-4 w-full md:w-[80%]">{children}</div>
+      <div className="md:ms-4 mt-8 md:mt-0 w-full md:w-[80%]">{children}</div>
     </Container>
   );
 };

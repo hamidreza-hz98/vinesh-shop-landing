@@ -85,5 +85,7 @@
   "fail_payment_title": "Payment Failed!",
   "fail_payment_message": "There was an issue during your payment.",
   "try_again": "Try Again",
-  "homepage": "Homepage"
+  "homepage": "Homepage",
+
+  "save": "Save"
 }
