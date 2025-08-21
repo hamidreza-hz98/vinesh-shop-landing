@@ -1,8 +1,11 @@
+import Addresses from '@/components/common/Addresses'
 import React from 'react'
 
 const ProfileAddressesPageWrapper = () => {
   return (
-    <div>ProfileAddressesPageWrapper</div>
+    <div>
+      <Addresses isProfile={true} />
+    </div>
   )
 }
 

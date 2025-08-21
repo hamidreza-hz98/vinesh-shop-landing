@@ -36,17 +36,15 @@ const Addresses = ({ onSelect, isProfile = false }) => {
 
         <Dialog>
           <DialogTrigger asChild>
-            <Button size="sm">
-              {t("new_address")}
-            </Button>
+            <Button size="sm">{t("new_address")}</Button>
           </DialogTrigger>
 
           <DialogContent className="max-h-[90vh] overflow-y-scroll mt-4">
             <DialogHeader>
-              <DialogTitle> { t("create_new_address") } </DialogTitle>
-              
+              <DialogTitle> {t("create_new_address")} </DialogTitle>
+
               <DialogDescription>
-               <AddressForm />
+                <AddressForm />
               </DialogDescription>
             </DialogHeader>
           </DialogContent>
@@ -55,20 +53,31 @@ const Addresses = ({ onSelect, isProfile = false }) => {
 
       <div className="w-full flex flex-col gap-4 mt-2">
         {addresses && addresses.length ? (
-          <RadioGroup
-            defaultValue={defaultAddress}
-            onValueChange={onSelect}
-            className="w-full flex flex-col gap-4"
-          >
-            {addresses.map((address, index) => (
+          isProfile ? (
+            addresses.map((address, index) => (
               <div key={index} className="flex items-center space-x-2">
-                <RadioGroupItem value={address.name} id={address.name} />
-                <Label htmlFor={address.name} className="cursor-pointer w-full">
-                  <AddressCard isProfile={isProfile} address={address} />
-                </Label>
+                <AddressCard isProfile={isProfile} address={address} />
               </div>
-            ))}
-          </RadioGroup>
+            ))
+          ) : (
+            <RadioGroup
+              defaultValue={defaultAddress}
+              onValueChange={onSelect}
+              className="w-full flex flex-col gap-4"
+            >
+              {addresses.map((address, index) => (
+                <div key={index} className="flex items-center space-x-2">
+                  <RadioGroupItem value={address.name} id={address.name} />
+                  <Label
+                    htmlFor={address.name}
+                    className="cursor-pointer w-full"
+                  >
+                    <AddressCard isProfile={isProfile} address={address} />
+                  </Label>
+                </div>
+              ))}
+            </RadioGroup>
+          )
         ) : (
           <div className="w-full flex items-center justify-center mt-8">
             <span className="border-4 border-border border-dashed rounded text-center px-4 py-8">
