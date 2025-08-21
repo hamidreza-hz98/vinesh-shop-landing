@@ -87,5 +87,15 @@
   "try_again": "Try Again",
   "homepage": "Homepage",
 
-  "save": "Save"
+  "save": "Save",
+
+  "search_in_orders": "Search In Orders",
+  "all": "All",
+  "delivered": "Delivered",
+  "in_progress": "In Progress",
+  "canceled": "Canceled",
+  "no_orders": "You still have no orders!",
+  "order_now": "Order Now!",
+  "order_id": "Order ID: ",
+  "price": "Price: "
 }
