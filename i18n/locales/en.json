@@ -121,5 +121,8 @@
   "expired": "Expired",
   "pending_for_comment": "Pending for Comment",
   "edit_comment_and_rate": "Edit Comment and Rate",
-  "delete_comment": "Delete Comment"
+  "delete_comment": "Delete Comment",
+
+  "about_page_header": "About Vinesh Shop",
+  "about_page_subtitle": "From zero to hero!, Idea to implementation, Everything is ready!"
 }

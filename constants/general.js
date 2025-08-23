@@ -18,3 +18,41 @@ export const cartStepsTitles = [
     fa: "نهایی‌سازی و پرداخت"
   },
 ]
+export const aboutPageCountUpItems = [
+  {
+    title: {
+      en: "Products",
+      pt: "Produtos",
+      ar: "المنتجات",
+      fa: "محصولات"
+    },
+    number: 1547
+  },
+  {
+    title: {
+      en: "Submitted Orders",
+      pt: "Pedidos enviados",
+      ar: "الطلبات المقدمة",
+      fa: "سفارش‌های ثبت‌شده"
+    },
+    number: 9870
+  },
+  {
+    title: {
+      en: "Users",
+      pt: "Usuários",
+      ar: "المستخدمون",
+      fa: "کاربران"
+    },
+    number: 200000
+  },
+  {
+    title: {
+      en: "Staff",
+      pt: "Equipe",
+      ar: "الموظفون",
+      fa: "پرسنل"
+    },
+    number: 450
+  }
+];
