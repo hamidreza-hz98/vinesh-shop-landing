@@ -35,23 +35,23 @@ function localeMiddleware(request) {
   return NextResponse.next();
 }
 
-function authMiddleware(request) {
-  const { pathname } = request.nextUrl;
+// function authMiddleware(request) {
+//   const { pathname } = request.nextUrl;
 
-  // Remove locale prefix from pathname
-  const pathnameWithoutLocale = pathname.replace(/^\/(en|fa|pt|ar)/, '');
+//   // Remove locale prefix from pathname
+//   const pathnameWithoutLocale = pathname.replace(/^\/(en|fa|pt|ar)/, '');
 
-  if (pathnameWithoutLocale.startsWith('/profile')) {
-    const token = request.cookies.get('token')?.value;
-    if (!token) {
-      // Redirect to login with locale preserved
-      const locale = pathname.split('/')[1] || defaultLocale;
-      return NextResponse.redirect(new URL(`/${locale}/auth`, request.url));
-    }
-  }
+//   if (pathnameWithoutLocale.startsWith('/profile')) {
+//     const token = request.cookies.get('token')?.value;
+//     if (!token) {
+//       // Redirect to login with locale preserved
+//       const locale = pathname.split('/')[1] || defaultLocale;
+//       return NextResponse.redirect(new URL(`/${locale}/auth`, request.url));
+//     }
+//   }
 
-  return NextResponse.next();
-}
+//   return NextResponse.next();
+// }
 
 
 // Compose multiple middlewares
@@ -61,8 +61,8 @@ export function middleware(request) {
   if (localeResult?.status !== 200) return localeResult; // redirect happened
 
   // Run auth next
-  const authResult = authMiddleware(request);
-  if (authResult?.status !== 200) return authResult;
+  // const authResult = authMiddleware(request);
+  // if (authResult?.status !== 200) return authResult;
 
   return NextResponse.next();
 }

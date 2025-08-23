@@ -33,7 +33,7 @@ const AuthPageWrapper = () => {
   const t = useTranslations();
   const locale = useLocale();
 
-  const router = useRouter()
+  const router = useRouter();
 
   const [activeStep, setActiveStep] = useState(1);
   const [phone, setPhone] = useState("");
@@ -73,10 +73,10 @@ const AuthPageWrapper = () => {
     };
   }, [activeStep]);
 
-      const sendSMS = () => {
-        startTimer(5)
-        console.log("SMS sent");
-      };
+  const sendSMS = () => {
+    startTimer(5);
+    console.log("SMS sent");
+  };
 
   const formatTime = (sec) => {
     const m = Math.floor(sec / 60);
@@ -86,26 +86,13 @@ const AuthPageWrapper = () => {
 
   const handleControlSteps = (step) => {
     setActiveStep(step);
-    
+
     if (step === 2) {
       sendSMS();
     } else {
-      console.log("HERE");
-      
-      const mockUser = {
-      id: "123",
-      name: "John Doe",
-      phone: "+1234567890",
-    };
+      router.push("/profile");
 
-
-    Cookies.set("user", JSON.stringify(mockUser), { expires: 365 });
-    Cookies.set("token", "Bearer: jafhksdj0832nlejwfh9238sdf8023", { expires: 365 });
-    console.log("Mock user cookie set:", mockUser);
-
-    router.push("/profile")
-
-    toast.success("Event has been created.")
+      toast.success("Event has been created.");
     }
   };
 
@@ -167,7 +154,9 @@ const AuthPageWrapper = () => {
                     </Button>
                   </>
                 ) : (
-                  <p className="text-muted-foreground text-sm">{t("can_resend_in") + formatTime(secondsLeft)}</p>
+                  <p className="text-muted-foreground text-sm">
+                    {t("can_resend_in") + formatTime(secondsLeft)}
+                  </p>
                 )}
               </div>
             </div>
