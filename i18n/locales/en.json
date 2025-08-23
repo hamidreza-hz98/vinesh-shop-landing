@@ -118,5 +118,8 @@
   "code_copied": "Code copied to clipboard!",
   "days": "Days",
   "hours": "Hours",
-  "expired": "Expired"
+  "expired": "Expired",
+  "pending_for_comment": "Pending for Comment",
+  "edit_comment_and_rate": "Edit Comment and Rate",
+  "delete_comment": "Delete Comment"
 }
