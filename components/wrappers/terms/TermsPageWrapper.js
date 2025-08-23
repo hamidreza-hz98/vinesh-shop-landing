@@ -7,7 +7,7 @@ import Image from "next/image";
 import React from "react";
 import { FaChevronDown } from "react-icons/fa";
 
-const FaqPageWrapper = () => {
+const TermsPageWrapper = () => {
   const t = useTranslations();
 
   return (
@@ -43,4 +43,4 @@ const FaqPageWrapper = () => {
   );
 };
 
-export default FaqPageWrapper;
+export default TermsPageWrapper;
