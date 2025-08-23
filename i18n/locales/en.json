@@ -58,6 +58,8 @@
   "final_price": "Final Price",
   "discount": "Discount",
   "coupon": "Coupon",
+  "coupons": "Coupons",
+  "prizes": "Prizes",
 
   "recently_viewed_products": "Recently Viewed Products",
   "related_products": "Related Products",
@@ -111,5 +113,10 @@
   "comment": "Comment",
   "leave_a_comment": "Leave a Comment!",
 
-  "submit": "Submit"
+  "submit": "Submit",
+  "to_expire": "To Expire",
+  "code_copied": "Code copied to clipboard!",
+  "days": "Days",
+  "hours": "Hours",
+  "expired": "Expired"
 }
