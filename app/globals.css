@@ -115,3 +115,93 @@
 .PhoneInput--focus input {
   box-shadow: none !important;
 }
+
+/* Blog / Content Styling */
+.content {
+  @apply text-foreground leading-relaxed;
+}
+
+.content h1,
+.content h2,
+.content h3,
+.content h4,
+.content h5,
+.content h6 {
+  @apply font-bold text-foreground mt-8 mb-4 leading-snug;
+}
+
+.content h1 {
+  @apply text-3xl;
+}
+
+.content h2 {
+  @apply text-2xl;
+}
+
+.content h3 {
+  @apply text-xl;
+}
+
+.content h4 {
+  @apply text-lg;
+}
+
+.content h5 {
+  @apply text-base;
+}
+
+.content h6 {
+  @apply text-sm;
+}
+
+.content p {
+  @apply text-foreground text-base mb-4;
+}
+
+.content span {
+  @apply text-muted-foreground;
+}
+
+.content strong {
+  @apply font-semibold text-foreground;
+}
+
+.content em {
+  @apply italic text-foreground;
+}
+
+.content a {
+  @apply text-primary underline hover:text-primary/80 transition-colors;
+}
+
+.content ul {
+  @apply list-disc pl-6 mb-4 text-foreground;
+}
+
+.content ol {
+  @apply list-decimal pl-6 mb-4 text-foreground;
+}
+
+.content li {
+  @apply mb-2;
+}
+
+.content blockquote {
+  @apply border-l-4 border-muted-foreground pl-4 italic text-muted-foreground my-6;
+}
+
+.content img {
+  @apply rounded-lg my-6 w-full h-auto;
+}
+
+.content hr {
+  @apply border-t border-border my-8;
+}
+
+.content code {
+  @apply bg-muted text-foreground px-1.5 py-0.5 rounded text-sm font-mono;
+}
+
+.content pre {
+  @apply bg-muted text-foreground p-4 rounded-lg overflow-x-auto mb-6 font-mono text-sm;
+}

@@ -1,3 +1,25 @@
+export const blogDetailsBreadcrumbs = [
+  {
+    label: {
+      en: "Vinesh Shop",
+      pt: "",
+      ar: "",
+      fa: "",
+    },
+
+    link: "/",
+  },
+  {
+    label: {
+      en: "Blog",
+      pt: "",
+      ar: "",
+      fa: "",
+    },
+
+    link: "/blog",
+  },
+];
 
 export const sortBlogItems = [
   {
@@ -43,7 +65,6 @@ export const sortBlogItems = [
 ];
 
 export const filterBlogsItems = [
-  
   {
     id: "category",
     label: {
@@ -108,8 +129,7 @@ export const filterBlogsItems = [
       },
     ],
   },
-
-]
+];
 
 export const blogs = [
   {
@@ -255,6 +275,84 @@ export const blogs = [
         ar: "تكنولوجيا",
         fa: "فناوری",
       },
+      {
+        en: "AI",
+        pt: "IA",
+        ar: "الذكاء الاصطناعي",
+        fa: "هوش مصنوعی",
+      },
+      {
+        en: "automation",
+        pt: "automação",
+        ar: "أتمتة",
+        fa: "اتوماسیون",
+      },
+      {
+        en: "IoT",
+        pt: "IoT",
+        ar: "إنترنت الأشياء",
+        fa: "اینترنت اشیا",
+      },
+      {
+        en: "security",
+        pt: "segurança",
+        ar: "أمن",
+        fa: "امنیت",
+      },
+      {
+        en: "privacy",
+        pt: "privacidade",
+        ar: "خصوصية",
+        fa: "حریم خصوصی",
+      },
+      {
+        en: "energy efficiency",
+        pt: "eficiência energética",
+        ar: "كفاءة الطاقة",
+        fa: "بهره‌وری انرژی",
+      },
+      {
+        en: "AI assistant",
+        pt: "assistente de IA",
+        ar: "مساعد الذكاء الاصطناعي",
+        fa: "دستیار هوش مصنوعی",
+      },
+      {
+        en: "cloud computing",
+        pt: "computação em nuvem",
+        ar: "الحوسبة السحابية",
+        fa: "رایانش ابری",
+      },
+      {
+        en: "big data",
+        pt: "big data",
+        ar: "البيانات الضخمة",
+        fa: "داده‌های کلان",
+      },
+      {
+        en: "future",
+        pt: "futuro",
+        ar: "المستقبل",
+        fa: "آینده",
+      },
+      {
+        en: "innovation",
+        pt: "inovação",
+        ar: "ابتكار",
+        fa: "نوآوری",
+      },
+      {
+        en: "digital life",
+        pt: "vida digital",
+        ar: "الحياة الرقمية",
+        fa: "زندگی دیجیتال",
+      },
+      {
+        en: "machine learning",
+        pt: "aprendizado de máquina",
+        ar: "تعلم الآلة",
+        fa: "یادگیری ماشین",
+      },
     ],
 
     categories: [
@@ -272,9 +370,5177 @@ export const blogs = [
       },
     ],
 
-    suggestedProducts: [],
+    suggestedProducts: [
+        {
+    name: {
+      en: "Modern Velvet Armchair",
+      pt: "Poltrona de Veludo Moderna",
+      ar: "كرسي بذراعين من المخمل العصري",
+      fa: "صندلی راحتی مخملی مدرن",
+    },
 
-    relatedBlogs: [],
+    excerpt: {
+      en: "A cozy and stylish velvet armchair perfect for any modern interior.",
+      pt: "Uma poltrona de veludo aconchegante e elegante, perfeita para interiores modernos.",
+      ar: "كرسي بذراعين مريح وأنيق من المخمل مثالي لأي ديكور داخلي عصري.",
+      fa: "یک صندلی راحتی مخملی شیک و راحت، مناسب برای دکوراسیون‌های مدرن.",
+    },
+
+    rate: 4.5,
+
+    warranty: {
+      en: "2 years manufacturer warranty",
+      pt: "2 anos de garantia do fabricante",
+      ar: "ضمان سنتين من الشركة المصنعة",
+      fa: "۲ سال گارانتی شرکت سازنده",
+    },
+
+    price: {
+      en: "$249",
+      pt: "R$ 1249",
+      ar: "د.إ 249",
+      fa: "۲۴۹ دلار",
+    },
+
+    slug: {
+      en: "modern-velvet-armchair",
+      pt: "poltrona-de-veludo-moderna",
+      ar: "كرسي-مخمل-عصري",
+      fa: "صندلی-راحتی-مخملی-مدرن",
+    },
+
+    media: [
+      {
+        type: "image",
+        src: "/images/placeholder.svg",
+      },
+      {
+        type: "image",
+        src: "/images/placeholder.svg",
+      },
+      {
+        type: "image",
+        src: "/images/placeholder.svg",
+      },
+      {
+        type: "image",
+        src: "/images/placeholder.svg",
+      },
+      {
+        type: "image",
+        src: "/images/placeholder.svg",
+      },
+      {
+        type: "image",
+        src: "/images/placeholder.svg",
+      },
+      {
+        type: "image",
+        src: "/images/placeholder.svg",
+      },
+      {
+        type: "image",
+        src: "/images/placeholder.svg",
+      },
+      {
+        type: "image",
+        src: "/images/placeholder.svg",
+      },
+      {
+        type: "image",
+        src: "/images/placeholder.svg",
+      },
+      {
+        type: "image",
+        src: "/images/placeholder.svg",
+      },
+      {
+        type: "image",
+        src: "/images/placeholder.svg",
+      },
+      {
+        type: "image",
+        src: "/images/placeholder.svg",
+      },
+      {
+        type: "image",
+        src: "/images/placeholder.svg",
+      },
+      {
+        type: "image",
+        src: "/images/placeholder.svg",
+      },
+      {
+        type: "image",
+        src: "/images/placeholder.svg",
+      },
+    ],
+
+    colors: [
+      {
+        name: {
+          en: "Navy Blue",
+          pt: "Azul Marinho",
+          ar: "أزرق كحلي",
+          fa: "سرمه‌ای",
+        },
+        code: "#245784",
+      },
+      {
+        name: {
+          en: "Crimson Red",
+          pt: "Vermelho Carmesim",
+          ar: "أحمر قرمزي",
+          fa: "قرمز زرشکی",
+        },
+        code: "#DC143C",
+      },
+      {
+        name: {
+          en: "Olive Green",
+          pt: "Verde Oliva",
+          ar: "أخضر زيتوني",
+          fa: "سبز زیتونی",
+        },
+        code: "#808000",
+      },
+      {
+        name: {
+          en: "Sunset Orange",
+          pt: "Laranja Pôr do Sol",
+          ar: "برتقالي الغروب",
+          fa: "نارنجی غروب",
+        },
+        code: "#FF4500",
+      },
+      {
+        name: {
+          en: "Lavender Purple",
+          pt: "Roxo Lavanda",
+          ar: "أرجواني الخزامى",
+          fa: "بنفش اسطوخودوسی",
+        },
+        code: "#B57EDC",
+      },
+    ],
+
+    sizes: {
+      name: {
+        en: "Standard",
+        pt: "Padrão",
+        ar: "قياسي",
+        fa: "استاندارد",
+      },
+      dimensions: {
+        en: "80x75x90 cm",
+        pt: "80x75x90 cm",
+        ar: "٨٠x٧٥x٩٠ سم",
+        fa: "۸۰x۷۵x۹۰ سانتی‌متر",
+      },
+    },
+
+    quantity: 278,
+
+    description: {
+      en: `<p>This armchair features a sleek design and plush velvet upholstery. Perfect for a reading nook or as a stylish accent piece.</p>`,
+      pt: `<p>Esta poltrona possui um design elegante e estofamento em veludo macio. Perfeita para um canto de leitura ou como peça decorativa.</p>`,
+      ar: `<p>يتميز هذا الكرسي بتصميم أنيق وتنجيد فاخر من المخمل. مثالي لزاوية القراءة أو كقطعة ديكور أنيقة.</p>`,
+      fa: `<p>این صندلی دارای طراحی شیک و روکش مخملی نرم است. ایده‌آل برای گوشه مطالعه یا به‌عنوان یک قطعه دکوراتیو زیبا.</p>`,
+    },
+
+    specifications: [
+      {
+        key: {
+          en: "Material",
+          pt: "Material",
+          ar: "الخامة",
+          fa: "جنس",
+        },
+        value: {
+          en: "Velvet, Wood",
+          pt: "Veludo, Madeira",
+          ar: "مخمل، خشب",
+          fa: "مخمل، چوب",
+        },
+      },
+      {
+        key: {
+          en: "Weight Capacity",
+          pt: "Capacidade de Peso",
+          ar: "الوزن المسموح",
+          fa: "تحمل وزن",
+        },
+        value: {
+          en: "120 kg",
+          pt: "120 kg",
+          ar: "١٢٠ كجم",
+          fa: "۱۲۰ کیلوگرم",
+        },
+      },
+    ],
+
+    reviews: [
+      {
+        rate: 5,
+        title: "Absolutely love it!",
+        text: "Super comfy and looks amazing in my living room.",
+        user: {
+          name: "Emily Hamilton",
+          avatar: null,
+        },
+        replies: [
+          {
+            rate: 0,
+            title: "Seller Response",
+            text: "Thanks so much for your feedback, Emily! We’re thrilled you’re enjoying your new chair.",
+            user: {
+              name: "Store Team",
+              avatar: "/images/placeholder.svg",
+            },
+            replies: [],
+            date: "2025-07-11",
+            likes: 8,
+            dislikes: 0,
+          },
+          {
+            rate: 0,
+            title: "Agree!",
+            text: "I bought the same chair and I totally agree with you. It’s super comfy.",
+            user: {
+              name: "Liam G.",
+              avatar: "/images/placeholder.svg",
+            },
+            replies: [],
+            date: "2025-07-12",
+            likes: 5,
+            dislikes: 1,
+          },
+          {
+            rate: 0,
+            title: "Quick Question",
+            text: "Does the color look the same in person as in the photos?",
+            user: {
+              name: "Olivia M.",
+              avatar: "/images/placeholder.svg",
+            },
+            replies: [],
+            date: "2025-07-13",
+            likes: 3,
+            dislikes: 0,
+          },
+        ],
+        date: "2025-07-10",
+        likes: 27,
+        dislikes: 7,
+      },
+      {
+        rate: 4,
+        title: "Great purchase",
+        text: "The fabric feels really soft and the color is exactly as shown. Took a bit longer to arrive than expected.",
+        user: {
+          name: "Daniel K.",
+          avatar: "/images/placeholder.svg",
+        },
+        replies: [],
+        date: "2025-07-14",
+        likes: 15,
+        dislikes: 3,
+      },
+      {
+        rate: 3,
+        title: "Good, but not perfect",
+        text: "The chair is stylish, but I found the seat a bit firmer than I like. Still works well as an accent piece.",
+        user: {
+          name: "Sophia L.",
+          avatar: "/images/placeholder.svg",
+        },
+        replies: [],
+        date: "2025-07-18",
+        likes: 9,
+        dislikes: 6,
+      },
+      {
+        rate: 5,
+        title: "Exceeded my expectations!",
+        text: "Beautiful design and very comfortable. Everyone who visits compliments it. Highly recommend!",
+        user: {
+          name: "Michael B.",
+          avatar: "/images/placeholder.svg",
+        },
+        replies: [],
+        date: "2025-07-21",
+        likes: 42,
+        dislikes: 2,
+      },
+      {
+        rate: 2,
+        title: "Not worth the price",
+        text: "Looks good but the quality doesn’t feel very durable. A bit disappointed given the cost.",
+        user: {
+          name: "Hannah S.",
+          avatar: "/images/placeholder.svg",
+        },
+        replies: [],
+        date: "2025-07-25",
+        likes: 5,
+        dislikes: 18,
+      },
+      {
+        rate: 4,
+        title: "Nice chair overall",
+        text: "Perfect size for my reading nook. Assembly was straightforward, though the instructions could be clearer.",
+        user: {
+          name: "James P.",
+          avatar: "/images/placeholder.svg",
+        },
+        replies: [],
+        date: "2025-07-29",
+        likes: 20,
+        dislikes: 4,
+      },
+    ],
+
+    relatedProducts: [],
+
+    discount: 15, //percent
+
+    isInCampaign: true,
+
+    isSelected: false, //is chosen as selected by admin
+
+    warranty: {
+      en: "2 years manufacturer warranty",
+      pt: "2 anos de garantia do fabricante",
+      ar: "ضمان سنتين من الشركة المصنعة",
+      fa: "۲ سال گارانتی شرکت سازنده",
+    },
+
+    categories: ["furniture", "seating", "armchairs"],
+
+    tags: ["velvet", "modern", "blue", "living-room"],
+
+    catalogue: {
+      en: "/file.pdf download",
+      pt: "/file.pdf download",
+      ar: "/file.pdf download",
+      fa: "/file.pdf download",
+    },
+
+    brand: {
+      name: {
+        en: "Luxe Living",
+        pt: "Luxe Living",
+        ar: "لاكشري ليفينغ",
+        fa: "لوکس لیوینگ",
+      },
+      logo: "/images/placeholder.svg",
+    },
+  },
+    {
+    name: {
+      en: "Modern Velvet Armchair",
+      pt: "Poltrona de Veludo Moderna",
+      ar: "كرسي بذراعين من المخمل العصري",
+      fa: "صندلی راحتی مخملی مدرن",
+    },
+
+    excerpt: {
+      en: "A cozy and stylish velvet armchair perfect for any modern interior.",
+      pt: "Uma poltrona de veludo aconchegante e elegante, perfeita para interiores modernos.",
+      ar: "كرسي بذراعين مريح وأنيق من المخمل مثالي لأي ديكور داخلي عصري.",
+      fa: "یک صندلی راحتی مخملی شیک و راحت، مناسب برای دکوراسیون‌های مدرن.",
+    },
+
+    rate: 4.5,
+
+    warranty: {
+      en: "2 years manufacturer warranty",
+      pt: "2 anos de garantia do fabricante",
+      ar: "ضمان سنتين من الشركة المصنعة",
+      fa: "۲ سال گارانتی شرکت سازنده",
+    },
+
+    price: {
+      en: "$249",
+      pt: "R$ 1249",
+      ar: "د.إ 249",
+      fa: "۲۴۹ دلار",
+    },
+
+    slug: {
+      en: "modern-velvet-armchair",
+      pt: "poltrona-de-veludo-moderna",
+      ar: "كرسي-مخمل-عصري",
+      fa: "صندلی-راحتی-مخملی-مدرن",
+    },
+
+    media: [
+      {
+        type: "image",
+        src: "/images/placeholder.svg",
+      },
+      {
+        type: "image",
+        src: "/images/placeholder.svg",
+      },
+      {
+        type: "image",
+        src: "/images/placeholder.svg",
+      },
+      {
+        type: "image",
+        src: "/images/placeholder.svg",
+      },
+      {
+        type: "image",
+        src: "/images/placeholder.svg",
+      },
+      {
+        type: "image",
+        src: "/images/placeholder.svg",
+      },
+      {
+        type: "image",
+        src: "/images/placeholder.svg",
+      },
+      {
+        type: "image",
+        src: "/images/placeholder.svg",
+      },
+      {
+        type: "image",
+        src: "/images/placeholder.svg",
+      },
+      {
+        type: "image",
+        src: "/images/placeholder.svg",
+      },
+      {
+        type: "image",
+        src: "/images/placeholder.svg",
+      },
+      {
+        type: "image",
+        src: "/images/placeholder.svg",
+      },
+      {
+        type: "image",
+        src: "/images/placeholder.svg",
+      },
+      {
+        type: "image",
+        src: "/images/placeholder.svg",
+      },
+      {
+        type: "image",
+        src: "/images/placeholder.svg",
+      },
+      {
+        type: "image",
+        src: "/images/placeholder.svg",
+      },
+    ],
+
+    colors: [
+      {
+        name: {
+          en: "Navy Blue",
+          pt: "Azul Marinho",
+          ar: "أزرق كحلي",
+          fa: "سرمه‌ای",
+        },
+        code: "#245784",
+      },
+      {
+        name: {
+          en: "Crimson Red",
+          pt: "Vermelho Carmesim",
+          ar: "أحمر قرمزي",
+          fa: "قرمز زرشکی",
+        },
+        code: "#DC143C",
+      },
+      {
+        name: {
+          en: "Olive Green",
+          pt: "Verde Oliva",
+          ar: "أخضر زيتوني",
+          fa: "سبز زیتونی",
+        },
+        code: "#808000",
+      },
+      {
+        name: {
+          en: "Sunset Orange",
+          pt: "Laranja Pôr do Sol",
+          ar: "برتقالي الغروب",
+          fa: "نارنجی غروب",
+        },
+        code: "#FF4500",
+      },
+      {
+        name: {
+          en: "Lavender Purple",
+          pt: "Roxo Lavanda",
+          ar: "أرجواني الخزامى",
+          fa: "بنفش اسطوخودوسی",
+        },
+        code: "#B57EDC",
+      },
+    ],
+
+    sizes: {
+      name: {
+        en: "Standard",
+        pt: "Padrão",
+        ar: "قياسي",
+        fa: "استاندارد",
+      },
+      dimensions: {
+        en: "80x75x90 cm",
+        pt: "80x75x90 cm",
+        ar: "٨٠x٧٥x٩٠ سم",
+        fa: "۸۰x۷۵x۹۰ سانتی‌متر",
+      },
+    },
+
+    quantity: 278,
+
+    description: {
+      en: `<p>This armchair features a sleek design and plush velvet upholstery. Perfect for a reading nook or as a stylish accent piece.</p>`,
+      pt: `<p>Esta poltrona possui um design elegante e estofamento em veludo macio. Perfeita para um canto de leitura ou como peça decorativa.</p>`,
+      ar: `<p>يتميز هذا الكرسي بتصميم أنيق وتنجيد فاخر من المخمل. مثالي لزاوية القراءة أو كقطعة ديكور أنيقة.</p>`,
+      fa: `<p>این صندلی دارای طراحی شیک و روکش مخملی نرم است. ایده‌آل برای گوشه مطالعه یا به‌عنوان یک قطعه دکوراتیو زیبا.</p>`,
+    },
+
+    specifications: [
+      {
+        key: {
+          en: "Material",
+          pt: "Material",
+          ar: "الخامة",
+          fa: "جنس",
+        },
+        value: {
+          en: "Velvet, Wood",
+          pt: "Veludo, Madeira",
+          ar: "مخمل، خشب",
+          fa: "مخمل، چوب",
+        },
+      },
+      {
+        key: {
+          en: "Weight Capacity",
+          pt: "Capacidade de Peso",
+          ar: "الوزن المسموح",
+          fa: "تحمل وزن",
+        },
+        value: {
+          en: "120 kg",
+          pt: "120 kg",
+          ar: "١٢٠ كجم",
+          fa: "۱۲۰ کیلوگرم",
+        },
+      },
+    ],
+
+    reviews: [
+      {
+        rate: 5,
+        title: "Absolutely love it!",
+        text: "Super comfy and looks amazing in my living room.",
+        user: {
+          name: "Emily Hamilton",
+          avatar: null,
+        },
+        replies: [
+          {
+            rate: 0,
+            title: "Seller Response",
+            text: "Thanks so much for your feedback, Emily! We’re thrilled you’re enjoying your new chair.",
+            user: {
+              name: "Store Team",
+              avatar: "/images/placeholder.svg",
+            },
+            replies: [],
+            date: "2025-07-11",
+            likes: 8,
+            dislikes: 0,
+          },
+          {
+            rate: 0,
+            title: "Agree!",
+            text: "I bought the same chair and I totally agree with you. It’s super comfy.",
+            user: {
+              name: "Liam G.",
+              avatar: "/images/placeholder.svg",
+            },
+            replies: [],
+            date: "2025-07-12",
+            likes: 5,
+            dislikes: 1,
+          },
+          {
+            rate: 0,
+            title: "Quick Question",
+            text: "Does the color look the same in person as in the photos?",
+            user: {
+              name: "Olivia M.",
+              avatar: "/images/placeholder.svg",
+            },
+            replies: [],
+            date: "2025-07-13",
+            likes: 3,
+            dislikes: 0,
+          },
+        ],
+        date: "2025-07-10",
+        likes: 27,
+        dislikes: 7,
+      },
+      {
+        rate: 4,
+        title: "Great purchase",
+        text: "The fabric feels really soft and the color is exactly as shown. Took a bit longer to arrive than expected.",
+        user: {
+          name: "Daniel K.",
+          avatar: "/images/placeholder.svg",
+        },
+        replies: [],
+        date: "2025-07-14",
+        likes: 15,
+        dislikes: 3,
+      },
+      {
+        rate: 3,
+        title: "Good, but not perfect",
+        text: "The chair is stylish, but I found the seat a bit firmer than I like. Still works well as an accent piece.",
+        user: {
+          name: "Sophia L.",
+          avatar: "/images/placeholder.svg",
+        },
+        replies: [],
+        date: "2025-07-18",
+        likes: 9,
+        dislikes: 6,
+      },
+      {
+        rate: 5,
+        title: "Exceeded my expectations!",
+        text: "Beautiful design and very comfortable. Everyone who visits compliments it. Highly recommend!",
+        user: {
+          name: "Michael B.",
+          avatar: "/images/placeholder.svg",
+        },
+        replies: [],
+        date: "2025-07-21",
+        likes: 42,
+        dislikes: 2,
+      },
+      {
+        rate: 2,
+        title: "Not worth the price",
+        text: "Looks good but the quality doesn’t feel very durable. A bit disappointed given the cost.",
+        user: {
+          name: "Hannah S.",
+          avatar: "/images/placeholder.svg",
+        },
+        replies: [],
+        date: "2025-07-25",
+        likes: 5,
+        dislikes: 18,
+      },
+      {
+        rate: 4,
+        title: "Nice chair overall",
+        text: "Perfect size for my reading nook. Assembly was straightforward, though the instructions could be clearer.",
+        user: {
+          name: "James P.",
+          avatar: "/images/placeholder.svg",
+        },
+        replies: [],
+        date: "2025-07-29",
+        likes: 20,
+        dislikes: 4,
+      },
+    ],
+
+    relatedProducts: [],
+
+    discount: 15, //percent
+
+    isInCampaign: true,
+
+    isSelected: false, //is chosen as selected by admin
+
+    warranty: {
+      en: "2 years manufacturer warranty",
+      pt: "2 anos de garantia do fabricante",
+      ar: "ضمان سنتين من الشركة المصنعة",
+      fa: "۲ سال گارانتی شرکت سازنده",
+    },
+
+    categories: ["furniture", "seating", "armchairs"],
+
+    tags: ["velvet", "modern", "blue", "living-room"],
+
+    catalogue: {
+      en: "/file.pdf download",
+      pt: "/file.pdf download",
+      ar: "/file.pdf download",
+      fa: "/file.pdf download",
+    },
+
+    brand: {
+      name: {
+        en: "Luxe Living",
+        pt: "Luxe Living",
+        ar: "لاكشري ليفينغ",
+        fa: "لوکس لیوینگ",
+      },
+      logo: "/images/placeholder.svg",
+    },
+  },
+    {
+    name: {
+      en: "Modern Velvet Armchair",
+      pt: "Poltrona de Veludo Moderna",
+      ar: "كرسي بذراعين من المخمل العصري",
+      fa: "صندلی راحتی مخملی مدرن",
+    },
+
+    excerpt: {
+      en: "A cozy and stylish velvet armchair perfect for any modern interior.",
+      pt: "Uma poltrona de veludo aconchegante e elegante, perfeita para interiores modernos.",
+      ar: "كرسي بذراعين مريح وأنيق من المخمل مثالي لأي ديكور داخلي عصري.",
+      fa: "یک صندلی راحتی مخملی شیک و راحت، مناسب برای دکوراسیون‌های مدرن.",
+    },
+
+    rate: 4.5,
+
+    warranty: {
+      en: "2 years manufacturer warranty",
+      pt: "2 anos de garantia do fabricante",
+      ar: "ضمان سنتين من الشركة المصنعة",
+      fa: "۲ سال گارانتی شرکت سازنده",
+    },
+
+    price: {
+      en: "$249",
+      pt: "R$ 1249",
+      ar: "د.إ 249",
+      fa: "۲۴۹ دلار",
+    },
+
+    slug: {
+      en: "modern-velvet-armchair",
+      pt: "poltrona-de-veludo-moderna",
+      ar: "كرسي-مخمل-عصري",
+      fa: "صندلی-راحتی-مخملی-مدرن",
+    },
+
+    media: [
+      {
+        type: "image",
+        src: "/images/placeholder.svg",
+      },
+      {
+        type: "image",
+        src: "/images/placeholder.svg",
+      },
+      {
+        type: "image",
+        src: "/images/placeholder.svg",
+      },
+      {
+        type: "image",
+        src: "/images/placeholder.svg",
+      },
+      {
+        type: "image",
+        src: "/images/placeholder.svg",
+      },
+      {
+        type: "image",
+        src: "/images/placeholder.svg",
+      },
+      {
+        type: "image",
+        src: "/images/placeholder.svg",
+      },
+      {
+        type: "image",
+        src: "/images/placeholder.svg",
+      },
+      {
+        type: "image",
+        src: "/images/placeholder.svg",
+      },
+      {
+        type: "image",
+        src: "/images/placeholder.svg",
+      },
+      {
+        type: "image",
+        src: "/images/placeholder.svg",
+      },
+      {
+        type: "image",
+        src: "/images/placeholder.svg",
+      },
+      {
+        type: "image",
+        src: "/images/placeholder.svg",
+      },
+      {
+        type: "image",
+        src: "/images/placeholder.svg",
+      },
+      {
+        type: "image",
+        src: "/images/placeholder.svg",
+      },
+      {
+        type: "image",
+        src: "/images/placeholder.svg",
+      },
+    ],
+
+    colors: [
+      {
+        name: {
+          en: "Navy Blue",
+          pt: "Azul Marinho",
+          ar: "أزرق كحلي",
+          fa: "سرمه‌ای",
+        },
+        code: "#245784",
+      },
+      {
+        name: {
+          en: "Crimson Red",
+          pt: "Vermelho Carmesim",
+          ar: "أحمر قرمزي",
+          fa: "قرمز زرشکی",
+        },
+        code: "#DC143C",
+      },
+      {
+        name: {
+          en: "Olive Green",
+          pt: "Verde Oliva",
+          ar: "أخضر زيتوني",
+          fa: "سبز زیتونی",
+        },
+        code: "#808000",
+      },
+      {
+        name: {
+          en: "Sunset Orange",
+          pt: "Laranja Pôr do Sol",
+          ar: "برتقالي الغروب",
+          fa: "نارنجی غروب",
+        },
+        code: "#FF4500",
+      },
+      {
+        name: {
+          en: "Lavender Purple",
+          pt: "Roxo Lavanda",
+          ar: "أرجواني الخزامى",
+          fa: "بنفش اسطوخودوسی",
+        },
+        code: "#B57EDC",
+      },
+    ],
+
+    sizes: {
+      name: {
+        en: "Standard",
+        pt: "Padrão",
+        ar: "قياسي",
+        fa: "استاندارد",
+      },
+      dimensions: {
+        en: "80x75x90 cm",
+        pt: "80x75x90 cm",
+        ar: "٨٠x٧٥x٩٠ سم",
+        fa: "۸۰x۷۵x۹۰ سانتی‌متر",
+      },
+    },
+
+    quantity: 278,
+
+    description: {
+      en: `<p>This armchair features a sleek design and plush velvet upholstery. Perfect for a reading nook or as a stylish accent piece.</p>`,
+      pt: `<p>Esta poltrona possui um design elegante e estofamento em veludo macio. Perfeita para um canto de leitura ou como peça decorativa.</p>`,
+      ar: `<p>يتميز هذا الكرسي بتصميم أنيق وتنجيد فاخر من المخمل. مثالي لزاوية القراءة أو كقطعة ديكور أنيقة.</p>`,
+      fa: `<p>این صندلی دارای طراحی شیک و روکش مخملی نرم است. ایده‌آل برای گوشه مطالعه یا به‌عنوان یک قطعه دکوراتیو زیبا.</p>`,
+    },
+
+    specifications: [
+      {
+        key: {
+          en: "Material",
+          pt: "Material",
+          ar: "الخامة",
+          fa: "جنس",
+        },
+        value: {
+          en: "Velvet, Wood",
+          pt: "Veludo, Madeira",
+          ar: "مخمل، خشب",
+          fa: "مخمل، چوب",
+        },
+      },
+      {
+        key: {
+          en: "Weight Capacity",
+          pt: "Capacidade de Peso",
+          ar: "الوزن المسموح",
+          fa: "تحمل وزن",
+        },
+        value: {
+          en: "120 kg",
+          pt: "120 kg",
+          ar: "١٢٠ كجم",
+          fa: "۱۲۰ کیلوگرم",
+        },
+      },
+    ],
+
+    reviews: [
+      {
+        rate: 5,
+        title: "Absolutely love it!",
+        text: "Super comfy and looks amazing in my living room.",
+        user: {
+          name: "Emily Hamilton",
+          avatar: null,
+        },
+        replies: [
+          {
+            rate: 0,
+            title: "Seller Response",
+            text: "Thanks so much for your feedback, Emily! We’re thrilled you’re enjoying your new chair.",
+            user: {
+              name: "Store Team",
+              avatar: "/images/placeholder.svg",
+            },
+            replies: [],
+            date: "2025-07-11",
+            likes: 8,
+            dislikes: 0,
+          },
+          {
+            rate: 0,
+            title: "Agree!",
+            text: "I bought the same chair and I totally agree with you. It’s super comfy.",
+            user: {
+              name: "Liam G.",
+              avatar: "/images/placeholder.svg",
+            },
+            replies: [],
+            date: "2025-07-12",
+            likes: 5,
+            dislikes: 1,
+          },
+          {
+            rate: 0,
+            title: "Quick Question",
+            text: "Does the color look the same in person as in the photos?",
+            user: {
+              name: "Olivia M.",
+              avatar: "/images/placeholder.svg",
+            },
+            replies: [],
+            date: "2025-07-13",
+            likes: 3,
+            dislikes: 0,
+          },
+        ],
+        date: "2025-07-10",
+        likes: 27,
+        dislikes: 7,
+      },
+      {
+        rate: 4,
+        title: "Great purchase",
+        text: "The fabric feels really soft and the color is exactly as shown. Took a bit longer to arrive than expected.",
+        user: {
+          name: "Daniel K.",
+          avatar: "/images/placeholder.svg",
+        },
+        replies: [],
+        date: "2025-07-14",
+        likes: 15,
+        dislikes: 3,
+      },
+      {
+        rate: 3,
+        title: "Good, but not perfect",
+        text: "The chair is stylish, but I found the seat a bit firmer than I like. Still works well as an accent piece.",
+        user: {
+          name: "Sophia L.",
+          avatar: "/images/placeholder.svg",
+        },
+        replies: [],
+        date: "2025-07-18",
+        likes: 9,
+        dislikes: 6,
+      },
+      {
+        rate: 5,
+        title: "Exceeded my expectations!",
+        text: "Beautiful design and very comfortable. Everyone who visits compliments it. Highly recommend!",
+        user: {
+          name: "Michael B.",
+          avatar: "/images/placeholder.svg",
+        },
+        replies: [],
+        date: "2025-07-21",
+        likes: 42,
+        dislikes: 2,
+      },
+      {
+        rate: 2,
+        title: "Not worth the price",
+        text: "Looks good but the quality doesn’t feel very durable. A bit disappointed given the cost.",
+        user: {
+          name: "Hannah S.",
+          avatar: "/images/placeholder.svg",
+        },
+        replies: [],
+        date: "2025-07-25",
+        likes: 5,
+        dislikes: 18,
+      },
+      {
+        rate: 4,
+        title: "Nice chair overall",
+        text: "Perfect size for my reading nook. Assembly was straightforward, though the instructions could be clearer.",
+        user: {
+          name: "James P.",
+          avatar: "/images/placeholder.svg",
+        },
+        replies: [],
+        date: "2025-07-29",
+        likes: 20,
+        dislikes: 4,
+      },
+    ],
+
+    relatedProducts: [],
+
+    discount: 15, //percent
+
+    isInCampaign: true,
+
+    isSelected: false, //is chosen as selected by admin
+
+    warranty: {
+      en: "2 years manufacturer warranty",
+      pt: "2 anos de garantia do fabricante",
+      ar: "ضمان سنتين من الشركة المصنعة",
+      fa: "۲ سال گارانتی شرکت سازنده",
+    },
+
+    categories: ["furniture", "seating", "armchairs"],
+
+    tags: ["velvet", "modern", "blue", "living-room"],
+
+    catalogue: {
+      en: "/file.pdf download",
+      pt: "/file.pdf download",
+      ar: "/file.pdf download",
+      fa: "/file.pdf download",
+    },
+
+    brand: {
+      name: {
+        en: "Luxe Living",
+        pt: "Luxe Living",
+        ar: "لاكشري ليفينغ",
+        fa: "لوکس لیوینگ",
+      },
+      logo: "/images/placeholder.svg",
+    },
+  },
+    {
+    name: {
+      en: "Modern Velvet Armchair",
+      pt: "Poltrona de Veludo Moderna",
+      ar: "كرسي بذراعين من المخمل العصري",
+      fa: "صندلی راحتی مخملی مدرن",
+    },
+
+    excerpt: {
+      en: "A cozy and stylish velvet armchair perfect for any modern interior.",
+      pt: "Uma poltrona de veludo aconchegante e elegante, perfeita para interiores modernos.",
+      ar: "كرسي بذراعين مريح وأنيق من المخمل مثالي لأي ديكور داخلي عصري.",
+      fa: "یک صندلی راحتی مخملی شیک و راحت، مناسب برای دکوراسیون‌های مدرن.",
+    },
+
+    rate: 4.5,
+
+    warranty: {
+      en: "2 years manufacturer warranty",
+      pt: "2 anos de garantia do fabricante",
+      ar: "ضمان سنتين من الشركة المصنعة",
+      fa: "۲ سال گارانتی شرکت سازنده",
+    },
+
+    price: {
+      en: "$249",
+      pt: "R$ 1249",
+      ar: "د.إ 249",
+      fa: "۲۴۹ دلار",
+    },
+
+    slug: {
+      en: "modern-velvet-armchair",
+      pt: "poltrona-de-veludo-moderna",
+      ar: "كرسي-مخمل-عصري",
+      fa: "صندلی-راحتی-مخملی-مدرن",
+    },
+
+    media: [
+      {
+        type: "image",
+        src: "/images/placeholder.svg",
+      },
+      {
+        type: "image",
+        src: "/images/placeholder.svg",
+      },
+      {
+        type: "image",
+        src: "/images/placeholder.svg",
+      },
+      {
+        type: "image",
+        src: "/images/placeholder.svg",
+      },
+      {
+        type: "image",
+        src: "/images/placeholder.svg",
+      },
+      {
+        type: "image",
+        src: "/images/placeholder.svg",
+      },
+      {
+        type: "image",
+        src: "/images/placeholder.svg",
+      },
+      {
+        type: "image",
+        src: "/images/placeholder.svg",
+      },
+      {
+        type: "image",
+        src: "/images/placeholder.svg",
+      },
+      {
+        type: "image",
+        src: "/images/placeholder.svg",
+      },
+      {
+        type: "image",
+        src: "/images/placeholder.svg",
+      },
+      {
+        type: "image",
+        src: "/images/placeholder.svg",
+      },
+      {
+        type: "image",
+        src: "/images/placeholder.svg",
+      },
+      {
+        type: "image",
+        src: "/images/placeholder.svg",
+      },
+      {
+        type: "image",
+        src: "/images/placeholder.svg",
+      },
+      {
+        type: "image",
+        src: "/images/placeholder.svg",
+      },
+    ],
+
+    colors: [
+      {
+        name: {
+          en: "Navy Blue",
+          pt: "Azul Marinho",
+          ar: "أزرق كحلي",
+          fa: "سرمه‌ای",
+        },
+        code: "#245784",
+      },
+      {
+        name: {
+          en: "Crimson Red",
+          pt: "Vermelho Carmesim",
+          ar: "أحمر قرمزي",
+          fa: "قرمز زرشکی",
+        },
+        code: "#DC143C",
+      },
+      {
+        name: {
+          en: "Olive Green",
+          pt: "Verde Oliva",
+          ar: "أخضر زيتوني",
+          fa: "سبز زیتونی",
+        },
+        code: "#808000",
+      },
+      {
+        name: {
+          en: "Sunset Orange",
+          pt: "Laranja Pôr do Sol",
+          ar: "برتقالي الغروب",
+          fa: "نارنجی غروب",
+        },
+        code: "#FF4500",
+      },
+      {
+        name: {
+          en: "Lavender Purple",
+          pt: "Roxo Lavanda",
+          ar: "أرجواني الخزامى",
+          fa: "بنفش اسطوخودوسی",
+        },
+        code: "#B57EDC",
+      },
+    ],
+
+    sizes: {
+      name: {
+        en: "Standard",
+        pt: "Padrão",
+        ar: "قياسي",
+        fa: "استاندارد",
+      },
+      dimensions: {
+        en: "80x75x90 cm",
+        pt: "80x75x90 cm",
+        ar: "٨٠x٧٥x٩٠ سم",
+        fa: "۸۰x۷۵x۹۰ سانتی‌متر",
+      },
+    },
+
+    quantity: 278,
+
+    description: {
+      en: `<p>This armchair features a sleek design and plush velvet upholstery. Perfect for a reading nook or as a stylish accent piece.</p>`,
+      pt: `<p>Esta poltrona possui um design elegante e estofamento em veludo macio. Perfeita para um canto de leitura ou como peça decorativa.</p>`,
+      ar: `<p>يتميز هذا الكرسي بتصميم أنيق وتنجيد فاخر من المخمل. مثالي لزاوية القراءة أو كقطعة ديكور أنيقة.</p>`,
+      fa: `<p>این صندلی دارای طراحی شیک و روکش مخملی نرم است. ایده‌آل برای گوشه مطالعه یا به‌عنوان یک قطعه دکوراتیو زیبا.</p>`,
+    },
+
+    specifications: [
+      {
+        key: {
+          en: "Material",
+          pt: "Material",
+          ar: "الخامة",
+          fa: "جنس",
+        },
+        value: {
+          en: "Velvet, Wood",
+          pt: "Veludo, Madeira",
+          ar: "مخمل، خشب",
+          fa: "مخمل، چوب",
+        },
+      },
+      {
+        key: {
+          en: "Weight Capacity",
+          pt: "Capacidade de Peso",
+          ar: "الوزن المسموح",
+          fa: "تحمل وزن",
+        },
+        value: {
+          en: "120 kg",
+          pt: "120 kg",
+          ar: "١٢٠ كجم",
+          fa: "۱۲۰ کیلوگرم",
+        },
+      },
+    ],
+
+    reviews: [
+      {
+        rate: 5,
+        title: "Absolutely love it!",
+        text: "Super comfy and looks amazing in my living room.",
+        user: {
+          name: "Emily Hamilton",
+          avatar: null,
+        },
+        replies: [
+          {
+            rate: 0,
+            title: "Seller Response",
+            text: "Thanks so much for your feedback, Emily! We’re thrilled you’re enjoying your new chair.",
+            user: {
+              name: "Store Team",
+              avatar: "/images/placeholder.svg",
+            },
+            replies: [],
+            date: "2025-07-11",
+            likes: 8,
+            dislikes: 0,
+          },
+          {
+            rate: 0,
+            title: "Agree!",
+            text: "I bought the same chair and I totally agree with you. It’s super comfy.",
+            user: {
+              name: "Liam G.",
+              avatar: "/images/placeholder.svg",
+            },
+            replies: [],
+            date: "2025-07-12",
+            likes: 5,
+            dislikes: 1,
+          },
+          {
+            rate: 0,
+            title: "Quick Question",
+            text: "Does the color look the same in person as in the photos?",
+            user: {
+              name: "Olivia M.",
+              avatar: "/images/placeholder.svg",
+            },
+            replies: [],
+            date: "2025-07-13",
+            likes: 3,
+            dislikes: 0,
+          },
+        ],
+        date: "2025-07-10",
+        likes: 27,
+        dislikes: 7,
+      },
+      {
+        rate: 4,
+        title: "Great purchase",
+        text: "The fabric feels really soft and the color is exactly as shown. Took a bit longer to arrive than expected.",
+        user: {
+          name: "Daniel K.",
+          avatar: "/images/placeholder.svg",
+        },
+        replies: [],
+        date: "2025-07-14",
+        likes: 15,
+        dislikes: 3,
+      },
+      {
+        rate: 3,
+        title: "Good, but not perfect",
+        text: "The chair is stylish, but I found the seat a bit firmer than I like. Still works well as an accent piece.",
+        user: {
+          name: "Sophia L.",
+          avatar: "/images/placeholder.svg",
+        },
+        replies: [],
+        date: "2025-07-18",
+        likes: 9,
+        dislikes: 6,
+      },
+      {
+        rate: 5,
+        title: "Exceeded my expectations!",
+        text: "Beautiful design and very comfortable. Everyone who visits compliments it. Highly recommend!",
+        user: {
+          name: "Michael B.",
+          avatar: "/images/placeholder.svg",
+        },
+        replies: [],
+        date: "2025-07-21",
+        likes: 42,
+        dislikes: 2,
+      },
+      {
+        rate: 2,
+        title: "Not worth the price",
+        text: "Looks good but the quality doesn’t feel very durable. A bit disappointed given the cost.",
+        user: {
+          name: "Hannah S.",
+          avatar: "/images/placeholder.svg",
+        },
+        replies: [],
+        date: "2025-07-25",
+        likes: 5,
+        dislikes: 18,
+      },
+      {
+        rate: 4,
+        title: "Nice chair overall",
+        text: "Perfect size for my reading nook. Assembly was straightforward, though the instructions could be clearer.",
+        user: {
+          name: "James P.",
+          avatar: "/images/placeholder.svg",
+        },
+        replies: [],
+        date: "2025-07-29",
+        likes: 20,
+        dislikes: 4,
+      },
+    ],
+
+    relatedProducts: [],
+
+    discount: 15, //percent
+
+    isInCampaign: true,
+
+    isSelected: false, //is chosen as selected by admin
+
+    warranty: {
+      en: "2 years manufacturer warranty",
+      pt: "2 anos de garantia do fabricante",
+      ar: "ضمان سنتين من الشركة المصنعة",
+      fa: "۲ سال گارانتی شرکت سازنده",
+    },
+
+    categories: ["furniture", "seating", "armchairs"],
+
+    tags: ["velvet", "modern", "blue", "living-room"],
+
+    catalogue: {
+      en: "/file.pdf download",
+      pt: "/file.pdf download",
+      ar: "/file.pdf download",
+      fa: "/file.pdf download",
+    },
+
+    brand: {
+      name: {
+        en: "Luxe Living",
+        pt: "Luxe Living",
+        ar: "لاكشري ليفينغ",
+        fa: "لوکس لیوینگ",
+      },
+      logo: "/images/placeholder.svg",
+    },
+  },
+    {
+    name: {
+      en: "Modern Velvet Armchair",
+      pt: "Poltrona de Veludo Moderna",
+      ar: "كرسي بذراعين من المخمل العصري",
+      fa: "صندلی راحتی مخملی مدرن",
+    },
+
+    excerpt: {
+      en: "A cozy and stylish velvet armchair perfect for any modern interior.",
+      pt: "Uma poltrona de veludo aconchegante e elegante, perfeita para interiores modernos.",
+      ar: "كرسي بذراعين مريح وأنيق من المخمل مثالي لأي ديكور داخلي عصري.",
+      fa: "یک صندلی راحتی مخملی شیک و راحت، مناسب برای دکوراسیون‌های مدرن.",
+    },
+
+    rate: 4.5,
+
+    warranty: {
+      en: "2 years manufacturer warranty",
+      pt: "2 anos de garantia do fabricante",
+      ar: "ضمان سنتين من الشركة المصنعة",
+      fa: "۲ سال گارانتی شرکت سازنده",
+    },
+
+    price: {
+      en: "$249",
+      pt: "R$ 1249",
+      ar: "د.إ 249",
+      fa: "۲۴۹ دلار",
+    },
+
+    slug: {
+      en: "modern-velvet-armchair",
+      pt: "poltrona-de-veludo-moderna",
+      ar: "كرسي-مخمل-عصري",
+      fa: "صندلی-راحتی-مخملی-مدرن",
+    },
+
+    media: [
+      {
+        type: "image",
+        src: "/images/placeholder.svg",
+      },
+      {
+        type: "image",
+        src: "/images/placeholder.svg",
+      },
+      {
+        type: "image",
+        src: "/images/placeholder.svg",
+      },
+      {
+        type: "image",
+        src: "/images/placeholder.svg",
+      },
+      {
+        type: "image",
+        src: "/images/placeholder.svg",
+      },
+      {
+        type: "image",
+        src: "/images/placeholder.svg",
+      },
+      {
+        type: "image",
+        src: "/images/placeholder.svg",
+      },
+      {
+        type: "image",
+        src: "/images/placeholder.svg",
+      },
+      {
+        type: "image",
+        src: "/images/placeholder.svg",
+      },
+      {
+        type: "image",
+        src: "/images/placeholder.svg",
+      },
+      {
+        type: "image",
+        src: "/images/placeholder.svg",
+      },
+      {
+        type: "image",
+        src: "/images/placeholder.svg",
+      },
+      {
+        type: "image",
+        src: "/images/placeholder.svg",
+      },
+      {
+        type: "image",
+        src: "/images/placeholder.svg",
+      },
+      {
+        type: "image",
+        src: "/images/placeholder.svg",
+      },
+      {
+        type: "image",
+        src: "/images/placeholder.svg",
+      },
+    ],
+
+    colors: [
+      {
+        name: {
+          en: "Navy Blue",
+          pt: "Azul Marinho",
+          ar: "أزرق كحلي",
+          fa: "سرمه‌ای",
+        },
+        code: "#245784",
+      },
+      {
+        name: {
+          en: "Crimson Red",
+          pt: "Vermelho Carmesim",
+          ar: "أحمر قرمزي",
+          fa: "قرمز زرشکی",
+        },
+        code: "#DC143C",
+      },
+      {
+        name: {
+          en: "Olive Green",
+          pt: "Verde Oliva",
+          ar: "أخضر زيتوني",
+          fa: "سبز زیتونی",
+        },
+        code: "#808000",
+      },
+      {
+        name: {
+          en: "Sunset Orange",
+          pt: "Laranja Pôr do Sol",
+          ar: "برتقالي الغروب",
+          fa: "نارنجی غروب",
+        },
+        code: "#FF4500",
+      },
+      {
+        name: {
+          en: "Lavender Purple",
+          pt: "Roxo Lavanda",
+          ar: "أرجواني الخزامى",
+          fa: "بنفش اسطوخودوسی",
+        },
+        code: "#B57EDC",
+      },
+    ],
+
+    sizes: {
+      name: {
+        en: "Standard",
+        pt: "Padrão",
+        ar: "قياسي",
+        fa: "استاندارد",
+      },
+      dimensions: {
+        en: "80x75x90 cm",
+        pt: "80x75x90 cm",
+        ar: "٨٠x٧٥x٩٠ سم",
+        fa: "۸۰x۷۵x۹۰ سانتی‌متر",
+      },
+    },
+
+    quantity: 278,
+
+    description: {
+      en: `<p>This armchair features a sleek design and plush velvet upholstery. Perfect for a reading nook or as a stylish accent piece.</p>`,
+      pt: `<p>Esta poltrona possui um design elegante e estofamento em veludo macio. Perfeita para um canto de leitura ou como peça decorativa.</p>`,
+      ar: `<p>يتميز هذا الكرسي بتصميم أنيق وتنجيد فاخر من المخمل. مثالي لزاوية القراءة أو كقطعة ديكور أنيقة.</p>`,
+      fa: `<p>این صندلی دارای طراحی شیک و روکش مخملی نرم است. ایده‌آل برای گوشه مطالعه یا به‌عنوان یک قطعه دکوراتیو زیبا.</p>`,
+    },
+
+    specifications: [
+      {
+        key: {
+          en: "Material",
+          pt: "Material",
+          ar: "الخامة",
+          fa: "جنس",
+        },
+        value: {
+          en: "Velvet, Wood",
+          pt: "Veludo, Madeira",
+          ar: "مخمل، خشب",
+          fa: "مخمل، چوب",
+        },
+      },
+      {
+        key: {
+          en: "Weight Capacity",
+          pt: "Capacidade de Peso",
+          ar: "الوزن المسموح",
+          fa: "تحمل وزن",
+        },
+        value: {
+          en: "120 kg",
+          pt: "120 kg",
+          ar: "١٢٠ كجم",
+          fa: "۱۲۰ کیلوگرم",
+        },
+      },
+    ],
+
+    reviews: [
+      {
+        rate: 5,
+        title: "Absolutely love it!",
+        text: "Super comfy and looks amazing in my living room.",
+        user: {
+          name: "Emily Hamilton",
+          avatar: null,
+        },
+        replies: [
+          {
+            rate: 0,
+            title: "Seller Response",
+            text: "Thanks so much for your feedback, Emily! We’re thrilled you’re enjoying your new chair.",
+            user: {
+              name: "Store Team",
+              avatar: "/images/placeholder.svg",
+            },
+            replies: [],
+            date: "2025-07-11",
+            likes: 8,
+            dislikes: 0,
+          },
+          {
+            rate: 0,
+            title: "Agree!",
+            text: "I bought the same chair and I totally agree with you. It’s super comfy.",
+            user: {
+              name: "Liam G.",
+              avatar: "/images/placeholder.svg",
+            },
+            replies: [],
+            date: "2025-07-12",
+            likes: 5,
+            dislikes: 1,
+          },
+          {
+            rate: 0,
+            title: "Quick Question",
+            text: "Does the color look the same in person as in the photos?",
+            user: {
+              name: "Olivia M.",
+              avatar: "/images/placeholder.svg",
+            },
+            replies: [],
+            date: "2025-07-13",
+            likes: 3,
+            dislikes: 0,
+          },
+        ],
+        date: "2025-07-10",
+        likes: 27,
+        dislikes: 7,
+      },
+      {
+        rate: 4,
+        title: "Great purchase",
+        text: "The fabric feels really soft and the color is exactly as shown. Took a bit longer to arrive than expected.",
+        user: {
+          name: "Daniel K.",
+          avatar: "/images/placeholder.svg",
+        },
+        replies: [],
+        date: "2025-07-14",
+        likes: 15,
+        dislikes: 3,
+      },
+      {
+        rate: 3,
+        title: "Good, but not perfect",
+        text: "The chair is stylish, but I found the seat a bit firmer than I like. Still works well as an accent piece.",
+        user: {
+          name: "Sophia L.",
+          avatar: "/images/placeholder.svg",
+        },
+        replies: [],
+        date: "2025-07-18",
+        likes: 9,
+        dislikes: 6,
+      },
+      {
+        rate: 5,
+        title: "Exceeded my expectations!",
+        text: "Beautiful design and very comfortable. Everyone who visits compliments it. Highly recommend!",
+        user: {
+          name: "Michael B.",
+          avatar: "/images/placeholder.svg",
+        },
+        replies: [],
+        date: "2025-07-21",
+        likes: 42,
+        dislikes: 2,
+      },
+      {
+        rate: 2,
+        title: "Not worth the price",
+        text: "Looks good but the quality doesn’t feel very durable. A bit disappointed given the cost.",
+        user: {
+          name: "Hannah S.",
+          avatar: "/images/placeholder.svg",
+        },
+        replies: [],
+        date: "2025-07-25",
+        likes: 5,
+        dislikes: 18,
+      },
+      {
+        rate: 4,
+        title: "Nice chair overall",
+        text: "Perfect size for my reading nook. Assembly was straightforward, though the instructions could be clearer.",
+        user: {
+          name: "James P.",
+          avatar: "/images/placeholder.svg",
+        },
+        replies: [],
+        date: "2025-07-29",
+        likes: 20,
+        dislikes: 4,
+      },
+    ],
+
+    relatedProducts: [],
+
+    discount: 15, //percent
+
+    isInCampaign: true,
+
+    isSelected: false, //is chosen as selected by admin
+
+    warranty: {
+      en: "2 years manufacturer warranty",
+      pt: "2 anos de garantia do fabricante",
+      ar: "ضمان سنتين من الشركة المصنعة",
+      fa: "۲ سال گارانتی شرکت سازنده",
+    },
+
+    categories: ["furniture", "seating", "armchairs"],
+
+    tags: ["velvet", "modern", "blue", "living-room"],
+
+    catalogue: {
+      en: "/file.pdf download",
+      pt: "/file.pdf download",
+      ar: "/file.pdf download",
+      fa: "/file.pdf download",
+    },
+
+    brand: {
+      name: {
+        en: "Luxe Living",
+        pt: "Luxe Living",
+        ar: "لاكشري ليفينغ",
+        fa: "لوکس لیوینگ",
+      },
+      logo: "/images/placeholder.svg",
+    },
+  },
+    ],
+
+    relatedBlogs: [
+      {
+        title: {
+          en: "Top 10 Travel Destinations in 2025",
+          pt: "Top 10 Destinos de Viagem em 2025",
+          ar: "أفضل 10 وجهات سفر في عام 2025",
+          fa: "۱۰ مقصد برتر سفر در سال ۲۰۲۵",
+        },
+        excerpt: {
+          en: "Discover the must-visit places in 2025 for unforgettable experiences around the globe.",
+          pt: "Descubra os lugares imperdíveis em 2025 para experiências inesquecíveis ao redor do mundo.",
+          ar: "اكتشف الأماكن التي يجب زيارتها في عام 2025 لتجارب لا تُنسى حول العالم.",
+          fa: "با بهترین مکان‌ها برای سفر در سال ۲۰۲۵ آشنا شوید و تجربه‌ای فراموش‌نشدنی کسب کنید.",
+        },
+        author: {
+          en: "Liam Torres",
+          pt: "Liam Torres",
+          ar: "ليام توريس",
+          fa: "لیام تورس",
+        },
+        image: "/images/placeholder.svg",
+        timeToRead: {
+          en: "6 min read",
+          pt: "6 min de leitura",
+          ar: "٦ دقائق قراءة",
+          fa: "۶ دقیقه مطالعه",
+        },
+        date: "2025-08-03",
+        text: {
+          en: `
+      <h1>Top 10 Places to Visit in 2025</h1>
+      <p>From tropical beaches to historic cities, 2025 is packed with exciting travel opportunities.</p>
+      <ol>
+        <li>Kyoto, Japan</li>
+        <li>Lisbon, Portugal</li>
+        <li>Cape Town, South Africa</li>
+        <li>Banff, Canada</li>
+      </ol>
+      <p>Make sure to plan early and explore responsibly!</p>
+    `,
+          pt: `
+      <h1>Top 10 Places to Visit in 2025</h1>
+      <p>From tropical beaches to historic cities, 2025 is packed with exciting travel opportunities.</p>
+      <ol>
+        <li>Kyoto, Japan</li>
+        <li>Lisbon, Portugal</li>
+        <li>Cape Town, South Africa</li>
+        <li>Banff, Canada</li>
+      </ol>
+      <p>Make sure to plan early and explore responsibly!</p>
+    `,
+          ar: `
+      <h1>Top 10 Places to Visit in 2025</h1>
+      <p>From tropical beaches to historic cities, 2025 is packed with exciting travel opportunities.</p>
+      <ol>
+        <li>Kyoto, Japan</li>
+        <li>Lisbon, Portugal</li>
+        <li>Cape Town, South Africa</li>
+        <li>Banff, Canada</li>
+      </ol>
+      <p>Make sure to plan early and explore responsibly!</p>
+    `,
+          fa: `
+      <h1>Top 10 Places to Visit in 2025</h1>
+      <p>From tropical beaches to historic cities, 2025 is packed with exciting travel opportunities.</p>
+      <ol>
+        <li>Kyoto, Japan</li>
+        <li>Lisbon, Portugal</li>
+        <li>Cape Town, South Africa</li>
+        <li>Banff, Canada</li>
+      </ol>
+      <p>Make sure to plan early and explore responsibly!</p>
+    `,
+        },
+        reviews: [],
+        tags: [
+          { en: "travel", pt: "viagem", ar: "السفر", fa: "سفر" },
+          { en: "destinations", pt: "destinos", ar: "وجهات", fa: "مقاصد" },
+        ],
+        categories: [
+          { en: "Tourism", pt: "Turismo", ar: "السياحة", fa: "گردشگری" },
+          {
+            en: "Lifestyle",
+            pt: "Estilo de vida",
+            ar: "نمط الحياة",
+            fa: "سبک زندگی",
+          },
+        ],
+        suggestedProducts: [],
+        relatedBlogs: [],
+        slug: {
+          en: "top-travel-destinations-2025",
+          pt: "destinos-de-viagem-2025",
+          ar: "وجهات-سفر-2025",
+          fa: "مقاصد-سفر-۲۰۲۵",
+        },
+        likes: 210,
+        dislikes: 18,
+      },
+      {
+        title: {
+          en: "Top 10 Travel Destinations in 2025",
+          pt: "Top 10 Destinos de Viagem em 2025",
+          ar: "أفضل 10 وجهات سفر في عام 2025",
+          fa: "۱۰ مقصد برتر سفر در سال ۲۰۲۵",
+        },
+        excerpt: {
+          en: "Discover the must-visit places in 2025 for unforgettable experiences around the globe.",
+          pt: "Descubra os lugares imperdíveis em 2025 para experiências inesquecíveis ao redor do mundo.",
+          ar: "اكتشف الأماكن التي يجب زيارتها في عام 2025 لتجارب لا تُنسى حول العالم.",
+          fa: "با بهترین مکان‌ها برای سفر در سال ۲۰۲۵ آشنا شوید و تجربه‌ای فراموش‌نشدنی کسب کنید.",
+        },
+        author: {
+          en: "Liam Torres",
+          pt: "Liam Torres",
+          ar: "ليام توريس",
+          fa: "لیام تورس",
+        },
+        image: "/images/placeholder.svg",
+        timeToRead: {
+          en: "6 min read",
+          pt: "6 min de leitura",
+          ar: "٦ دقائق قراءة",
+          fa: "۶ دقیقه مطالعه",
+        },
+        date: "2025-08-03",
+        text: {
+          en: `
+      <h1>Top 10 Places to Visit in 2025</h1>
+      <p>From tropical beaches to historic cities, 2025 is packed with exciting travel opportunities.</p>
+      <ol>
+        <li>Kyoto, Japan</li>
+        <li>Lisbon, Portugal</li>
+        <li>Cape Town, South Africa</li>
+        <li>Banff, Canada</li>
+      </ol>
+      <p>Make sure to plan early and explore responsibly!</p>
+    `,
+          pt: `
+      <h1>Top 10 Places to Visit in 2025</h1>
+      <p>From tropical beaches to historic cities, 2025 is packed with exciting travel opportunities.</p>
+      <ol>
+        <li>Kyoto, Japan</li>
+        <li>Lisbon, Portugal</li>
+        <li>Cape Town, South Africa</li>
+        <li>Banff, Canada</li>
+      </ol>
+      <p>Make sure to plan early and explore responsibly!</p>
+    `,
+          ar: `
+      <h1>Top 10 Places to Visit in 2025</h1>
+      <p>From tropical beaches to historic cities, 2025 is packed with exciting travel opportunities.</p>
+      <ol>
+        <li>Kyoto, Japan</li>
+        <li>Lisbon, Portugal</li>
+        <li>Cape Town, South Africa</li>
+        <li>Banff, Canada</li>
+      </ol>
+      <p>Make sure to plan early and explore responsibly!</p>
+    `,
+          fa: `
+      <h1>Top 10 Places to Visit in 2025</h1>
+      <p>From tropical beaches to historic cities, 2025 is packed with exciting travel opportunities.</p>
+      <ol>
+        <li>Kyoto, Japan</li>
+        <li>Lisbon, Portugal</li>
+        <li>Cape Town, South Africa</li>
+        <li>Banff, Canada</li>
+      </ol>
+      <p>Make sure to plan early and explore responsibly!</p>
+    `,
+        },
+        reviews: [],
+        tags: [
+          { en: "travel", pt: "viagem", ar: "السفر", fa: "سفر" },
+          { en: "destinations", pt: "destinos", ar: "وجهات", fa: "مقاصد" },
+        ],
+        categories: [
+          { en: "Tourism", pt: "Turismo", ar: "السياحة", fa: "گردشگری" },
+          {
+            en: "Lifestyle",
+            pt: "Estilo de vida",
+            ar: "نمط الحياة",
+            fa: "سبک زندگی",
+          },
+        ],
+        suggestedProducts: [],
+        relatedBlogs: [],
+        slug: {
+          en: "top-travel-destinations-2025",
+          pt: "destinos-de-viagem-2025",
+          ar: "وجهات-سفر-2025",
+          fa: "مقاصد-سفر-۲۰۲۵",
+        },
+        likes: 210,
+        dislikes: 18,
+      },
+      {
+        title: {
+          en: "Top 10 Travel Destinations in 2025",
+          pt: "Top 10 Destinos de Viagem em 2025",
+          ar: "أفضل 10 وجهات سفر في عام 2025",
+          fa: "۱۰ مقصد برتر سفر در سال ۲۰۲۵",
+        },
+        excerpt: {
+          en: "Discover the must-visit places in 2025 for unforgettable experiences around the globe.",
+          pt: "Descubra os lugares imperdíveis em 2025 para experiências inesquecíveis ao redor do mundo.",
+          ar: "اكتشف الأماكن التي يجب زيارتها في عام 2025 لتجارب لا تُنسى حول العالم.",
+          fa: "با بهترین مکان‌ها برای سفر در سال ۲۰۲۵ آشنا شوید و تجربه‌ای فراموش‌نشدنی کسب کنید.",
+        },
+        author: {
+          en: "Liam Torres",
+          pt: "Liam Torres",
+          ar: "ليام توريس",
+          fa: "لیام تورس",
+        },
+        image: "/images/placeholder.svg",
+        timeToRead: {
+          en: "6 min read",
+          pt: "6 min de leitura",
+          ar: "٦ دقائق قراءة",
+          fa: "۶ دقیقه مطالعه",
+        },
+        date: "2025-08-03",
+        text: {
+          en: `
+      <h1>Top 10 Places to Visit in 2025</h1>
+      <p>From tropical beaches to historic cities, 2025 is packed with exciting travel opportunities.</p>
+      <ol>
+        <li>Kyoto, Japan</li>
+        <li>Lisbon, Portugal</li>
+        <li>Cape Town, South Africa</li>
+        <li>Banff, Canada</li>
+      </ol>
+      <p>Make sure to plan early and explore responsibly!</p>
+    `,
+          pt: `
+      <h1>Top 10 Places to Visit in 2025</h1>
+      <p>From tropical beaches to historic cities, 2025 is packed with exciting travel opportunities.</p>
+      <ol>
+        <li>Kyoto, Japan</li>
+        <li>Lisbon, Portugal</li>
+        <li>Cape Town, South Africa</li>
+        <li>Banff, Canada</li>
+      </ol>
+      <p>Make sure to plan early and explore responsibly!</p>
+    `,
+          ar: `
+      <h1>Top 10 Places to Visit in 2025</h1>
+      <p>From tropical beaches to historic cities, 2025 is packed with exciting travel opportunities.</p>
+      <ol>
+        <li>Kyoto, Japan</li>
+        <li>Lisbon, Portugal</li>
+        <li>Cape Town, South Africa</li>
+        <li>Banff, Canada</li>
+      </ol>
+      <p>Make sure to plan early and explore responsibly!</p>
+    `,
+          fa: `
+      <h1>Top 10 Places to Visit in 2025</h1>
+      <p>From tropical beaches to historic cities, 2025 is packed with exciting travel opportunities.</p>
+      <ol>
+        <li>Kyoto, Japan</li>
+        <li>Lisbon, Portugal</li>
+        <li>Cape Town, South Africa</li>
+        <li>Banff, Canada</li>
+      </ol>
+      <p>Make sure to plan early and explore responsibly!</p>
+    `,
+        },
+        reviews: [],
+        tags: [
+          { en: "travel", pt: "viagem", ar: "السفر", fa: "سفر" },
+          { en: "destinations", pt: "destinos", ar: "وجهات", fa: "مقاصد" },
+        ],
+        categories: [
+          { en: "Tourism", pt: "Turismo", ar: "السياحة", fa: "گردشگری" },
+          {
+            en: "Lifestyle",
+            pt: "Estilo de vida",
+            ar: "نمط الحياة",
+            fa: "سبک زندگی",
+          },
+        ],
+        suggestedProducts: [],
+        relatedBlogs: [],
+        slug: {
+          en: "top-travel-destinations-2025",
+          pt: "destinos-de-viagem-2025",
+          ar: "وجهات-سفر-2025",
+          fa: "مقاصد-سفر-۲۰۲۵",
+        },
+        likes: 210,
+        dislikes: 18,
+      },
+      {
+        title: {
+          en: "Top 10 Travel Destinations in 2025",
+          pt: "Top 10 Destinos de Viagem em 2025",
+          ar: "أفضل 10 وجهات سفر في عام 2025",
+          fa: "۱۰ مقصد برتر سفر در سال ۲۰۲۵",
+        },
+        excerpt: {
+          en: "Discover the must-visit places in 2025 for unforgettable experiences around the globe.",
+          pt: "Descubra os lugares imperdíveis em 2025 para experiências inesquecíveis ao redor do mundo.",
+          ar: "اكتشف الأماكن التي يجب زيارتها في عام 2025 لتجارب لا تُنسى حول العالم.",
+          fa: "با بهترین مکان‌ها برای سفر در سال ۲۰۲۵ آشنا شوید و تجربه‌ای فراموش‌نشدنی کسب کنید.",
+        },
+        author: {
+          en: "Liam Torres",
+          pt: "Liam Torres",
+          ar: "ليام توريس",
+          fa: "لیام تورس",
+        },
+        image: "/images/placeholder.svg",
+        timeToRead: {
+          en: "6 min read",
+          pt: "6 min de leitura",
+          ar: "٦ دقائق قراءة",
+          fa: "۶ دقیقه مطالعه",
+        },
+        date: "2025-08-03",
+        text: {
+          en: `
+      <h1>Top 10 Places to Visit in 2025</h1>
+      <p>From tropical beaches to historic cities, 2025 is packed with exciting travel opportunities.</p>
+      <ol>
+        <li>Kyoto, Japan</li>
+        <li>Lisbon, Portugal</li>
+        <li>Cape Town, South Africa</li>
+        <li>Banff, Canada</li>
+      </ol>
+      <p>Make sure to plan early and explore responsibly!</p>
+    `,
+          pt: `
+      <h1>Top 10 Places to Visit in 2025</h1>
+      <p>From tropical beaches to historic cities, 2025 is packed with exciting travel opportunities.</p>
+      <ol>
+        <li>Kyoto, Japan</li>
+        <li>Lisbon, Portugal</li>
+        <li>Cape Town, South Africa</li>
+        <li>Banff, Canada</li>
+      </ol>
+      <p>Make sure to plan early and explore responsibly!</p>
+    `,
+          ar: `
+      <h1>Top 10 Places to Visit in 2025</h1>
+      <p>From tropical beaches to historic cities, 2025 is packed with exciting travel opportunities.</p>
+      <ol>
+        <li>Kyoto, Japan</li>
+        <li>Lisbon, Portugal</li>
+        <li>Cape Town, South Africa</li>
+        <li>Banff, Canada</li>
+      </ol>
+      <p>Make sure to plan early and explore responsibly!</p>
+    `,
+          fa: `
+      <h1>Top 10 Places to Visit in 2025</h1>
+      <p>From tropical beaches to historic cities, 2025 is packed with exciting travel opportunities.</p>
+      <ol>
+        <li>Kyoto, Japan</li>
+        <li>Lisbon, Portugal</li>
+        <li>Cape Town, South Africa</li>
+        <li>Banff, Canada</li>
+      </ol>
+      <p>Make sure to plan early and explore responsibly!</p>
+    `,
+        },
+        reviews: [],
+        tags: [
+          { en: "travel", pt: "viagem", ar: "السفر", fa: "سفر" },
+          { en: "destinations", pt: "destinos", ar: "وجهات", fa: "مقاصد" },
+        ],
+        categories: [
+          { en: "Tourism", pt: "Turismo", ar: "السياحة", fa: "گردشگری" },
+          {
+            en: "Lifestyle",
+            pt: "Estilo de vida",
+            ar: "نمط الحياة",
+            fa: "سبک زندگی",
+          },
+        ],
+        suggestedProducts: [
+          {
+            name: {
+              en: "Modern Velvet Armchair",
+              pt: "Poltrona de Veludo Moderna",
+              ar: "كرسي بذراعين من المخمل العصري",
+              fa: "صندلی راحتی مخملی مدرن",
+            },
+
+            excerpt: {
+              en: "A cozy and stylish velvet armchair perfect for any modern interior.",
+              pt: "Uma poltrona de veludo aconchegante e elegante, perfeita para interiores modernos.",
+              ar: "كرسي بذراعين مريح وأنيق من المخمل مثالي لأي ديكور داخلي عصري.",
+              fa: "یک صندلی راحتی مخملی شیک و راحت، مناسب برای دکوراسیون‌های مدرن.",
+            },
+
+            rate: 4.5,
+
+            warranty: {
+              en: "2 years manufacturer warranty",
+              pt: "2 anos de garantia do fabricante",
+              ar: "ضمان سنتين من الشركة المصنعة",
+              fa: "۲ سال گارانتی شرکت سازنده",
+            },
+
+            price: {
+              en: "$249",
+              pt: "R$ 1249",
+              ar: "د.إ 249",
+              fa: "۲۴۹ دلار",
+            },
+
+            slug: {
+              en: "modern-velvet-armchair",
+              pt: "poltrona-de-veludo-moderna",
+              ar: "كرسي-مخمل-عصري",
+              fa: "صندلی-راحتی-مخملی-مدرن",
+            },
+
+            media: [
+              {
+                type: "image",
+                src: "/images/placeholder.svg",
+              },
+              {
+                type: "image",
+                src: "/images/placeholder.svg",
+              },
+              {
+                type: "image",
+                src: "/images/placeholder.svg",
+              },
+              {
+                type: "image",
+                src: "/images/placeholder.svg",
+              },
+              {
+                type: "image",
+                src: "/images/placeholder.svg",
+              },
+              {
+                type: "image",
+                src: "/images/placeholder.svg",
+              },
+              {
+                type: "image",
+                src: "/images/placeholder.svg",
+              },
+              {
+                type: "image",
+                src: "/images/placeholder.svg",
+              },
+              {
+                type: "image",
+                src: "/images/placeholder.svg",
+              },
+              {
+                type: "image",
+                src: "/images/placeholder.svg",
+              },
+              {
+                type: "image",
+                src: "/images/placeholder.svg",
+              },
+              {
+                type: "image",
+                src: "/images/placeholder.svg",
+              },
+              {
+                type: "image",
+                src: "/images/placeholder.svg",
+              },
+              {
+                type: "image",
+                src: "/images/placeholder.svg",
+              },
+              {
+                type: "image",
+                src: "/images/placeholder.svg",
+              },
+              {
+                type: "image",
+                src: "/images/placeholder.svg",
+              },
+            ],
+
+            colors: [
+              {
+                name: {
+                  en: "Navy Blue",
+                  pt: "Azul Marinho",
+                  ar: "أزرق كحلي",
+                  fa: "سرمه‌ای",
+                },
+                code: "#245784",
+              },
+              {
+                name: {
+                  en: "Crimson Red",
+                  pt: "Vermelho Carmesim",
+                  ar: "أحمر قرمزي",
+                  fa: "قرمز زرشکی",
+                },
+                code: "#DC143C",
+              },
+              {
+                name: {
+                  en: "Olive Green",
+                  pt: "Verde Oliva",
+                  ar: "أخضر زيتوني",
+                  fa: "سبز زیتونی",
+                },
+                code: "#808000",
+              },
+              {
+                name: {
+                  en: "Sunset Orange",
+                  pt: "Laranja Pôr do Sol",
+                  ar: "برتقالي الغروب",
+                  fa: "نارنجی غروب",
+                },
+                code: "#FF4500",
+              },
+              {
+                name: {
+                  en: "Lavender Purple",
+                  pt: "Roxo Lavanda",
+                  ar: "أرجواني الخزامى",
+                  fa: "بنفش اسطوخودوسی",
+                },
+                code: "#B57EDC",
+              },
+            ],
+
+            sizes: {
+              name: {
+                en: "Standard",
+                pt: "Padrão",
+                ar: "قياسي",
+                fa: "استاندارد",
+              },
+              dimensions: {
+                en: "80x75x90 cm",
+                pt: "80x75x90 cm",
+                ar: "٨٠x٧٥x٩٠ سم",
+                fa: "۸۰x۷۵x۹۰ سانتی‌متر",
+              },
+            },
+
+            quantity: 278,
+
+            description: {
+              en: `<p>This armchair features a sleek design and plush velvet upholstery. Perfect for a reading nook or as a stylish accent piece.</p>`,
+              pt: `<p>Esta poltrona possui um design elegante e estofamento em veludo macio. Perfeita para um canto de leitura ou como peça decorativa.</p>`,
+              ar: `<p>يتميز هذا الكرسي بتصميم أنيق وتنجيد فاخر من المخمل. مثالي لزاوية القراءة أو كقطعة ديكور أنيقة.</p>`,
+              fa: `<p>این صندلی دارای طراحی شیک و روکش مخملی نرم است. ایده‌آل برای گوشه مطالعه یا به‌عنوان یک قطعه دکوراتیو زیبا.</p>`,
+            },
+
+            specifications: [
+              {
+                key: {
+                  en: "Material",
+                  pt: "Material",
+                  ar: "الخامة",
+                  fa: "جنس",
+                },
+                value: {
+                  en: "Velvet, Wood",
+                  pt: "Veludo, Madeira",
+                  ar: "مخمل، خشب",
+                  fa: "مخمل، چوب",
+                },
+              },
+              {
+                key: {
+                  en: "Weight Capacity",
+                  pt: "Capacidade de Peso",
+                  ar: "الوزن المسموح",
+                  fa: "تحمل وزن",
+                },
+                value: {
+                  en: "120 kg",
+                  pt: "120 kg",
+                  ar: "١٢٠ كجم",
+                  fa: "۱۲۰ کیلوگرم",
+                },
+              },
+            ],
+
+            reviews: [
+              {
+                rate: 5,
+                title: "Absolutely love it!",
+                text: "Super comfy and looks amazing in my living room.",
+                user: {
+                  name: "Emily Hamilton",
+                  avatar: null,
+                },
+                replies: [
+                  {
+                    rate: 0,
+                    title: "Seller Response",
+                    text: "Thanks so much for your feedback, Emily! We’re thrilled you’re enjoying your new chair.",
+                    user: {
+                      name: "Store Team",
+                      avatar: "/images/placeholder.svg",
+                    },
+                    replies: [],
+                    date: "2025-07-11",
+                    likes: 8,
+                    dislikes: 0,
+                  },
+                  {
+                    rate: 0,
+                    title: "Agree!",
+                    text: "I bought the same chair and I totally agree with you. It’s super comfy.",
+                    user: {
+                      name: "Liam G.",
+                      avatar: "/images/placeholder.svg",
+                    },
+                    replies: [],
+                    date: "2025-07-12",
+                    likes: 5,
+                    dislikes: 1,
+                  },
+                  {
+                    rate: 0,
+                    title: "Quick Question",
+                    text: "Does the color look the same in person as in the photos?",
+                    user: {
+                      name: "Olivia M.",
+                      avatar: "/images/placeholder.svg",
+                    },
+                    replies: [],
+                    date: "2025-07-13",
+                    likes: 3,
+                    dislikes: 0,
+                  },
+                ],
+                date: "2025-07-10",
+                likes: 27,
+                dislikes: 7,
+              },
+              {
+                rate: 4,
+                title: "Great purchase",
+                text: "The fabric feels really soft and the color is exactly as shown. Took a bit longer to arrive than expected.",
+                user: {
+                  name: "Daniel K.",
+                  avatar: "/images/placeholder.svg",
+                },
+                replies: [],
+                date: "2025-07-14",
+                likes: 15,
+                dislikes: 3,
+              },
+              {
+                rate: 3,
+                title: "Good, but not perfect",
+                text: "The chair is stylish, but I found the seat a bit firmer than I like. Still works well as an accent piece.",
+                user: {
+                  name: "Sophia L.",
+                  avatar: "/images/placeholder.svg",
+                },
+                replies: [],
+                date: "2025-07-18",
+                likes: 9,
+                dislikes: 6,
+              },
+              {
+                rate: 5,
+                title: "Exceeded my expectations!",
+                text: "Beautiful design and very comfortable. Everyone who visits compliments it. Highly recommend!",
+                user: {
+                  name: "Michael B.",
+                  avatar: "/images/placeholder.svg",
+                },
+                replies: [],
+                date: "2025-07-21",
+                likes: 42,
+                dislikes: 2,
+              },
+              {
+                rate: 2,
+                title: "Not worth the price",
+                text: "Looks good but the quality doesn’t feel very durable. A bit disappointed given the cost.",
+                user: {
+                  name: "Hannah S.",
+                  avatar: "/images/placeholder.svg",
+                },
+                replies: [],
+                date: "2025-07-25",
+                likes: 5,
+                dislikes: 18,
+              },
+              {
+                rate: 4,
+                title: "Nice chair overall",
+                text: "Perfect size for my reading nook. Assembly was straightforward, though the instructions could be clearer.",
+                user: {
+                  name: "James P.",
+                  avatar: "/images/placeholder.svg",
+                },
+                replies: [],
+                date: "2025-07-29",
+                likes: 20,
+                dislikes: 4,
+              },
+            ],
+
+            relatedProducts: [],
+
+            discount: 15, //percent
+
+            isInCampaign: true,
+
+            isSelected: false, //is chosen as selected by admin
+
+            warranty: {
+              en: "2 years manufacturer warranty",
+              pt: "2 anos de garantia do fabricante",
+              ar: "ضمان سنتين من الشركة المصنعة",
+              fa: "۲ سال گارانتی شرکت سازنده",
+            },
+
+            categories: ["furniture", "seating", "armchairs"],
+
+            tags: ["velvet", "modern", "blue", "living-room"],
+
+            catalogue: {
+              en: "/file.pdf download",
+              pt: "/file.pdf download",
+              ar: "/file.pdf download",
+              fa: "/file.pdf download",
+            },
+
+            brand: {
+              name: {
+                en: "Luxe Living",
+                pt: "Luxe Living",
+                ar: "لاكشري ليفينغ",
+                fa: "لوکس لیوینگ",
+              },
+              logo: "/images/placeholder.svg",
+            },
+          },
+          {
+            name: {
+              en: "Modern Velvet Armchair",
+              pt: "Poltrona de Veludo Moderna",
+              ar: "كرسي بذراعين من المخمل العصري",
+              fa: "صندلی راحتی مخملی مدرن",
+            },
+
+            excerpt: {
+              en: "A cozy and stylish velvet armchair perfect for any modern interior.",
+              pt: "Uma poltrona de veludo aconchegante e elegante, perfeita para interiores modernos.",
+              ar: "كرسي بذراعين مريح وأنيق من المخمل مثالي لأي ديكور داخلي عصري.",
+              fa: "یک صندلی راحتی مخملی شیک و راحت، مناسب برای دکوراسیون‌های مدرن.",
+            },
+
+            rate: 4.5,
+
+            warranty: {
+              en: "2 years manufacturer warranty",
+              pt: "2 anos de garantia do fabricante",
+              ar: "ضمان سنتين من الشركة المصنعة",
+              fa: "۲ سال گارانتی شرکت سازنده",
+            },
+
+            price: {
+              en: "$249",
+              pt: "R$ 1249",
+              ar: "د.إ 249",
+              fa: "۲۴۹ دلار",
+            },
+
+            slug: {
+              en: "modern-velvet-armchair",
+              pt: "poltrona-de-veludo-moderna",
+              ar: "كرسي-مخمل-عصري",
+              fa: "صندلی-راحتی-مخملی-مدرن",
+            },
+
+            media: [
+              {
+                type: "image",
+                src: "/images/placeholder.svg",
+              },
+              {
+                type: "image",
+                src: "/images/placeholder.svg",
+              },
+              {
+                type: "image",
+                src: "/images/placeholder.svg",
+              },
+              {
+                type: "image",
+                src: "/images/placeholder.svg",
+              },
+              {
+                type: "image",
+                src: "/images/placeholder.svg",
+              },
+              {
+                type: "image",
+                src: "/images/placeholder.svg",
+              },
+              {
+                type: "image",
+                src: "/images/placeholder.svg",
+              },
+              {
+                type: "image",
+                src: "/images/placeholder.svg",
+              },
+              {
+                type: "image",
+                src: "/images/placeholder.svg",
+              },
+              {
+                type: "image",
+                src: "/images/placeholder.svg",
+              },
+              {
+                type: "image",
+                src: "/images/placeholder.svg",
+              },
+              {
+                type: "image",
+                src: "/images/placeholder.svg",
+              },
+              {
+                type: "image",
+                src: "/images/placeholder.svg",
+              },
+              {
+                type: "image",
+                src: "/images/placeholder.svg",
+              },
+              {
+                type: "image",
+                src: "/images/placeholder.svg",
+              },
+              {
+                type: "image",
+                src: "/images/placeholder.svg",
+              },
+            ],
+
+            colors: [
+              {
+                name: {
+                  en: "Navy Blue",
+                  pt: "Azul Marinho",
+                  ar: "أزرق كحلي",
+                  fa: "سرمه‌ای",
+                },
+                code: "#245784",
+              },
+              {
+                name: {
+                  en: "Crimson Red",
+                  pt: "Vermelho Carmesim",
+                  ar: "أحمر قرمزي",
+                  fa: "قرمز زرشکی",
+                },
+                code: "#DC143C",
+              },
+              {
+                name: {
+                  en: "Olive Green",
+                  pt: "Verde Oliva",
+                  ar: "أخضر زيتوني",
+                  fa: "سبز زیتونی",
+                },
+                code: "#808000",
+              },
+              {
+                name: {
+                  en: "Sunset Orange",
+                  pt: "Laranja Pôr do Sol",
+                  ar: "برتقالي الغروب",
+                  fa: "نارنجی غروب",
+                },
+                code: "#FF4500",
+              },
+              {
+                name: {
+                  en: "Lavender Purple",
+                  pt: "Roxo Lavanda",
+                  ar: "أرجواني الخزامى",
+                  fa: "بنفش اسطوخودوسی",
+                },
+                code: "#B57EDC",
+              },
+            ],
+
+            sizes: {
+              name: {
+                en: "Standard",
+                pt: "Padrão",
+                ar: "قياسي",
+                fa: "استاندارد",
+              },
+              dimensions: {
+                en: "80x75x90 cm",
+                pt: "80x75x90 cm",
+                ar: "٨٠x٧٥x٩٠ سم",
+                fa: "۸۰x۷۵x۹۰ سانتی‌متر",
+              },
+            },
+
+            quantity: 278,
+
+            description: {
+              en: `<p>This armchair features a sleek design and plush velvet upholstery. Perfect for a reading nook or as a stylish accent piece.</p>`,
+              pt: `<p>Esta poltrona possui um design elegante e estofamento em veludo macio. Perfeita para um canto de leitura ou como peça decorativa.</p>`,
+              ar: `<p>يتميز هذا الكرسي بتصميم أنيق وتنجيد فاخر من المخمل. مثالي لزاوية القراءة أو كقطعة ديكور أنيقة.</p>`,
+              fa: `<p>این صندلی دارای طراحی شیک و روکش مخملی نرم است. ایده‌آل برای گوشه مطالعه یا به‌عنوان یک قطعه دکوراتیو زیبا.</p>`,
+            },
+
+            specifications: [
+              {
+                key: {
+                  en: "Material",
+                  pt: "Material",
+                  ar: "الخامة",
+                  fa: "جنس",
+                },
+                value: {
+                  en: "Velvet, Wood",
+                  pt: "Veludo, Madeira",
+                  ar: "مخمل، خشب",
+                  fa: "مخمل، چوب",
+                },
+              },
+              {
+                key: {
+                  en: "Weight Capacity",
+                  pt: "Capacidade de Peso",
+                  ar: "الوزن المسموح",
+                  fa: "تحمل وزن",
+                },
+                value: {
+                  en: "120 kg",
+                  pt: "120 kg",
+                  ar: "١٢٠ كجم",
+                  fa: "۱۲۰ کیلوگرم",
+                },
+              },
+            ],
+
+            reviews: [
+              {
+                rate: 5,
+                title: "Absolutely love it!",
+                text: "Super comfy and looks amazing in my living room.",
+                user: {
+                  name: "Emily Hamilton",
+                  avatar: null,
+                },
+                replies: [
+                  {
+                    rate: 0,
+                    title: "Seller Response",
+                    text: "Thanks so much for your feedback, Emily! We’re thrilled you’re enjoying your new chair.",
+                    user: {
+                      name: "Store Team",
+                      avatar: "/images/placeholder.svg",
+                    },
+                    replies: [],
+                    date: "2025-07-11",
+                    likes: 8,
+                    dislikes: 0,
+                  },
+                  {
+                    rate: 0,
+                    title: "Agree!",
+                    text: "I bought the same chair and I totally agree with you. It’s super comfy.",
+                    user: {
+                      name: "Liam G.",
+                      avatar: "/images/placeholder.svg",
+                    },
+                    replies: [],
+                    date: "2025-07-12",
+                    likes: 5,
+                    dislikes: 1,
+                  },
+                  {
+                    rate: 0,
+                    title: "Quick Question",
+                    text: "Does the color look the same in person as in the photos?",
+                    user: {
+                      name: "Olivia M.",
+                      avatar: "/images/placeholder.svg",
+                    },
+                    replies: [],
+                    date: "2025-07-13",
+                    likes: 3,
+                    dislikes: 0,
+                  },
+                ],
+                date: "2025-07-10",
+                likes: 27,
+                dislikes: 7,
+              },
+              {
+                rate: 4,
+                title: "Great purchase",
+                text: "The fabric feels really soft and the color is exactly as shown. Took a bit longer to arrive than expected.",
+                user: {
+                  name: "Daniel K.",
+                  avatar: "/images/placeholder.svg",
+                },
+                replies: [],
+                date: "2025-07-14",
+                likes: 15,
+                dislikes: 3,
+              },
+              {
+                rate: 3,
+                title: "Good, but not perfect",
+                text: "The chair is stylish, but I found the seat a bit firmer than I like. Still works well as an accent piece.",
+                user: {
+                  name: "Sophia L.",
+                  avatar: "/images/placeholder.svg",
+                },
+                replies: [],
+                date: "2025-07-18",
+                likes: 9,
+                dislikes: 6,
+              },
+              {
+                rate: 5,
+                title: "Exceeded my expectations!",
+                text: "Beautiful design and very comfortable. Everyone who visits compliments it. Highly recommend!",
+                user: {
+                  name: "Michael B.",
+                  avatar: "/images/placeholder.svg",
+                },
+                replies: [],
+                date: "2025-07-21",
+                likes: 42,
+                dislikes: 2,
+              },
+              {
+                rate: 2,
+                title: "Not worth the price",
+                text: "Looks good but the quality doesn’t feel very durable. A bit disappointed given the cost.",
+                user: {
+                  name: "Hannah S.",
+                  avatar: "/images/placeholder.svg",
+                },
+                replies: [],
+                date: "2025-07-25",
+                likes: 5,
+                dislikes: 18,
+              },
+              {
+                rate: 4,
+                title: "Nice chair overall",
+                text: "Perfect size for my reading nook. Assembly was straightforward, though the instructions could be clearer.",
+                user: {
+                  name: "James P.",
+                  avatar: "/images/placeholder.svg",
+                },
+                replies: [],
+                date: "2025-07-29",
+                likes: 20,
+                dislikes: 4,
+              },
+            ],
+
+            relatedProducts: [],
+
+            discount: 15, //percent
+
+            isInCampaign: true,
+
+            isSelected: false, //is chosen as selected by admin
+
+            warranty: {
+              en: "2 years manufacturer warranty",
+              pt: "2 anos de garantia do fabricante",
+              ar: "ضمان سنتين من الشركة المصنعة",
+              fa: "۲ سال گارانتی شرکت سازنده",
+            },
+
+            categories: ["furniture", "seating", "armchairs"],
+
+            tags: ["velvet", "modern", "blue", "living-room"],
+
+            catalogue: {
+              en: "/file.pdf download",
+              pt: "/file.pdf download",
+              ar: "/file.pdf download",
+              fa: "/file.pdf download",
+            },
+
+            brand: {
+              name: {
+                en: "Luxe Living",
+                pt: "Luxe Living",
+                ar: "لاكشري ليفينغ",
+                fa: "لوکس لیوینگ",
+              },
+              logo: "/images/placeholder.svg",
+            },
+          },
+          {
+            name: {
+              en: "Modern Velvet Armchair",
+              pt: "Poltrona de Veludo Moderna",
+              ar: "كرسي بذراعين من المخمل العصري",
+              fa: "صندلی راحتی مخملی مدرن",
+            },
+
+            excerpt: {
+              en: "A cozy and stylish velvet armchair perfect for any modern interior.",
+              pt: "Uma poltrona de veludo aconchegante e elegante, perfeita para interiores modernos.",
+              ar: "كرسي بذراعين مريح وأنيق من المخمل مثالي لأي ديكور داخلي عصري.",
+              fa: "یک صندلی راحتی مخملی شیک و راحت، مناسب برای دکوراسیون‌های مدرن.",
+            },
+
+            rate: 4.5,
+
+            warranty: {
+              en: "2 years manufacturer warranty",
+              pt: "2 anos de garantia do fabricante",
+              ar: "ضمان سنتين من الشركة المصنعة",
+              fa: "۲ سال گارانتی شرکت سازنده",
+            },
+
+            price: {
+              en: "$249",
+              pt: "R$ 1249",
+              ar: "د.إ 249",
+              fa: "۲۴۹ دلار",
+            },
+
+            slug: {
+              en: "modern-velvet-armchair",
+              pt: "poltrona-de-veludo-moderna",
+              ar: "كرسي-مخمل-عصري",
+              fa: "صندلی-راحتی-مخملی-مدرن",
+            },
+
+            media: [
+              {
+                type: "image",
+                src: "/images/placeholder.svg",
+              },
+              {
+                type: "image",
+                src: "/images/placeholder.svg",
+              },
+              {
+                type: "image",
+                src: "/images/placeholder.svg",
+              },
+              {
+                type: "image",
+                src: "/images/placeholder.svg",
+              },
+              {
+                type: "image",
+                src: "/images/placeholder.svg",
+              },
+              {
+                type: "image",
+                src: "/images/placeholder.svg",
+              },
+              {
+                type: "image",
+                src: "/images/placeholder.svg",
+              },
+              {
+                type: "image",
+                src: "/images/placeholder.svg",
+              },
+              {
+                type: "image",
+                src: "/images/placeholder.svg",
+              },
+              {
+                type: "image",
+                src: "/images/placeholder.svg",
+              },
+              {
+                type: "image",
+                src: "/images/placeholder.svg",
+              },
+              {
+                type: "image",
+                src: "/images/placeholder.svg",
+              },
+              {
+                type: "image",
+                src: "/images/placeholder.svg",
+              },
+              {
+                type: "image",
+                src: "/images/placeholder.svg",
+              },
+              {
+                type: "image",
+                src: "/images/placeholder.svg",
+              },
+              {
+                type: "image",
+                src: "/images/placeholder.svg",
+              },
+            ],
+
+            colors: [
+              {
+                name: {
+                  en: "Navy Blue",
+                  pt: "Azul Marinho",
+                  ar: "أزرق كحلي",
+                  fa: "سرمه‌ای",
+                },
+                code: "#245784",
+              },
+              {
+                name: {
+                  en: "Crimson Red",
+                  pt: "Vermelho Carmesim",
+                  ar: "أحمر قرمزي",
+                  fa: "قرمز زرشکی",
+                },
+                code: "#DC143C",
+              },
+              {
+                name: {
+                  en: "Olive Green",
+                  pt: "Verde Oliva",
+                  ar: "أخضر زيتوني",
+                  fa: "سبز زیتونی",
+                },
+                code: "#808000",
+              },
+              {
+                name: {
+                  en: "Sunset Orange",
+                  pt: "Laranja Pôr do Sol",
+                  ar: "برتقالي الغروب",
+                  fa: "نارنجی غروب",
+                },
+                code: "#FF4500",
+              },
+              {
+                name: {
+                  en: "Lavender Purple",
+                  pt: "Roxo Lavanda",
+                  ar: "أرجواني الخزامى",
+                  fa: "بنفش اسطوخودوسی",
+                },
+                code: "#B57EDC",
+              },
+            ],
+
+            sizes: {
+              name: {
+                en: "Standard",
+                pt: "Padrão",
+                ar: "قياسي",
+                fa: "استاندارد",
+              },
+              dimensions: {
+                en: "80x75x90 cm",
+                pt: "80x75x90 cm",
+                ar: "٨٠x٧٥x٩٠ سم",
+                fa: "۸۰x۷۵x۹۰ سانتی‌متر",
+              },
+            },
+
+            quantity: 278,
+
+            description: {
+              en: `<p>This armchair features a sleek design and plush velvet upholstery. Perfect for a reading nook or as a stylish accent piece.</p>`,
+              pt: `<p>Esta poltrona possui um design elegante e estofamento em veludo macio. Perfeita para um canto de leitura ou como peça decorativa.</p>`,
+              ar: `<p>يتميز هذا الكرسي بتصميم أنيق وتنجيد فاخر من المخمل. مثالي لزاوية القراءة أو كقطعة ديكور أنيقة.</p>`,
+              fa: `<p>این صندلی دارای طراحی شیک و روکش مخملی نرم است. ایده‌آل برای گوشه مطالعه یا به‌عنوان یک قطعه دکوراتیو زیبا.</p>`,
+            },
+
+            specifications: [
+              {
+                key: {
+                  en: "Material",
+                  pt: "Material",
+                  ar: "الخامة",
+                  fa: "جنس",
+                },
+                value: {
+                  en: "Velvet, Wood",
+                  pt: "Veludo, Madeira",
+                  ar: "مخمل، خشب",
+                  fa: "مخمل، چوب",
+                },
+              },
+              {
+                key: {
+                  en: "Weight Capacity",
+                  pt: "Capacidade de Peso",
+                  ar: "الوزن المسموح",
+                  fa: "تحمل وزن",
+                },
+                value: {
+                  en: "120 kg",
+                  pt: "120 kg",
+                  ar: "١٢٠ كجم",
+                  fa: "۱۲۰ کیلوگرم",
+                },
+              },
+            ],
+
+            reviews: [
+              {
+                rate: 5,
+                title: "Absolutely love it!",
+                text: "Super comfy and looks amazing in my living room.",
+                user: {
+                  name: "Emily Hamilton",
+                  avatar: null,
+                },
+                replies: [
+                  {
+                    rate: 0,
+                    title: "Seller Response",
+                    text: "Thanks so much for your feedback, Emily! We’re thrilled you’re enjoying your new chair.",
+                    user: {
+                      name: "Store Team",
+                      avatar: "/images/placeholder.svg",
+                    },
+                    replies: [],
+                    date: "2025-07-11",
+                    likes: 8,
+                    dislikes: 0,
+                  },
+                  {
+                    rate: 0,
+                    title: "Agree!",
+                    text: "I bought the same chair and I totally agree with you. It’s super comfy.",
+                    user: {
+                      name: "Liam G.",
+                      avatar: "/images/placeholder.svg",
+                    },
+                    replies: [],
+                    date: "2025-07-12",
+                    likes: 5,
+                    dislikes: 1,
+                  },
+                  {
+                    rate: 0,
+                    title: "Quick Question",
+                    text: "Does the color look the same in person as in the photos?",
+                    user: {
+                      name: "Olivia M.",
+                      avatar: "/images/placeholder.svg",
+                    },
+                    replies: [],
+                    date: "2025-07-13",
+                    likes: 3,
+                    dislikes: 0,
+                  },
+                ],
+                date: "2025-07-10",
+                likes: 27,
+                dislikes: 7,
+              },
+              {
+                rate: 4,
+                title: "Great purchase",
+                text: "The fabric feels really soft and the color is exactly as shown. Took a bit longer to arrive than expected.",
+                user: {
+                  name: "Daniel K.",
+                  avatar: "/images/placeholder.svg",
+                },
+                replies: [],
+                date: "2025-07-14",
+                likes: 15,
+                dislikes: 3,
+              },
+              {
+                rate: 3,
+                title: "Good, but not perfect",
+                text: "The chair is stylish, but I found the seat a bit firmer than I like. Still works well as an accent piece.",
+                user: {
+                  name: "Sophia L.",
+                  avatar: "/images/placeholder.svg",
+                },
+                replies: [],
+                date: "2025-07-18",
+                likes: 9,
+                dislikes: 6,
+              },
+              {
+                rate: 5,
+                title: "Exceeded my expectations!",
+                text: "Beautiful design and very comfortable. Everyone who visits compliments it. Highly recommend!",
+                user: {
+                  name: "Michael B.",
+                  avatar: "/images/placeholder.svg",
+                },
+                replies: [],
+                date: "2025-07-21",
+                likes: 42,
+                dislikes: 2,
+              },
+              {
+                rate: 2,
+                title: "Not worth the price",
+                text: "Looks good but the quality doesn’t feel very durable. A bit disappointed given the cost.",
+                user: {
+                  name: "Hannah S.",
+                  avatar: "/images/placeholder.svg",
+                },
+                replies: [],
+                date: "2025-07-25",
+                likes: 5,
+                dislikes: 18,
+              },
+              {
+                rate: 4,
+                title: "Nice chair overall",
+                text: "Perfect size for my reading nook. Assembly was straightforward, though the instructions could be clearer.",
+                user: {
+                  name: "James P.",
+                  avatar: "/images/placeholder.svg",
+                },
+                replies: [],
+                date: "2025-07-29",
+                likes: 20,
+                dislikes: 4,
+              },
+            ],
+
+            relatedProducts: [],
+
+            discount: 15, //percent
+
+            isInCampaign: true,
+
+            isSelected: false, //is chosen as selected by admin
+
+            warranty: {
+              en: "2 years manufacturer warranty",
+              pt: "2 anos de garantia do fabricante",
+              ar: "ضمان سنتين من الشركة المصنعة",
+              fa: "۲ سال گارانتی شرکت سازنده",
+            },
+
+            categories: ["furniture", "seating", "armchairs"],
+
+            tags: ["velvet", "modern", "blue", "living-room"],
+
+            catalogue: {
+              en: "/file.pdf download",
+              pt: "/file.pdf download",
+              ar: "/file.pdf download",
+              fa: "/file.pdf download",
+            },
+
+            brand: {
+              name: {
+                en: "Luxe Living",
+                pt: "Luxe Living",
+                ar: "لاكشري ليفينغ",
+                fa: "لوکس لیوینگ",
+              },
+              logo: "/images/placeholder.svg",
+            },
+          },
+          {
+            name: {
+              en: "Modern Velvet Armchair",
+              pt: "Poltrona de Veludo Moderna",
+              ar: "كرسي بذراعين من المخمل العصري",
+              fa: "صندلی راحتی مخملی مدرن",
+            },
+
+            excerpt: {
+              en: "A cozy and stylish velvet armchair perfect for any modern interior.",
+              pt: "Uma poltrona de veludo aconchegante e elegante, perfeita para interiores modernos.",
+              ar: "كرسي بذراعين مريح وأنيق من المخمل مثالي لأي ديكور داخلي عصري.",
+              fa: "یک صندلی راحتی مخملی شیک و راحت، مناسب برای دکوراسیون‌های مدرن.",
+            },
+
+            rate: 4.5,
+
+            warranty: {
+              en: "2 years manufacturer warranty",
+              pt: "2 anos de garantia do fabricante",
+              ar: "ضمان سنتين من الشركة المصنعة",
+              fa: "۲ سال گارانتی شرکت سازنده",
+            },
+
+            price: {
+              en: "$249",
+              pt: "R$ 1249",
+              ar: "د.إ 249",
+              fa: "۲۴۹ دلار",
+            },
+
+            slug: {
+              en: "modern-velvet-armchair",
+              pt: "poltrona-de-veludo-moderna",
+              ar: "كرسي-مخمل-عصري",
+              fa: "صندلی-راحتی-مخملی-مدرن",
+            },
+
+            media: [
+              {
+                type: "image",
+                src: "/images/placeholder.svg",
+              },
+              {
+                type: "image",
+                src: "/images/placeholder.svg",
+              },
+              {
+                type: "image",
+                src: "/images/placeholder.svg",
+              },
+              {
+                type: "image",
+                src: "/images/placeholder.svg",
+              },
+              {
+                type: "image",
+                src: "/images/placeholder.svg",
+              },
+              {
+                type: "image",
+                src: "/images/placeholder.svg",
+              },
+              {
+                type: "image",
+                src: "/images/placeholder.svg",
+              },
+              {
+                type: "image",
+                src: "/images/placeholder.svg",
+              },
+              {
+                type: "image",
+                src: "/images/placeholder.svg",
+              },
+              {
+                type: "image",
+                src: "/images/placeholder.svg",
+              },
+              {
+                type: "image",
+                src: "/images/placeholder.svg",
+              },
+              {
+                type: "image",
+                src: "/images/placeholder.svg",
+              },
+              {
+                type: "image",
+                src: "/images/placeholder.svg",
+              },
+              {
+                type: "image",
+                src: "/images/placeholder.svg",
+              },
+              {
+                type: "image",
+                src: "/images/placeholder.svg",
+              },
+              {
+                type: "image",
+                src: "/images/placeholder.svg",
+              },
+            ],
+
+            colors: [
+              {
+                name: {
+                  en: "Navy Blue",
+                  pt: "Azul Marinho",
+                  ar: "أزرق كحلي",
+                  fa: "سرمه‌ای",
+                },
+                code: "#245784",
+              },
+              {
+                name: {
+                  en: "Crimson Red",
+                  pt: "Vermelho Carmesim",
+                  ar: "أحمر قرمزي",
+                  fa: "قرمز زرشکی",
+                },
+                code: "#DC143C",
+              },
+              {
+                name: {
+                  en: "Olive Green",
+                  pt: "Verde Oliva",
+                  ar: "أخضر زيتوني",
+                  fa: "سبز زیتونی",
+                },
+                code: "#808000",
+              },
+              {
+                name: {
+                  en: "Sunset Orange",
+                  pt: "Laranja Pôr do Sol",
+                  ar: "برتقالي الغروب",
+                  fa: "نارنجی غروب",
+                },
+                code: "#FF4500",
+              },
+              {
+                name: {
+                  en: "Lavender Purple",
+                  pt: "Roxo Lavanda",
+                  ar: "أرجواني الخزامى",
+                  fa: "بنفش اسطوخودوسی",
+                },
+                code: "#B57EDC",
+              },
+            ],
+
+            sizes: {
+              name: {
+                en: "Standard",
+                pt: "Padrão",
+                ar: "قياسي",
+                fa: "استاندارد",
+              },
+              dimensions: {
+                en: "80x75x90 cm",
+                pt: "80x75x90 cm",
+                ar: "٨٠x٧٥x٩٠ سم",
+                fa: "۸۰x۷۵x۹۰ سانتی‌متر",
+              },
+            },
+
+            quantity: 278,
+
+            description: {
+              en: `<p>This armchair features a sleek design and plush velvet upholstery. Perfect for a reading nook or as a stylish accent piece.</p>`,
+              pt: `<p>Esta poltrona possui um design elegante e estofamento em veludo macio. Perfeita para um canto de leitura ou como peça decorativa.</p>`,
+              ar: `<p>يتميز هذا الكرسي بتصميم أنيق وتنجيد فاخر من المخمل. مثالي لزاوية القراءة أو كقطعة ديكور أنيقة.</p>`,
+              fa: `<p>این صندلی دارای طراحی شیک و روکش مخملی نرم است. ایده‌آل برای گوشه مطالعه یا به‌عنوان یک قطعه دکوراتیو زیبا.</p>`,
+            },
+
+            specifications: [
+              {
+                key: {
+                  en: "Material",
+                  pt: "Material",
+                  ar: "الخامة",
+                  fa: "جنس",
+                },
+                value: {
+                  en: "Velvet, Wood",
+                  pt: "Veludo, Madeira",
+                  ar: "مخمل، خشب",
+                  fa: "مخمل، چوب",
+                },
+              },
+              {
+                key: {
+                  en: "Weight Capacity",
+                  pt: "Capacidade de Peso",
+                  ar: "الوزن المسموح",
+                  fa: "تحمل وزن",
+                },
+                value: {
+                  en: "120 kg",
+                  pt: "120 kg",
+                  ar: "١٢٠ كجم",
+                  fa: "۱۲۰ کیلوگرم",
+                },
+              },
+            ],
+
+            reviews: [
+              {
+                rate: 5,
+                title: "Absolutely love it!",
+                text: "Super comfy and looks amazing in my living room.",
+                user: {
+                  name: "Emily Hamilton",
+                  avatar: null,
+                },
+                replies: [
+                  {
+                    rate: 0,
+                    title: "Seller Response",
+                    text: "Thanks so much for your feedback, Emily! We’re thrilled you’re enjoying your new chair.",
+                    user: {
+                      name: "Store Team",
+                      avatar: "/images/placeholder.svg",
+                    },
+                    replies: [],
+                    date: "2025-07-11",
+                    likes: 8,
+                    dislikes: 0,
+                  },
+                  {
+                    rate: 0,
+                    title: "Agree!",
+                    text: "I bought the same chair and I totally agree with you. It’s super comfy.",
+                    user: {
+                      name: "Liam G.",
+                      avatar: "/images/placeholder.svg",
+                    },
+                    replies: [],
+                    date: "2025-07-12",
+                    likes: 5,
+                    dislikes: 1,
+                  },
+                  {
+                    rate: 0,
+                    title: "Quick Question",
+                    text: "Does the color look the same in person as in the photos?",
+                    user: {
+                      name: "Olivia M.",
+                      avatar: "/images/placeholder.svg",
+                    },
+                    replies: [],
+                    date: "2025-07-13",
+                    likes: 3,
+                    dislikes: 0,
+                  },
+                ],
+                date: "2025-07-10",
+                likes: 27,
+                dislikes: 7,
+              },
+              {
+                rate: 4,
+                title: "Great purchase",
+                text: "The fabric feels really soft and the color is exactly as shown. Took a bit longer to arrive than expected.",
+                user: {
+                  name: "Daniel K.",
+                  avatar: "/images/placeholder.svg",
+                },
+                replies: [],
+                date: "2025-07-14",
+                likes: 15,
+                dislikes: 3,
+              },
+              {
+                rate: 3,
+                title: "Good, but not perfect",
+                text: "The chair is stylish, but I found the seat a bit firmer than I like. Still works well as an accent piece.",
+                user: {
+                  name: "Sophia L.",
+                  avatar: "/images/placeholder.svg",
+                },
+                replies: [],
+                date: "2025-07-18",
+                likes: 9,
+                dislikes: 6,
+              },
+              {
+                rate: 5,
+                title: "Exceeded my expectations!",
+                text: "Beautiful design and very comfortable. Everyone who visits compliments it. Highly recommend!",
+                user: {
+                  name: "Michael B.",
+                  avatar: "/images/placeholder.svg",
+                },
+                replies: [],
+                date: "2025-07-21",
+                likes: 42,
+                dislikes: 2,
+              },
+              {
+                rate: 2,
+                title: "Not worth the price",
+                text: "Looks good but the quality doesn’t feel very durable. A bit disappointed given the cost.",
+                user: {
+                  name: "Hannah S.",
+                  avatar: "/images/placeholder.svg",
+                },
+                replies: [],
+                date: "2025-07-25",
+                likes: 5,
+                dislikes: 18,
+              },
+              {
+                rate: 4,
+                title: "Nice chair overall",
+                text: "Perfect size for my reading nook. Assembly was straightforward, though the instructions could be clearer.",
+                user: {
+                  name: "James P.",
+                  avatar: "/images/placeholder.svg",
+                },
+                replies: [],
+                date: "2025-07-29",
+                likes: 20,
+                dislikes: 4,
+              },
+            ],
+
+            relatedProducts: [],
+
+            discount: 15, //percent
+
+            isInCampaign: true,
+
+            isSelected: false, //is chosen as selected by admin
+
+            warranty: {
+              en: "2 years manufacturer warranty",
+              pt: "2 anos de garantia do fabricante",
+              ar: "ضمان سنتين من الشركة المصنعة",
+              fa: "۲ سال گارانتی شرکت سازنده",
+            },
+
+            categories: ["furniture", "seating", "armchairs"],
+
+            tags: ["velvet", "modern", "blue", "living-room"],
+
+            catalogue: {
+              en: "/file.pdf download",
+              pt: "/file.pdf download",
+              ar: "/file.pdf download",
+              fa: "/file.pdf download",
+            },
+
+            brand: {
+              name: {
+                en: "Luxe Living",
+                pt: "Luxe Living",
+                ar: "لاكشري ليفينغ",
+                fa: "لوکس لیوینگ",
+              },
+              logo: "/images/placeholder.svg",
+            },
+          },
+          {
+            name: {
+              en: "Modern Velvet Armchair",
+              pt: "Poltrona de Veludo Moderna",
+              ar: "كرسي بذراعين من المخمل العصري",
+              fa: "صندلی راحتی مخملی مدرن",
+            },
+
+            excerpt: {
+              en: "A cozy and stylish velvet armchair perfect for any modern interior.",
+              pt: "Uma poltrona de veludo aconchegante e elegante, perfeita para interiores modernos.",
+              ar: "كرسي بذراعين مريح وأنيق من المخمل مثالي لأي ديكور داخلي عصري.",
+              fa: "یک صندلی راحتی مخملی شیک و راحت، مناسب برای دکوراسیون‌های مدرن.",
+            },
+
+            rate: 4.5,
+
+            warranty: {
+              en: "2 years manufacturer warranty",
+              pt: "2 anos de garantia do fabricante",
+              ar: "ضمان سنتين من الشركة المصنعة",
+              fa: "۲ سال گارانتی شرکت سازنده",
+            },
+
+            price: {
+              en: "$249",
+              pt: "R$ 1249",
+              ar: "د.إ 249",
+              fa: "۲۴۹ دلار",
+            },
+
+            slug: {
+              en: "modern-velvet-armchair",
+              pt: "poltrona-de-veludo-moderna",
+              ar: "كرسي-مخمل-عصري",
+              fa: "صندلی-راحتی-مخملی-مدرن",
+            },
+
+            media: [
+              {
+                type: "image",
+                src: "/images/placeholder.svg",
+              },
+              {
+                type: "image",
+                src: "/images/placeholder.svg",
+              },
+              {
+                type: "image",
+                src: "/images/placeholder.svg",
+              },
+              {
+                type: "image",
+                src: "/images/placeholder.svg",
+              },
+              {
+                type: "image",
+                src: "/images/placeholder.svg",
+              },
+              {
+                type: "image",
+                src: "/images/placeholder.svg",
+              },
+              {
+                type: "image",
+                src: "/images/placeholder.svg",
+              },
+              {
+                type: "image",
+                src: "/images/placeholder.svg",
+              },
+              {
+                type: "image",
+                src: "/images/placeholder.svg",
+              },
+              {
+                type: "image",
+                src: "/images/placeholder.svg",
+              },
+              {
+                type: "image",
+                src: "/images/placeholder.svg",
+              },
+              {
+                type: "image",
+                src: "/images/placeholder.svg",
+              },
+              {
+                type: "image",
+                src: "/images/placeholder.svg",
+              },
+              {
+                type: "image",
+                src: "/images/placeholder.svg",
+              },
+              {
+                type: "image",
+                src: "/images/placeholder.svg",
+              },
+              {
+                type: "image",
+                src: "/images/placeholder.svg",
+              },
+            ],
+
+            colors: [
+              {
+                name: {
+                  en: "Navy Blue",
+                  pt: "Azul Marinho",
+                  ar: "أزرق كحلي",
+                  fa: "سرمه‌ای",
+                },
+                code: "#245784",
+              },
+              {
+                name: {
+                  en: "Crimson Red",
+                  pt: "Vermelho Carmesim",
+                  ar: "أحمر قرمزي",
+                  fa: "قرمز زرشکی",
+                },
+                code: "#DC143C",
+              },
+              {
+                name: {
+                  en: "Olive Green",
+                  pt: "Verde Oliva",
+                  ar: "أخضر زيتوني",
+                  fa: "سبز زیتونی",
+                },
+                code: "#808000",
+              },
+              {
+                name: {
+                  en: "Sunset Orange",
+                  pt: "Laranja Pôr do Sol",
+                  ar: "برتقالي الغروب",
+                  fa: "نارنجی غروب",
+                },
+                code: "#FF4500",
+              },
+              {
+                name: {
+                  en: "Lavender Purple",
+                  pt: "Roxo Lavanda",
+                  ar: "أرجواني الخزامى",
+                  fa: "بنفش اسطوخودوسی",
+                },
+                code: "#B57EDC",
+              },
+            ],
+
+            sizes: {
+              name: {
+                en: "Standard",
+                pt: "Padrão",
+                ar: "قياسي",
+                fa: "استاندارد",
+              },
+              dimensions: {
+                en: "80x75x90 cm",
+                pt: "80x75x90 cm",
+                ar: "٨٠x٧٥x٩٠ سم",
+                fa: "۸۰x۷۵x۹۰ سانتی‌متر",
+              },
+            },
+
+            quantity: 278,
+
+            description: {
+              en: `<p>This armchair features a sleek design and plush velvet upholstery. Perfect for a reading nook or as a stylish accent piece.</p>`,
+              pt: `<p>Esta poltrona possui um design elegante e estofamento em veludo macio. Perfeita para um canto de leitura ou como peça decorativa.</p>`,
+              ar: `<p>يتميز هذا الكرسي بتصميم أنيق وتنجيد فاخر من المخمل. مثالي لزاوية القراءة أو كقطعة ديكور أنيقة.</p>`,
+              fa: `<p>این صندلی دارای طراحی شیک و روکش مخملی نرم است. ایده‌آل برای گوشه مطالعه یا به‌عنوان یک قطعه دکوراتیو زیبا.</p>`,
+            },
+
+            specifications: [
+              {
+                key: {
+                  en: "Material",
+                  pt: "Material",
+                  ar: "الخامة",
+                  fa: "جنس",
+                },
+                value: {
+                  en: "Velvet, Wood",
+                  pt: "Veludo, Madeira",
+                  ar: "مخمل، خشب",
+                  fa: "مخمل، چوب",
+                },
+              },
+              {
+                key: {
+                  en: "Weight Capacity",
+                  pt: "Capacidade de Peso",
+                  ar: "الوزن المسموح",
+                  fa: "تحمل وزن",
+                },
+                value: {
+                  en: "120 kg",
+                  pt: "120 kg",
+                  ar: "١٢٠ كجم",
+                  fa: "۱۲۰ کیلوگرم",
+                },
+              },
+            ],
+
+            reviews: [
+              {
+                rate: 5,
+                title: "Absolutely love it!",
+                text: "Super comfy and looks amazing in my living room.",
+                user: {
+                  name: "Emily Hamilton",
+                  avatar: null,
+                },
+                replies: [
+                  {
+                    rate: 0,
+                    title: "Seller Response",
+                    text: "Thanks so much for your feedback, Emily! We’re thrilled you’re enjoying your new chair.",
+                    user: {
+                      name: "Store Team",
+                      avatar: "/images/placeholder.svg",
+                    },
+                    replies: [],
+                    date: "2025-07-11",
+                    likes: 8,
+                    dislikes: 0,
+                  },
+                  {
+                    rate: 0,
+                    title: "Agree!",
+                    text: "I bought the same chair and I totally agree with you. It’s super comfy.",
+                    user: {
+                      name: "Liam G.",
+                      avatar: "/images/placeholder.svg",
+                    },
+                    replies: [],
+                    date: "2025-07-12",
+                    likes: 5,
+                    dislikes: 1,
+                  },
+                  {
+                    rate: 0,
+                    title: "Quick Question",
+                    text: "Does the color look the same in person as in the photos?",
+                    user: {
+                      name: "Olivia M.",
+                      avatar: "/images/placeholder.svg",
+                    },
+                    replies: [],
+                    date: "2025-07-13",
+                    likes: 3,
+                    dislikes: 0,
+                  },
+                ],
+                date: "2025-07-10",
+                likes: 27,
+                dislikes: 7,
+              },
+              {
+                rate: 4,
+                title: "Great purchase",
+                text: "The fabric feels really soft and the color is exactly as shown. Took a bit longer to arrive than expected.",
+                user: {
+                  name: "Daniel K.",
+                  avatar: "/images/placeholder.svg",
+                },
+                replies: [],
+                date: "2025-07-14",
+                likes: 15,
+                dislikes: 3,
+              },
+              {
+                rate: 3,
+                title: "Good, but not perfect",
+                text: "The chair is stylish, but I found the seat a bit firmer than I like. Still works well as an accent piece.",
+                user: {
+                  name: "Sophia L.",
+                  avatar: "/images/placeholder.svg",
+                },
+                replies: [],
+                date: "2025-07-18",
+                likes: 9,
+                dislikes: 6,
+              },
+              {
+                rate: 5,
+                title: "Exceeded my expectations!",
+                text: "Beautiful design and very comfortable. Everyone who visits compliments it. Highly recommend!",
+                user: {
+                  name: "Michael B.",
+                  avatar: "/images/placeholder.svg",
+                },
+                replies: [],
+                date: "2025-07-21",
+                likes: 42,
+                dislikes: 2,
+              },
+              {
+                rate: 2,
+                title: "Not worth the price",
+                text: "Looks good but the quality doesn’t feel very durable. A bit disappointed given the cost.",
+                user: {
+                  name: "Hannah S.",
+                  avatar: "/images/placeholder.svg",
+                },
+                replies: [],
+                date: "2025-07-25",
+                likes: 5,
+                dislikes: 18,
+              },
+              {
+                rate: 4,
+                title: "Nice chair overall",
+                text: "Perfect size for my reading nook. Assembly was straightforward, though the instructions could be clearer.",
+                user: {
+                  name: "James P.",
+                  avatar: "/images/placeholder.svg",
+                },
+                replies: [],
+                date: "2025-07-29",
+                likes: 20,
+                dislikes: 4,
+              },
+            ],
+
+            relatedProducts: [],
+
+            discount: 15, //percent
+
+            isInCampaign: true,
+
+            isSelected: false, //is chosen as selected by admin
+
+            warranty: {
+              en: "2 years manufacturer warranty",
+              pt: "2 anos de garantia do fabricante",
+              ar: "ضمان سنتين من الشركة المصنعة",
+              fa: "۲ سال گارانتی شرکت سازنده",
+            },
+
+            categories: ["furniture", "seating", "armchairs"],
+
+            tags: ["velvet", "modern", "blue", "living-room"],
+
+            catalogue: {
+              en: "/file.pdf download",
+              pt: "/file.pdf download",
+              ar: "/file.pdf download",
+              fa: "/file.pdf download",
+            },
+
+            brand: {
+              name: {
+                en: "Luxe Living",
+                pt: "Luxe Living",
+                ar: "لاكشري ليفينغ",
+                fa: "لوکس لیوینگ",
+              },
+              logo: "/images/placeholder.svg",
+            },
+          },
+          {
+            name: {
+              en: "Modern Velvet Armchair",
+              pt: "Poltrona de Veludo Moderna",
+              ar: "كرسي بذراعين من المخمل العصري",
+              fa: "صندلی راحتی مخملی مدرن",
+            },
+
+            excerpt: {
+              en: "A cozy and stylish velvet armchair perfect for any modern interior.",
+              pt: "Uma poltrona de veludo aconchegante e elegante, perfeita para interiores modernos.",
+              ar: "كرسي بذراعين مريح وأنيق من المخمل مثالي لأي ديكور داخلي عصري.",
+              fa: "یک صندلی راحتی مخملی شیک و راحت، مناسب برای دکوراسیون‌های مدرن.",
+            },
+
+            rate: 4.5,
+
+            warranty: {
+              en: "2 years manufacturer warranty",
+              pt: "2 anos de garantia do fabricante",
+              ar: "ضمان سنتين من الشركة المصنعة",
+              fa: "۲ سال گارانتی شرکت سازنده",
+            },
+
+            price: {
+              en: "$249",
+              pt: "R$ 1249",
+              ar: "د.إ 249",
+              fa: "۲۴۹ دلار",
+            },
+
+            slug: {
+              en: "modern-velvet-armchair",
+              pt: "poltrona-de-veludo-moderna",
+              ar: "كرسي-مخمل-عصري",
+              fa: "صندلی-راحتی-مخملی-مدرن",
+            },
+
+            media: [
+              {
+                type: "image",
+                src: "/images/placeholder.svg",
+              },
+              {
+                type: "image",
+                src: "/images/placeholder.svg",
+              },
+              {
+                type: "image",
+                src: "/images/placeholder.svg",
+              },
+              {
+                type: "image",
+                src: "/images/placeholder.svg",
+              },
+              {
+                type: "image",
+                src: "/images/placeholder.svg",
+              },
+              {
+                type: "image",
+                src: "/images/placeholder.svg",
+              },
+              {
+                type: "image",
+                src: "/images/placeholder.svg",
+              },
+              {
+                type: "image",
+                src: "/images/placeholder.svg",
+              },
+              {
+                type: "image",
+                src: "/images/placeholder.svg",
+              },
+              {
+                type: "image",
+                src: "/images/placeholder.svg",
+              },
+              {
+                type: "image",
+                src: "/images/placeholder.svg",
+              },
+              {
+                type: "image",
+                src: "/images/placeholder.svg",
+              },
+              {
+                type: "image",
+                src: "/images/placeholder.svg",
+              },
+              {
+                type: "image",
+                src: "/images/placeholder.svg",
+              },
+              {
+                type: "image",
+                src: "/images/placeholder.svg",
+              },
+              {
+                type: "image",
+                src: "/images/placeholder.svg",
+              },
+            ],
+
+            colors: [
+              {
+                name: {
+                  en: "Navy Blue",
+                  pt: "Azul Marinho",
+                  ar: "أزرق كحلي",
+                  fa: "سرمه‌ای",
+                },
+                code: "#245784",
+              },
+              {
+                name: {
+                  en: "Crimson Red",
+                  pt: "Vermelho Carmesim",
+                  ar: "أحمر قرمزي",
+                  fa: "قرمز زرشکی",
+                },
+                code: "#DC143C",
+              },
+              {
+                name: {
+                  en: "Olive Green",
+                  pt: "Verde Oliva",
+                  ar: "أخضر زيتوني",
+                  fa: "سبز زیتونی",
+                },
+                code: "#808000",
+              },
+              {
+                name: {
+                  en: "Sunset Orange",
+                  pt: "Laranja Pôr do Sol",
+                  ar: "برتقالي الغروب",
+                  fa: "نارنجی غروب",
+                },
+                code: "#FF4500",
+              },
+              {
+                name: {
+                  en: "Lavender Purple",
+                  pt: "Roxo Lavanda",
+                  ar: "أرجواني الخزامى",
+                  fa: "بنفش اسطوخودوسی",
+                },
+                code: "#B57EDC",
+              },
+            ],
+
+            sizes: {
+              name: {
+                en: "Standard",
+                pt: "Padrão",
+                ar: "قياسي",
+                fa: "استاندارد",
+              },
+              dimensions: {
+                en: "80x75x90 cm",
+                pt: "80x75x90 cm",
+                ar: "٨٠x٧٥x٩٠ سم",
+                fa: "۸۰x۷۵x۹۰ سانتی‌متر",
+              },
+            },
+
+            quantity: 278,
+
+            description: {
+              en: `<p>This armchair features a sleek design and plush velvet upholstery. Perfect for a reading nook or as a stylish accent piece.</p>`,
+              pt: `<p>Esta poltrona possui um design elegante e estofamento em veludo macio. Perfeita para um canto de leitura ou como peça decorativa.</p>`,
+              ar: `<p>يتميز هذا الكرسي بتصميم أنيق وتنجيد فاخر من المخمل. مثالي لزاوية القراءة أو كقطعة ديكور أنيقة.</p>`,
+              fa: `<p>این صندلی دارای طراحی شیک و روکش مخملی نرم است. ایده‌آل برای گوشه مطالعه یا به‌عنوان یک قطعه دکوراتیو زیبا.</p>`,
+            },
+
+            specifications: [
+              {
+                key: {
+                  en: "Material",
+                  pt: "Material",
+                  ar: "الخامة",
+                  fa: "جنس",
+                },
+                value: {
+                  en: "Velvet, Wood",
+                  pt: "Veludo, Madeira",
+                  ar: "مخمل، خشب",
+                  fa: "مخمل، چوب",
+                },
+              },
+              {
+                key: {
+                  en: "Weight Capacity",
+                  pt: "Capacidade de Peso",
+                  ar: "الوزن المسموح",
+                  fa: "تحمل وزن",
+                },
+                value: {
+                  en: "120 kg",
+                  pt: "120 kg",
+                  ar: "١٢٠ كجم",
+                  fa: "۱۲۰ کیلوگرم",
+                },
+              },
+            ],
+
+            reviews: [
+              {
+                rate: 5,
+                title: "Absolutely love it!",
+                text: "Super comfy and looks amazing in my living room.",
+                user: {
+                  name: "Emily Hamilton",
+                  avatar: null,
+                },
+                replies: [
+                  {
+                    rate: 0,
+                    title: "Seller Response",
+                    text: "Thanks so much for your feedback, Emily! We’re thrilled you’re enjoying your new chair.",
+                    user: {
+                      name: "Store Team",
+                      avatar: "/images/placeholder.svg",
+                    },
+                    replies: [],
+                    date: "2025-07-11",
+                    likes: 8,
+                    dislikes: 0,
+                  },
+                  {
+                    rate: 0,
+                    title: "Agree!",
+                    text: "I bought the same chair and I totally agree with you. It’s super comfy.",
+                    user: {
+                      name: "Liam G.",
+                      avatar: "/images/placeholder.svg",
+                    },
+                    replies: [],
+                    date: "2025-07-12",
+                    likes: 5,
+                    dislikes: 1,
+                  },
+                  {
+                    rate: 0,
+                    title: "Quick Question",
+                    text: "Does the color look the same in person as in the photos?",
+                    user: {
+                      name: "Olivia M.",
+                      avatar: "/images/placeholder.svg",
+                    },
+                    replies: [],
+                    date: "2025-07-13",
+                    likes: 3,
+                    dislikes: 0,
+                  },
+                ],
+                date: "2025-07-10",
+                likes: 27,
+                dislikes: 7,
+              },
+              {
+                rate: 4,
+                title: "Great purchase",
+                text: "The fabric feels really soft and the color is exactly as shown. Took a bit longer to arrive than expected.",
+                user: {
+                  name: "Daniel K.",
+                  avatar: "/images/placeholder.svg",
+                },
+                replies: [],
+                date: "2025-07-14",
+                likes: 15,
+                dislikes: 3,
+              },
+              {
+                rate: 3,
+                title: "Good, but not perfect",
+                text: "The chair is stylish, but I found the seat a bit firmer than I like. Still works well as an accent piece.",
+                user: {
+                  name: "Sophia L.",
+                  avatar: "/images/placeholder.svg",
+                },
+                replies: [],
+                date: "2025-07-18",
+                likes: 9,
+                dislikes: 6,
+              },
+              {
+                rate: 5,
+                title: "Exceeded my expectations!",
+                text: "Beautiful design and very comfortable. Everyone who visits compliments it. Highly recommend!",
+                user: {
+                  name: "Michael B.",
+                  avatar: "/images/placeholder.svg",
+                },
+                replies: [],
+                date: "2025-07-21",
+                likes: 42,
+                dislikes: 2,
+              },
+              {
+                rate: 2,
+                title: "Not worth the price",
+                text: "Looks good but the quality doesn’t feel very durable. A bit disappointed given the cost.",
+                user: {
+                  name: "Hannah S.",
+                  avatar: "/images/placeholder.svg",
+                },
+                replies: [],
+                date: "2025-07-25",
+                likes: 5,
+                dislikes: 18,
+              },
+              {
+                rate: 4,
+                title: "Nice chair overall",
+                text: "Perfect size for my reading nook. Assembly was straightforward, though the instructions could be clearer.",
+                user: {
+                  name: "James P.",
+                  avatar: "/images/placeholder.svg",
+                },
+                replies: [],
+                date: "2025-07-29",
+                likes: 20,
+                dislikes: 4,
+              },
+            ],
+
+            relatedProducts: [],
+
+            discount: 15, //percent
+
+            isInCampaign: true,
+
+            isSelected: false, //is chosen as selected by admin
+
+            warranty: {
+              en: "2 years manufacturer warranty",
+              pt: "2 anos de garantia do fabricante",
+              ar: "ضمان سنتين من الشركة المصنعة",
+              fa: "۲ سال گارانتی شرکت سازنده",
+            },
+
+            categories: ["furniture", "seating", "armchairs"],
+
+            tags: ["velvet", "modern", "blue", "living-room"],
+
+            catalogue: {
+              en: "/file.pdf download",
+              pt: "/file.pdf download",
+              ar: "/file.pdf download",
+              fa: "/file.pdf download",
+            },
+
+            brand: {
+              name: {
+                en: "Luxe Living",
+                pt: "Luxe Living",
+                ar: "لاكشري ليفينغ",
+                fa: "لوکس لیوینگ",
+              },
+              logo: "/images/placeholder.svg",
+            },
+          },
+          {
+            name: {
+              en: "Modern Velvet Armchair",
+              pt: "Poltrona de Veludo Moderna",
+              ar: "كرسي بذراعين من المخمل العصري",
+              fa: "صندلی راحتی مخملی مدرن",
+            },
+
+            excerpt: {
+              en: "A cozy and stylish velvet armchair perfect for any modern interior.",
+              pt: "Uma poltrona de veludo aconchegante e elegante, perfeita para interiores modernos.",
+              ar: "كرسي بذراعين مريح وأنيق من المخمل مثالي لأي ديكور داخلي عصري.",
+              fa: "یک صندلی راحتی مخملی شیک و راحت، مناسب برای دکوراسیون‌های مدرن.",
+            },
+
+            rate: 4.5,
+
+            warranty: {
+              en: "2 years manufacturer warranty",
+              pt: "2 anos de garantia do fabricante",
+              ar: "ضمان سنتين من الشركة المصنعة",
+              fa: "۲ سال گارانتی شرکت سازنده",
+            },
+
+            price: {
+              en: "$249",
+              pt: "R$ 1249",
+              ar: "د.إ 249",
+              fa: "۲۴۹ دلار",
+            },
+
+            slug: {
+              en: "modern-velvet-armchair",
+              pt: "poltrona-de-veludo-moderna",
+              ar: "كرسي-مخمل-عصري",
+              fa: "صندلی-راحتی-مخملی-مدرن",
+            },
+
+            media: [
+              {
+                type: "image",
+                src: "/images/placeholder.svg",
+              },
+              {
+                type: "image",
+                src: "/images/placeholder.svg",
+              },
+              {
+                type: "image",
+                src: "/images/placeholder.svg",
+              },
+              {
+                type: "image",
+                src: "/images/placeholder.svg",
+              },
+              {
+                type: "image",
+                src: "/images/placeholder.svg",
+              },
+              {
+                type: "image",
+                src: "/images/placeholder.svg",
+              },
+              {
+                type: "image",
+                src: "/images/placeholder.svg",
+              },
+              {
+                type: "image",
+                src: "/images/placeholder.svg",
+              },
+              {
+                type: "image",
+                src: "/images/placeholder.svg",
+              },
+              {
+                type: "image",
+                src: "/images/placeholder.svg",
+              },
+              {
+                type: "image",
+                src: "/images/placeholder.svg",
+              },
+              {
+                type: "image",
+                src: "/images/placeholder.svg",
+              },
+              {
+                type: "image",
+                src: "/images/placeholder.svg",
+              },
+              {
+                type: "image",
+                src: "/images/placeholder.svg",
+              },
+              {
+                type: "image",
+                src: "/images/placeholder.svg",
+              },
+              {
+                type: "image",
+                src: "/images/placeholder.svg",
+              },
+            ],
+
+            colors: [
+              {
+                name: {
+                  en: "Navy Blue",
+                  pt: "Azul Marinho",
+                  ar: "أزرق كحلي",
+                  fa: "سرمه‌ای",
+                },
+                code: "#245784",
+              },
+              {
+                name: {
+                  en: "Crimson Red",
+                  pt: "Vermelho Carmesim",
+                  ar: "أحمر قرمزي",
+                  fa: "قرمز زرشکی",
+                },
+                code: "#DC143C",
+              },
+              {
+                name: {
+                  en: "Olive Green",
+                  pt: "Verde Oliva",
+                  ar: "أخضر زيتوني",
+                  fa: "سبز زیتونی",
+                },
+                code: "#808000",
+              },
+              {
+                name: {
+                  en: "Sunset Orange",
+                  pt: "Laranja Pôr do Sol",
+                  ar: "برتقالي الغروب",
+                  fa: "نارنجی غروب",
+                },
+                code: "#FF4500",
+              },
+              {
+                name: {
+                  en: "Lavender Purple",
+                  pt: "Roxo Lavanda",
+                  ar: "أرجواني الخزامى",
+                  fa: "بنفش اسطوخودوسی",
+                },
+                code: "#B57EDC",
+              },
+            ],
+
+            sizes: {
+              name: {
+                en: "Standard",
+                pt: "Padrão",
+                ar: "قياسي",
+                fa: "استاندارد",
+              },
+              dimensions: {
+                en: "80x75x90 cm",
+                pt: "80x75x90 cm",
+                ar: "٨٠x٧٥x٩٠ سم",
+                fa: "۸۰x۷۵x۹۰ سانتی‌متر",
+              },
+            },
+
+            quantity: 278,
+
+            description: {
+              en: `<p>This armchair features a sleek design and plush velvet upholstery. Perfect for a reading nook or as a stylish accent piece.</p>`,
+              pt: `<p>Esta poltrona possui um design elegante e estofamento em veludo macio. Perfeita para um canto de leitura ou como peça decorativa.</p>`,
+              ar: `<p>يتميز هذا الكرسي بتصميم أنيق وتنجيد فاخر من المخمل. مثالي لزاوية القراءة أو كقطعة ديكور أنيقة.</p>`,
+              fa: `<p>این صندلی دارای طراحی شیک و روکش مخملی نرم است. ایده‌آل برای گوشه مطالعه یا به‌عنوان یک قطعه دکوراتیو زیبا.</p>`,
+            },
+
+            specifications: [
+              {
+                key: {
+                  en: "Material",
+                  pt: "Material",
+                  ar: "الخامة",
+                  fa: "جنس",
+                },
+                value: {
+                  en: "Velvet, Wood",
+                  pt: "Veludo, Madeira",
+                  ar: "مخمل، خشب",
+                  fa: "مخمل، چوب",
+                },
+              },
+              {
+                key: {
+                  en: "Weight Capacity",
+                  pt: "Capacidade de Peso",
+                  ar: "الوزن المسموح",
+                  fa: "تحمل وزن",
+                },
+                value: {
+                  en: "120 kg",
+                  pt: "120 kg",
+                  ar: "١٢٠ كجم",
+                  fa: "۱۲۰ کیلوگرم",
+                },
+              },
+            ],
+
+            reviews: [
+              {
+                rate: 5,
+                title: "Absolutely love it!",
+                text: "Super comfy and looks amazing in my living room.",
+                user: {
+                  name: "Emily Hamilton",
+                  avatar: null,
+                },
+                replies: [
+                  {
+                    rate: 0,
+                    title: "Seller Response",
+                    text: "Thanks so much for your feedback, Emily! We’re thrilled you’re enjoying your new chair.",
+                    user: {
+                      name: "Store Team",
+                      avatar: "/images/placeholder.svg",
+                    },
+                    replies: [],
+                    date: "2025-07-11",
+                    likes: 8,
+                    dislikes: 0,
+                  },
+                  {
+                    rate: 0,
+                    title: "Agree!",
+                    text: "I bought the same chair and I totally agree with you. It’s super comfy.",
+                    user: {
+                      name: "Liam G.",
+                      avatar: "/images/placeholder.svg",
+                    },
+                    replies: [],
+                    date: "2025-07-12",
+                    likes: 5,
+                    dislikes: 1,
+                  },
+                  {
+                    rate: 0,
+                    title: "Quick Question",
+                    text: "Does the color look the same in person as in the photos?",
+                    user: {
+                      name: "Olivia M.",
+                      avatar: "/images/placeholder.svg",
+                    },
+                    replies: [],
+                    date: "2025-07-13",
+                    likes: 3,
+                    dislikes: 0,
+                  },
+                ],
+                date: "2025-07-10",
+                likes: 27,
+                dislikes: 7,
+              },
+              {
+                rate: 4,
+                title: "Great purchase",
+                text: "The fabric feels really soft and the color is exactly as shown. Took a bit longer to arrive than expected.",
+                user: {
+                  name: "Daniel K.",
+                  avatar: "/images/placeholder.svg",
+                },
+                replies: [],
+                date: "2025-07-14",
+                likes: 15,
+                dislikes: 3,
+              },
+              {
+                rate: 3,
+                title: "Good, but not perfect",
+                text: "The chair is stylish, but I found the seat a bit firmer than I like. Still works well as an accent piece.",
+                user: {
+                  name: "Sophia L.",
+                  avatar: "/images/placeholder.svg",
+                },
+                replies: [],
+                date: "2025-07-18",
+                likes: 9,
+                dislikes: 6,
+              },
+              {
+                rate: 5,
+                title: "Exceeded my expectations!",
+                text: "Beautiful design and very comfortable. Everyone who visits compliments it. Highly recommend!",
+                user: {
+                  name: "Michael B.",
+                  avatar: "/images/placeholder.svg",
+                },
+                replies: [],
+                date: "2025-07-21",
+                likes: 42,
+                dislikes: 2,
+              },
+              {
+                rate: 2,
+                title: "Not worth the price",
+                text: "Looks good but the quality doesn’t feel very durable. A bit disappointed given the cost.",
+                user: {
+                  name: "Hannah S.",
+                  avatar: "/images/placeholder.svg",
+                },
+                replies: [],
+                date: "2025-07-25",
+                likes: 5,
+                dislikes: 18,
+              },
+              {
+                rate: 4,
+                title: "Nice chair overall",
+                text: "Perfect size for my reading nook. Assembly was straightforward, though the instructions could be clearer.",
+                user: {
+                  name: "James P.",
+                  avatar: "/images/placeholder.svg",
+                },
+                replies: [],
+                date: "2025-07-29",
+                likes: 20,
+                dislikes: 4,
+              },
+            ],
+
+            relatedProducts: [],
+
+            discount: 15, //percent
+
+            isInCampaign: true,
+
+            isSelected: false, //is chosen as selected by admin
+
+            warranty: {
+              en: "2 years manufacturer warranty",
+              pt: "2 anos de garantia do fabricante",
+              ar: "ضمان سنتين من الشركة المصنعة",
+              fa: "۲ سال گارانتی شرکت سازنده",
+            },
+
+            categories: ["furniture", "seating", "armchairs"],
+
+            tags: ["velvet", "modern", "blue", "living-room"],
+
+            catalogue: {
+              en: "/file.pdf download",
+              pt: "/file.pdf download",
+              ar: "/file.pdf download",
+              fa: "/file.pdf download",
+            },
+
+            brand: {
+              name: {
+                en: "Luxe Living",
+                pt: "Luxe Living",
+                ar: "لاكشري ليفينغ",
+                fa: "لوکس لیوینگ",
+              },
+              logo: "/images/placeholder.svg",
+            },
+          },
+        ],
+        relatedBlogs: [
+          {
+            title: {
+              en: "Top 10 Travel Destinations in 2025",
+              pt: "Top 10 Destinos de Viagem em 2025",
+              ar: "أفضل 10 وجهات سفر في عام 2025",
+              fa: "۱۰ مقصد برتر سفر در سال ۲۰۲۵",
+            },
+            excerpt: {
+              en: "Discover the must-visit places in 2025 for unforgettable experiences around the globe.",
+              pt: "Descubra os lugares imperdíveis em 2025 para experiências inesquecíveis ao redor do mundo.",
+              ar: "اكتشف الأماكن التي يجب زيارتها في عام 2025 لتجارب لا تُنسى حول العالم.",
+              fa: "با بهترین مکان‌ها برای سفر در سال ۲۰۲۵ آشنا شوید و تجربه‌ای فراموش‌نشدنی کسب کنید.",
+            },
+            author: {
+              en: "Liam Torres",
+              pt: "Liam Torres",
+              ar: "ليام توريس",
+              fa: "لیام تورس",
+            },
+            image: "/images/placeholder.svg",
+            timeToRead: {
+              en: "6 min read",
+              pt: "6 min de leitura",
+              ar: "٦ دقائق قراءة",
+              fa: "۶ دقیقه مطالعه",
+            },
+            date: "2025-08-03",
+            text: {
+              en: `
+      <h1>Top 10 Places to Visit in 2025</h1>
+      <p>From tropical beaches to historic cities, 2025 is packed with exciting travel opportunities.</p>
+      <ol>
+        <li>Kyoto, Japan</li>
+        <li>Lisbon, Portugal</li>
+        <li>Cape Town, South Africa</li>
+        <li>Banff, Canada</li>
+      </ol>
+      <p>Make sure to plan early and explore responsibly!</p>
+    `,
+              pt: `
+      <h1>Top 10 Places to Visit in 2025</h1>
+      <p>From tropical beaches to historic cities, 2025 is packed with exciting travel opportunities.</p>
+      <ol>
+        <li>Kyoto, Japan</li>
+        <li>Lisbon, Portugal</li>
+        <li>Cape Town, South Africa</li>
+        <li>Banff, Canada</li>
+      </ol>
+      <p>Make sure to plan early and explore responsibly!</p>
+    `,
+              ar: `
+      <h1>Top 10 Places to Visit in 2025</h1>
+      <p>From tropical beaches to historic cities, 2025 is packed with exciting travel opportunities.</p>
+      <ol>
+        <li>Kyoto, Japan</li>
+        <li>Lisbon, Portugal</li>
+        <li>Cape Town, South Africa</li>
+        <li>Banff, Canada</li>
+      </ol>
+      <p>Make sure to plan early and explore responsibly!</p>
+    `,
+              fa: `
+      <h1>Top 10 Places to Visit in 2025</h1>
+      <p>From tropical beaches to historic cities, 2025 is packed with exciting travel opportunities.</p>
+      <ol>
+        <li>Kyoto, Japan</li>
+        <li>Lisbon, Portugal</li>
+        <li>Cape Town, South Africa</li>
+        <li>Banff, Canada</li>
+      </ol>
+      <p>Make sure to plan early and explore responsibly!</p>
+    `,
+            },
+            reviews: [],
+            tags: [
+              { en: "travel", pt: "viagem", ar: "السفر", fa: "سفر" },
+              { en: "destinations", pt: "destinos", ar: "وجهات", fa: "مقاصد" },
+            ],
+            categories: [
+              { en: "Tourism", pt: "Turismo", ar: "السياحة", fa: "گردشگری" },
+              {
+                en: "Lifestyle",
+                pt: "Estilo de vida",
+                ar: "نمط الحياة",
+                fa: "سبک زندگی",
+              },
+            ],
+            suggestedProducts: [],
+            relatedBlogs: [],
+            slug: {
+              en: "top-travel-destinations-2025",
+              pt: "destinos-de-viagem-2025",
+              ar: "وجهات-سفر-2025",
+              fa: "مقاصد-سفر-۲۰۲۵",
+            },
+            likes: 210,
+            dislikes: 18,
+          },
+          {
+            title: {
+              en: "Top 10 Travel Destinations in 2025",
+              pt: "Top 10 Destinos de Viagem em 2025",
+              ar: "أفضل 10 وجهات سفر في عام 2025",
+              fa: "۱۰ مقصد برتر سفر در سال ۲۰۲۵",
+            },
+            excerpt: {
+              en: "Discover the must-visit places in 2025 for unforgettable experiences around the globe.",
+              pt: "Descubra os lugares imperdíveis em 2025 para experiências inesquecíveis ao redor do mundo.",
+              ar: "اكتشف الأماكن التي يجب زيارتها في عام 2025 لتجارب لا تُنسى حول العالم.",
+              fa: "با بهترین مکان‌ها برای سفر در سال ۲۰۲۵ آشنا شوید و تجربه‌ای فراموش‌نشدنی کسب کنید.",
+            },
+            author: {
+              en: "Liam Torres",
+              pt: "Liam Torres",
+              ar: "ليام توريس",
+              fa: "لیام تورس",
+            },
+            image: "/images/placeholder.svg",
+            timeToRead: {
+              en: "6 min read",
+              pt: "6 min de leitura",
+              ar: "٦ دقائق قراءة",
+              fa: "۶ دقیقه مطالعه",
+            },
+            date: "2025-08-03",
+            text: {
+              en: `
+      <h1>Top 10 Places to Visit in 2025</h1>
+      <p>From tropical beaches to historic cities, 2025 is packed with exciting travel opportunities.</p>
+      <ol>
+        <li>Kyoto, Japan</li>
+        <li>Lisbon, Portugal</li>
+        <li>Cape Town, South Africa</li>
+        <li>Banff, Canada</li>
+      </ol>
+      <p>Make sure to plan early and explore responsibly!</p>
+    `,
+              pt: `
+      <h1>Top 10 Places to Visit in 2025</h1>
+      <p>From tropical beaches to historic cities, 2025 is packed with exciting travel opportunities.</p>
+      <ol>
+        <li>Kyoto, Japan</li>
+        <li>Lisbon, Portugal</li>
+        <li>Cape Town, South Africa</li>
+        <li>Banff, Canada</li>
+      </ol>
+      <p>Make sure to plan early and explore responsibly!</p>
+    `,
+              ar: `
+      <h1>Top 10 Places to Visit in 2025</h1>
+      <p>From tropical beaches to historic cities, 2025 is packed with exciting travel opportunities.</p>
+      <ol>
+        <li>Kyoto, Japan</li>
+        <li>Lisbon, Portugal</li>
+        <li>Cape Town, South Africa</li>
+        <li>Banff, Canada</li>
+      </ol>
+      <p>Make sure to plan early and explore responsibly!</p>
+    `,
+              fa: `
+      <h1>Top 10 Places to Visit in 2025</h1>
+      <p>From tropical beaches to historic cities, 2025 is packed with exciting travel opportunities.</p>
+      <ol>
+        <li>Kyoto, Japan</li>
+        <li>Lisbon, Portugal</li>
+        <li>Cape Town, South Africa</li>
+        <li>Banff, Canada</li>
+      </ol>
+      <p>Make sure to plan early and explore responsibly!</p>
+    `,
+            },
+            reviews: [],
+            tags: [
+              { en: "travel", pt: "viagem", ar: "السفر", fa: "سفر" },
+              { en: "destinations", pt: "destinos", ar: "وجهات", fa: "مقاصد" },
+            ],
+            categories: [
+              { en: "Tourism", pt: "Turismo", ar: "السياحة", fa: "گردشگری" },
+              {
+                en: "Lifestyle",
+                pt: "Estilo de vida",
+                ar: "نمط الحياة",
+                fa: "سبک زندگی",
+              },
+            ],
+            suggestedProducts: [],
+            relatedBlogs: [],
+            slug: {
+              en: "top-travel-destinations-2025",
+              pt: "destinos-de-viagem-2025",
+              ar: "وجهات-سفر-2025",
+              fa: "مقاصد-سفر-۲۰۲۵",
+            },
+            likes: 210,
+            dislikes: 18,
+          },
+          {
+            title: {
+              en: "Top 10 Travel Destinations in 2025",
+              pt: "Top 10 Destinos de Viagem em 2025",
+              ar: "أفضل 10 وجهات سفر في عام 2025",
+              fa: "۱۰ مقصد برتر سفر در سال ۲۰۲۵",
+            },
+            excerpt: {
+              en: "Discover the must-visit places in 2025 for unforgettable experiences around the globe.",
+              pt: "Descubra os lugares imperdíveis em 2025 para experiências inesquecíveis ao redor do mundo.",
+              ar: "اكتشف الأماكن التي يجب زيارتها في عام 2025 لتجارب لا تُنسى حول العالم.",
+              fa: "با بهترین مکان‌ها برای سفر در سال ۲۰۲۵ آشنا شوید و تجربه‌ای فراموش‌نشدنی کسب کنید.",
+            },
+            author: {
+              en: "Liam Torres",
+              pt: "Liam Torres",
+              ar: "ليام توريس",
+              fa: "لیام تورس",
+            },
+            image: "/images/placeholder.svg",
+            timeToRead: {
+              en: "6 min read",
+              pt: "6 min de leitura",
+              ar: "٦ دقائق قراءة",
+              fa: "۶ دقیقه مطالعه",
+            },
+            date: "2025-08-03",
+            text: {
+              en: `
+      <h1>Top 10 Places to Visit in 2025</h1>
+      <p>From tropical beaches to historic cities, 2025 is packed with exciting travel opportunities.</p>
+      <ol>
+        <li>Kyoto, Japan</li>
+        <li>Lisbon, Portugal</li>
+        <li>Cape Town, South Africa</li>
+        <li>Banff, Canada</li>
+      </ol>
+      <p>Make sure to plan early and explore responsibly!</p>
+    `,
+              pt: `
+      <h1>Top 10 Places to Visit in 2025</h1>
+      <p>From tropical beaches to historic cities, 2025 is packed with exciting travel opportunities.</p>
+      <ol>
+        <li>Kyoto, Japan</li>
+        <li>Lisbon, Portugal</li>
+        <li>Cape Town, South Africa</li>
+        <li>Banff, Canada</li>
+      </ol>
+      <p>Make sure to plan early and explore responsibly!</p>
+    `,
+              ar: `
+      <h1>Top 10 Places to Visit in 2025</h1>
+      <p>From tropical beaches to historic cities, 2025 is packed with exciting travel opportunities.</p>
+      <ol>
+        <li>Kyoto, Japan</li>
+        <li>Lisbon, Portugal</li>
+        <li>Cape Town, South Africa</li>
+        <li>Banff, Canada</li>
+      </ol>
+      <p>Make sure to plan early and explore responsibly!</p>
+    `,
+              fa: `
+      <h1>Top 10 Places to Visit in 2025</h1>
+      <p>From tropical beaches to historic cities, 2025 is packed with exciting travel opportunities.</p>
+      <ol>
+        <li>Kyoto, Japan</li>
+        <li>Lisbon, Portugal</li>
+        <li>Cape Town, South Africa</li>
+        <li>Banff, Canada</li>
+      </ol>
+      <p>Make sure to plan early and explore responsibly!</p>
+    `,
+            },
+            reviews: [],
+            tags: [
+              { en: "travel", pt: "viagem", ar: "السفر", fa: "سفر" },
+              { en: "destinations", pt: "destinos", ar: "وجهات", fa: "مقاصد" },
+            ],
+            categories: [
+              { en: "Tourism", pt: "Turismo", ar: "السياحة", fa: "گردشگری" },
+              {
+                en: "Lifestyle",
+                pt: "Estilo de vida",
+                ar: "نمط الحياة",
+                fa: "سبک زندگی",
+              },
+            ],
+            suggestedProducts: [],
+            relatedBlogs: [],
+            slug: {
+              en: "top-travel-destinations-2025",
+              pt: "destinos-de-viagem-2025",
+              ar: "وجهات-سفر-2025",
+              fa: "مقاصد-سفر-۲۰۲۵",
+            },
+            likes: 210,
+            dislikes: 18,
+          },
+          {
+            title: {
+              en: "Top 10 Travel Destinations in 2025",
+              pt: "Top 10 Destinos de Viagem em 2025",
+              ar: "أفضل 10 وجهات سفر في عام 2025",
+              fa: "۱۰ مقصد برتر سفر در سال ۲۰۲۵",
+            },
+            excerpt: {
+              en: "Discover the must-visit places in 2025 for unforgettable experiences around the globe.",
+              pt: "Descubra os lugares imperdíveis em 2025 para experiências inesquecíveis ao redor do mundo.",
+              ar: "اكتشف الأماكن التي يجب زيارتها في عام 2025 لتجارب لا تُنسى حول العالم.",
+              fa: "با بهترین مکان‌ها برای سفر در سال ۲۰۲۵ آشنا شوید و تجربه‌ای فراموش‌نشدنی کسب کنید.",
+            },
+            author: {
+              en: "Liam Torres",
+              pt: "Liam Torres",
+              ar: "ليام توريس",
+              fa: "لیام تورس",
+            },
+            image: "/images/placeholder.svg",
+            timeToRead: {
+              en: "6 min read",
+              pt: "6 min de leitura",
+              ar: "٦ دقائق قراءة",
+              fa: "۶ دقیقه مطالعه",
+            },
+            date: "2025-08-03",
+            text: {
+              en: `
+      <h1>Top 10 Places to Visit in 2025</h1>
+      <p>From tropical beaches to historic cities, 2025 is packed with exciting travel opportunities.</p>
+      <ol>
+        <li>Kyoto, Japan</li>
+        <li>Lisbon, Portugal</li>
+        <li>Cape Town, South Africa</li>
+        <li>Banff, Canada</li>
+      </ol>
+      <p>Make sure to plan early and explore responsibly!</p>
+    `,
+              pt: `
+      <h1>Top 10 Places to Visit in 2025</h1>
+      <p>From tropical beaches to historic cities, 2025 is packed with exciting travel opportunities.</p>
+      <ol>
+        <li>Kyoto, Japan</li>
+        <li>Lisbon, Portugal</li>
+        <li>Cape Town, South Africa</li>
+        <li>Banff, Canada</li>
+      </ol>
+      <p>Make sure to plan early and explore responsibly!</p>
+    `,
+              ar: `
+      <h1>Top 10 Places to Visit in 2025</h1>
+      <p>From tropical beaches to historic cities, 2025 is packed with exciting travel opportunities.</p>
+      <ol>
+        <li>Kyoto, Japan</li>
+        <li>Lisbon, Portugal</li>
+        <li>Cape Town, South Africa</li>
+        <li>Banff, Canada</li>
+      </ol>
+      <p>Make sure to plan early and explore responsibly!</p>
+    `,
+              fa: `
+      <h1>Top 10 Places to Visit in 2025</h1>
+      <p>From tropical beaches to historic cities, 2025 is packed with exciting travel opportunities.</p>
+      <ol>
+        <li>Kyoto, Japan</li>
+        <li>Lisbon, Portugal</li>
+        <li>Cape Town, South Africa</li>
+        <li>Banff, Canada</li>
+      </ol>
+      <p>Make sure to plan early and explore responsibly!</p>
+    `,
+            },
+            reviews: [],
+            tags: [
+              { en: "travel", pt: "viagem", ar: "السفر", fa: "سفر" },
+              { en: "destinations", pt: "destinos", ar: "وجهات", fa: "مقاصد" },
+            ],
+            categories: [
+              { en: "Tourism", pt: "Turismo", ar: "السياحة", fa: "گردشگری" },
+              {
+                en: "Lifestyle",
+                pt: "Estilo de vida",
+                ar: "نمط الحياة",
+                fa: "سبک زندگی",
+              },
+            ],
+            suggestedProducts: [],
+            relatedBlogs: [],
+            slug: {
+              en: "top-travel-destinations-2025",
+              pt: "destinos-de-viagem-2025",
+              ar: "وجهات-سفر-2025",
+              fa: "مقاصد-سفر-۲۰۲۵",
+            },
+            likes: 210,
+            dislikes: 18,
+          },
+        ],
+        slug: {
+          en: "top-travel-destinations-2025",
+          pt: "destinos-de-viagem-2025",
+          ar: "وجهات-سفر-2025",
+          fa: "مقاصد-سفر-۲۰۲۵",
+        },
+        likes: 210,
+        dislikes: 18,
+      },
+    ],
 
     slug: {
       en: "future-of-smart-homes",
