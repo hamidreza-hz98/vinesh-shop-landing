@@ -1,3 +1,116 @@
+
+export const sortBlogItems = [
+  {
+    name: {
+      en: "Most Visited",
+      pt: "",
+      ar: "",
+      fa: "",
+    },
+
+    value: "visit",
+  },
+  {
+    name: {
+      en: "Newest",
+      pt: "",
+      ar: "",
+      fa: "",
+    },
+
+    value: "newest",
+  },
+  {
+    name: {
+      en: "Oldest",
+      pt: "",
+      ar: "",
+      fa: "",
+    },
+
+    value: "oldest",
+  },
+  {
+    name: {
+      en: "Recommended",
+      pt: "",
+      ar: "",
+      fa: "",
+    },
+
+    value: "isSelected",
+  },
+];
+
+export const filterBlogsItems = [
+  
+  {
+    id: "category",
+    label: {
+      en: "Category",
+      pt: "",
+      ar: "",
+      fa: "",
+    },
+
+    type: "checkbox",
+
+    options: [
+      {
+        value: "books",
+        label: {
+          en: "Books",
+          pt: "",
+          ar: "",
+          fa: "",
+        },
+      },
+      {
+        value: "electronics",
+        label: {
+          en: "Electronics",
+          pt: "",
+          ar: "",
+          fa: "",
+        },
+      },
+    ],
+  },
+  {
+    id: "brand",
+    label: {
+      en: "Brand",
+      pt: "",
+      ar: "",
+      fa: "",
+    },
+
+    type: "select",
+
+    options: [
+      {
+        value: "apple",
+        label: {
+          en: "Apple",
+          pt: "",
+          ar: "",
+          fa: "",
+        },
+      },
+      {
+        value: "samsung",
+        label: {
+          en: "Samsung",
+          pt: "",
+          ar: "",
+          fa: "",
+        },
+      },
+    ],
+  },
+
+]
+
 export const blogs = [
   {
     title: {

@@ -124,5 +124,7 @@
   "delete_comment": "Delete Comment",
 
   "about_page_header": "About Vinesh Shop",
-  "about_page_subtitle": "From zero to hero!, Idea to implementation, Everything is ready!"
+  "about_page_subtitle": "From zero to hero!, Idea to implementation, Everything is ready!",
+  "vinesh_blog": "Vinesh Blog",
+  "posts": "Posts"
 }
