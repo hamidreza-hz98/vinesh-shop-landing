@@ -8,6 +8,7 @@ import Image from "next/image";
 import { IoPhonePortraitOutline } from "react-icons/io5";
 import Link from "next/link";
 import { MdWifiCalling1 } from "react-icons/md";
+import routes from "@/constants/routes";
 
 export default function Footer() {
   const t = useTranslations();
@@ -15,7 +16,7 @@ export default function Footer() {
 
   return (
     <footer className="bg-foreground text-background text-sm max-w-">
-      <div className="max-w-6xl mx-auto justify-center mx-auto px-6 py-10 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-12 gap-8">
+      <div className="max-w-6xl mx-auto justify-center px-6 py-10 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-12 gap-8">
         <div className="text-center sm:text-start col-span-full lg:col-span-3">
           <Link
             href="/"
@@ -39,32 +40,37 @@ export default function Footer() {
 
         <div className="lg:col-span-2">
           <h3 className="text-lg font-semibold text-center sm:text-start mb-4">
-            {t("lorem_word")}
+            {t("main_links")}
           </h3>
           <ul className="space-y-2">
             <li className="text-center sm:text-start">
-              <Link href="/" className="hover:text-card">
-                {t("lorem_word")}
+              <Link href={`${routes.home}`} className="hover:text-card">
+                {t("homepage")}
               </Link>
             </li>
             <li className="text-center sm:text-start">
-              <Link href="/portfolio" className="hover:text-card">
-                {t("lorem_word")}
+              <Link href={`${routes.cart}`} className="hover:text-card">
+                {t("cart")}
               </Link>
             </li>
             <li className="text-center sm:text-start">
-              <Link href="/about" className="hover:text-card">
-                {t("lorem_word")}
+              <Link href={`${routes.profile}`} className="hover:text-card">
+                {t("profile")}
               </Link>
             </li>
             <li className="text-center sm:text-start">
-              <Link href="/contact" className="hover:text-card">
-                {t("lorem_word")}
+              <Link href={`${routes.blog}`} className="hover:text-card">
+                {t("blog")}
               </Link>
             </li>
             <li className="text-center sm:text-start">
-              <Link href="/terms" className="hover:text-card">
-                {t("lorem_word")}
+              <Link href={`${routes.faq}`} className="hover:text-card">
+                {t("faq")}
+              </Link>
+            </li>
+            <li className="text-center sm:text-start">
+              <Link href={`${routes.terms}`} className="hover:text-card">
+                {t("terms")}
               </Link>
             </li>
           </ul>
@@ -180,7 +186,7 @@ export default function Footer() {
         </div>
       </div>
 
-      <div className="bg-muted-foreground text-center pb-16 pt-4 md:py-4">
+      <div className="bg-muted-foreground text-center pb-20 pt-4 md:py-4">
         <p className="text-background text-center">
           &copy; {new Date().getFullYear()} {t("lorem_word")}
         </p>

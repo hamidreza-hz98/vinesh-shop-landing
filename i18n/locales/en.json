@@ -129,5 +129,11 @@
   "posts": "Posts",
   "share_this_article": "Share this article",
   "tags": "Tags",
-  "related_blogs": "Related Posts"
+  "related_blogs": "Related Posts",
+
+  "main_links": "Main Links",
+  "cart": "Cart",
+  "profile": "Profile",
+  "faq": "FAQ",
+  "terms": "Terms"
 }
